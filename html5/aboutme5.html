@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<html>
+<html class="main">
     <head>
+        <!--<link rel="stylesheet" href="">-->
+        <style> 
+            .main {
+                color:#C0C0C0 !important;
+                background-color: #181a1b !important;
+                font-family:Arial, Helvetica, sans-serif ;
+            }
+            .contactform {
+                background-color:#1b1b1b;
+                color:#C0C0C0
+            }
+            #message {
+                height: 60px;
+                width: 250px;
+            }
+        </style>
         <div id="header" align="center">
-            <h1>About me</h1>
+            <h1>Personal Page</h1>
             Status: <progress min='0' max='100' value='33'></progress>
         </div>
     </head>
     <body>
-        <div id="Contact-me" align="center">
+        <div id="Contact" align="center">
             <h1>Contact</h1>
             <p>
                 Please send your message below. I'll reply as soon as possible.
             </p>
             <form action="">
-                <label for="Name">Full name: </label> <br>
-                <input type="text" name="Name" placeholder="John Doe"> <br>
-                <label for="email">E-mail address: </label> <br>
-                <input type="email" name="email" placeholder="email@example.com" autofocus required /> <br>
-                <label for="message">Your message: </label> <br>
-                <input type="text" name="message" placeholder="Your message" /> <br>
+                <label for="Name">Full name: </label> 
+                <br>
+                <input type="text" name="Name" placeholder="John Doe" class="contactform"/> 
+                <br>
+                <label for="email">E-mail address: </label> 
+                <br>
+                <input type="email" name="email" placeholder="email@example.com" class="contactform" autofocus required /> 
+                <br>
+                <label for="message">Your message: </label> 
+                <br>
+                <input type="text" name="message" placeholder="Your message" id="message" class="contactform" maxlength="128"/> <br>
+                <br>
                 <input type="submit" value="submit">
             </form>
         </div> 
@@ -28,7 +50,7 @@
             <h1>
                 Follow me 
             </h1>
-            <a href="https://www.linkedin.com/in/eduardo-jose-flores-12a4991b8/" target="_blank">LinkdIn</a>    
+            <a href="https://www.linkedin.com/in/eduardo-jose-flores-12a4991b8/" target="_blank">LinkdIn</a>   
             <a href="https://github.com/Coalemus" target="_blank">Github</a>    
             <a href="https://twitter.com/edujoeflo" target="_blank">Twitter</a>    
             <a href="https://www.facebook.com/edujoeflo/" target="_blank">Facebook</a>
@@ -69,7 +91,7 @@
             </section>
 
             <p>
-                
+
             </p>
         </article>
 
