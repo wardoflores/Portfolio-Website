@@ -1,0 +1,126 @@
+
+html {
+    color:#C0C0C0 !important;
+    background-color: #181a1be5 !important;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+
+}
+
+div {
+
+}
+
+span {
+    display: inline;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#Linkedinlogo {
+    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\linkedinlogo.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 981px;
+    height: 180px
+
+}
+
+#Githublogo {
+    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\githublogo.png);
+    background-position: center;
+    background-size: cover;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 125px;
+    height: 125px
+
+}
+
+#Twitterlogo {
+    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\twitterlogo.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 981px;
+    height: 180px
+
+}
+
+#Facebooklogo {
+    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\facebooklogo.png);
+    background-position: center;
+    background-size: cover;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 981px;
+    height: 180px
+
+}
+
+article {
+    background-color: #292b2c;
+    border-color: #292b2c;
+    border-style: solid;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    box-shadow: 0px 5px 0px 3px #1b1b1b;
+
+
+}
+
+.articlemsg {
+    justify-content: center;
+    word-spacing: 1px;
+    
+}
+
+.contactforms {
+    background-color:#1b1b1b;
+    color:#C0C0C0;
+    padding: 5px;
+    
+}
+
+#Contact {
+    background-color: #292b2c;
+    border-color: #292b2c;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    box-shadow: 0px 5px 0px 3px #1b1b1b;
+    
+}
+
+#follow {
+
+}
+
+#contactmsg {
+    padding: 50px;
+    overflow: auto;
+
+}
+
+
