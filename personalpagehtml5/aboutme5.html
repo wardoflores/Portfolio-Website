@@ -2,98 +2,23 @@
 <meta charset="UTF-8">
 <html >
     <head>
-        <!--<link rel="stylesheet" href="">-->
-        <style> 
-            /* Colors
-            main 
-            color:#C0C0C0;
-            background-color: #181a1b
-
-            Padding
-            border-color: #292b2c;
-            padding-color: #292b2c
-
-            Forms
-            background-color:#1b1b1b;
-
-            */
-            html {
-                color:#C0C0C0 !important;
-                background-color: #181a1b !important;
-                text-align: center;
-                font-family:Arial, Helvetica, sans-serif;
-                letter-spacing: 0px;
-
-            }
-
-            div {
-
-            }
-
-            span {
-                display: inline;
-            }
-
-            a {
-                text-decoration: none;
-            }
-
-            article {
-                background-color: #292b2c;
-                border-color: #292b2c;
-                border-style: solid;
-                border-radius: 10px;
-                margin-top: 50px;
-                margin-right: 70px;
-                margin-bottom: 50px;
-                margin-left: 70px;
-            }
-
-            #Contact {
-                background-color: #292b2c;
-                border-color: #292b2c;
-                border-style: solid;
-                border-width: 10px;
-                border-radius: 10px;
-                margin-top: 50px;
-                margin-right: 400px;
-                margin-bottom: 50px;
-                margin-left: 400px;
-            }
-
-            #follow {
-
-            }
-
-            .contactforms {
-                background-color:#1b1b1b;
-                color:#C0C0C0;
-                padding: 5px
-                
-            }
-            #contactmsg {
-                padding: 50px;
-            }
-   
-            #articlemsg {
-                justify-content: center;
-                word-spacing: 1px;
-            }
-
-        </style>
+        <link rel="stylesheet" 
+        href="C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\css\mainstyle.css">
 
         <div id="header">
             <h1>Personal Page</h1>
             Status: <progress min='0' max='100' value='43'></progress>
         </div>
-
     </head>
+
     <body>
         <div id="Contact">
             <h1>Contact</h1>
+
             <p>
                 Please send your message below. I'll reply as soon as possible.
             </p>
+
             <form action="">
                 <label for="Name">Full name: </label> 
                 <br>
@@ -115,19 +40,20 @@
             <h1>
                 Follow me 
             </h1>
-            <a href="https://www.linkedin.com/in/eduardo-jose-flores-12a4991b8/" target="_blank">LinkdIn</a>   
-            <a href="https://github.com/Coalemus" target="_blank">Github</a>    
-            <a href="https://twitter.com/edujoeflo" target="_blank">Twitter</a>    
-            <a href="https://www.facebook.com/edujoeflo/" target="_blank">Facebook</a>
+
+            <a href="https://www.linkedin.com/in/eduardo-jose-flores-12a4991b8/" id="Linkedinlogo" target="_blank">LinkdIn</a>  
+            <a href="https://github.com/Coalemus" id="Githublogo" target="_blank">Github</a>
+            <a href="https://twitter.com/edujoeflo" id="Twitterlogo" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/edujoeflo/" id="Facebooklogo" target="_blank">Facebook</a>
         </div>
 
         <article>
             <h1>How I pursued Programming as a hobby</h1>
-            <section>
+        
                 <h1>
                     Childhood Exposure
                 </h1>
-                <p id="articlemsg">
+                <p class="articlemsg">
                     <span>Back when I was 11 years old, I actually got hired at a Startup who paid
                     in LOS (Lines of code), they coded in C# and I knew NOTHING about how hard
                     coding was especially using C#. </span>
@@ -149,7 +75,7 @@
                 <h1>
                     Actual Starting point
                </h1>
-               <p id="articlemsg">
+               <p class="articlemsg">
                     lorem ipsum
                </p>
             </section>
