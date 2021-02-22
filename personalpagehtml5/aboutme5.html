@@ -22,15 +22,15 @@
             <form action="">
                 <label for="Name">Full name: </label> 
                 <br>
-                <input type="text" name="Name" placeholder="John Doe" class="contactforms"/> 
+                <input type="text" name="Name" placeholder="John Doe" class="contactforms" autofocus required/> 
                 <br>
                 <label for="email">E-mail address: </label> 
                 <br>
-                <input type="email" name="email" placeholder="email@example.com" class="contactforms" autofocus required /> 
+                <input type="email" name="email" placeholder="email@example.com" class="contactforms" required /> 
                 <br>
                 <label for="message">Your message: </label> 
                 <br>
-                <input type="text" name="message" id="contactmsg" class="contactforms" maxlength="128"/> <br>
+                <input type="text" name="message" id="contactmsg" class="contactforms" maxlength="128" required/> <br>
                 <br>
                 <input type="submit" value="submit">
             </form>
@@ -40,11 +40,27 @@
             <h1>
                 Follow me 
             </h1>
+            <a href="https://www.linkedin.com/in/eduardo-jose-flores-12a4991b8/" id="Linkedinlogo" target="_blank"> <img 
+                src="C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\linkedinlogo.png" 
+                alt="linkedin"
+                height="110"
+                width="110"></a>
+            <a href="https://github.com/Coalemus" id="Githublogo" target="_blank"><img 
+                src="C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\githublogo.png" 
+                alt="Github"
+                height="110"
+                width="110"></a>
+            <a href="https://twitter.com/edujoeflo" id="Twitterlogo" target="_blank"><img 
+                src="C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\twitterlogo.png" 
+                alt="twitter"
+                height="110"
+                width="110"></a>
+            <a href="https://www.facebook.com/edujoeflo/" id="Facebooklogo" target="_blank"><img 
+                src="C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\facebooklogo.png" 
+                alt="Facebook"
+                height="110"
+                width="110"></a>
 
-            <a href="https://www.linkedin.com/in/eduardo-jose-flores-12a4991b8/" id="Linkedinlogo" target="_blank">LinkdIn</a>  
-            <a href="https://github.com/Coalemus" id="Githublogo" target="_blank">Github</a>
-            <a href="https://twitter.com/edujoeflo" id="Twitterlogo" target="_blank">Twitter</a>
-            <a href="https://www.facebook.com/edujoeflo/" id="Facebooklogo" target="_blank">Facebook</a>
         </div>
 
         <article>
@@ -76,7 +92,19 @@
                     Actual Starting point
                </h1>
                <p class="articlemsg">
-                    lorem ipsum
+                    <span>
+                        I decided to be a computer scientist when my idea to become a Doctor was scrapped
+                        because of the Pandemic. It is my hobby anyway so it works out fine. Got a decent
+                        smartphone handed down that could run the majority of apps in a non-frustrating
+                        matter and that helped a lot.
+                    </span>
+
+                    <span>
+                        Early 2020, I started learning using Sololearn during commutes and slowly hoarding bookmarks and 
+                        ebooks for programming. I finally focused on practicing coding projects
+                        as a hobby and the timing was just right that I got handed down a laptop.
+                    </span>
+
                </p>
             </section>
 

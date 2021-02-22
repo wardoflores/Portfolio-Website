@@ -23,22 +23,15 @@ a {
 }
 
 #Linkedinlogo {
-    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\linkedinlogo.png);
-    background-position: center;
-    background-size: cover;
-    background-color: #cccccc;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
-    width: 981px;
-    height: 180px
+    width: 125px;
+    height: 125px
 
 }
 
 #Githublogo {
-    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\githublogo.png);
-    background-position: center;
-    background-size: cover;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
@@ -48,27 +41,20 @@ a {
 }
 
 #Twitterlogo {
-    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\twitterlogo.png);
-    background-position: center;
-    background-size: cover;
-    background-color: #cccccc;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
-    width: 981px;
-    height: 180px
+    width: 125px;
+    height: 125px
 
 }
 
 #Facebooklogo {
-    background-image: url(C:\Users\Flores\Joey-vscode-workspaces\General-Web-Dev-repository\personalpagehtml5\images\facebooklogo.png);
-    background-position: center;
-    background-size: cover;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
-    width: 981px;
-    height: 180px
+    width: 125px;
+    height: 125px
 
 }
 
@@ -78,9 +64,9 @@ article {
     border-style: solid;
     border-radius: 24px;
     margin-top: 50px;
-    margin-right: 70px;
+    margin-right: 100px;
     margin-bottom: 50px;
-    margin-left: 70px;
+    margin-left: 100px;
     box-shadow: 0px 5px 0px 3px #1b1b1b;
 
 
@@ -114,7 +100,16 @@ article {
 }
 
 #follow {
-
+    background-color: #292b2c;
+    border-color: #292b2c;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    box-shadow: 0px 5px 0px 3px #1b1b1b;
 }
 
 #contactmsg {
