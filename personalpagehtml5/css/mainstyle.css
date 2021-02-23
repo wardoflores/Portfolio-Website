@@ -8,10 +8,6 @@ html {
 
 }
 
-div {
-
-}
-
 span {
     display: inline;
 
@@ -19,6 +15,22 @@ span {
 
 a {
     text-decoration: none;
+
+}
+
+#socmedlogos  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #292b2c;
+    border-color: #292b2c;
+    border-style: solid;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left:400px;
+    box-shadow: 0px 5px 0px 3px #1b1b1b;
 
 }
 
@@ -97,19 +109,6 @@ article {
     margin-left: 400px;
     box-shadow: 0px 5px 0px 3px #1b1b1b;
     
-}
-
-#follow {
-    background-color: #292b2c;
-    border-color: #292b2c;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 24px;
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    box-shadow: 0px 5px 0px 3px #1b1b1b;
 }
 
 #contactmsg {
