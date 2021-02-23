@@ -35,7 +35,7 @@ a {
     margin-bottom: 50px;
     margin-left:400px;
     box-shadow: 0px 5px 0px 3px #1b1b1b;
-    filter: grayscale(10%);
+    filter: grayscale(0%) sepia(0%) hue-rotate(0deg);
 
 }
 
@@ -72,6 +72,10 @@ a {
     text-indent: 0px;
     width: 125px;
     height: 125px
+
+}
+
+#projects {
 
 }
 
