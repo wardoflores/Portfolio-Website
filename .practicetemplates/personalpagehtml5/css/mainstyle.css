@@ -1,0 +1,129 @@
+
+html {
+    color:#C0C0C0 !important;
+    background-color: #181a1be5 !important;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+
+}
+
+span {
+    display: inline;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#follow {
+    
+}
+
+#socmedlogos  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #292b2c;
+    border-color: #292b2c;
+    border-style: solid;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left:400px;
+    box-shadow: 0px 5px 0px 3px #1b1b1b;
+    filter: grayscale(0%) sepia(0%) hue-rotate(0deg);
+
+}
+
+#Linkedinlogo {
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 125px;
+    height: 125px
+
+}
+
+#Githublogo {
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 125px;
+    height: 125px
+
+}
+
+#Twitterlogo {
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 125px;
+    height: 125px
+
+}
+
+#Facebooklogo {
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: 125px;
+    height: 125px
+
+}
+
+#projects {
+
+}
+
+article {
+    background-color: #292b2c;
+    border-color: #292b2c;
+    border-style: solid;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    box-shadow: 0px 5px 0px 3px #1b1b1b;
+
+
+}
+
+.articlemsg {
+    justify-content: center;
+    word-spacing: 1px;
+    
+}
+
+.contactforms {
+    background-color:#1b1b1b;
+    color:#C0C0C0;
+    padding: 5px;
+    
+}
+
+#Contact {
+    background-color: #292b2c;
+    border-color: #292b2c;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    box-shadow: 0px 5px 0px 3px #1b1b1b;
+    
+}
+
+#contactmsg {
+    padding: 50px;
+    overflow: auto;
+
+}
+
+
