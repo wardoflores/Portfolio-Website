@@ -2,11 +2,11 @@
 
 Code for my Porfolio Website.
 
-# Languages Used
+## Languages Used
 
 * html
 * css
 
-# Server used
+## Server used
 
 * apache24
