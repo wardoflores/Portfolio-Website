@@ -1,7 +1,7 @@
 
 html {
-    color:#ecf0f1 !important;
-    background-color: #ecf0f1 !important;
+    color:#333333;
+    background-color: #FFFFFF;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
@@ -23,7 +23,7 @@ a {
     justify-content:center;
     align-items:center;
     background-color:#ecf0f1;
-    border-color: #292b2c;
+    border-color:#ecf0f1;
     border-style: solid;
     border-radius: 24px;
     margin-top: 50px;
@@ -71,13 +71,13 @@ a {
 
 }
 
-#projects {
+/* #projects {
 
-}
+} */
 
 article {
-    color:#C0C0C0
-    background-color:#ecf0f1;
+    color:#C0C0C0;
+    background-color: #ecf0f1;
     border-color: #292b2c;
     border-style: solid;
     border-radius: 24px;
@@ -85,9 +85,7 @@ article {
     margin-right: 100px;
     margin-bottom: 50px;
     margin-left: 100px;
-    box-shadow: 0px 5px 0px 3px #1b1b1b;
-
-
+    box-shadow: 0px 5px 0px 3px #ecf0f1;
 }
 
 .articlemsg {
@@ -97,7 +95,7 @@ article {
 }
 
 .contactforms {
-    background-color:#1b1b1b;
+    background-color: #ecf0f1;
     color:#C0C0C0;
     padding: 5px;
     
@@ -113,12 +111,12 @@ article {
     margin-right: 400px;
     margin-bottom: 50px;
     margin-left: 400px;
-    box-shadow: 0px 5px 0px 3px #1b1b1b;
+    box-shadow: 0px 5px 0px 3px #ecf0f1;
     
 }
 
 #contactmsg {
-    padding: 50px;
+    padding: 40px;
     overflow: auto;
 
 }
