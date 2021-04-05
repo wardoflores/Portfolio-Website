@@ -26,17 +26,17 @@ a {
     border-color:#ecf0f1;
     border-style: solid;
     border-radius: 24px;
-    margin-top: 50px;
-    margin-right: 400px;
-    margin-bottom: 50px;
-    margin-left:400px;
-    box-shadow: 0px 5px 0px 3px #333333;
-    filter: grayscale(0%) sepia(0%) hue-rotate(0deg);
+    margin-top: 1%;
+    margin-right: 30%;
+    margin-bottom: 1%;
+    margin-left: 30%;
+    box-shadow: 0px 5px 0px 3px #C0C0C0;
     
-
 }
 
 #Linkedinlogo {
+    justify-content:center;
+    align-items:center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
@@ -46,6 +46,8 @@ a {
 }
 
 #Githublogo {
+    justify-content:center;
+    align-items:center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
@@ -55,6 +57,8 @@ a {
 }
 
 #Twitterlogo {
+    justify-content:center;
+    align-items:center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
@@ -64,11 +68,15 @@ a {
 }
 
 #Facebooklogo {
+    justify-content:center;
+    align-items:center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
     width: 125px;
     height: 125px
+    /* width: 15%;
+    height: 15% */
 
 }
 
@@ -79,14 +87,14 @@ a {
 article {
     color:#333333;
     background-color: #ecf0f1;
-    border-color: #292b2c;
+    border-color: #C0C0C0;
     border-style: solid;
     border-radius: 24px;
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    box-shadow: 0px 5px 0px 3px #ecf0f1;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    box-shadow: 0 5px 0px 3px #C0C0C0;
 }
 
 .articlemsg {
@@ -98,29 +106,31 @@ article {
 .contactforms {
     background-color: #ecf0f1;
     color:#333333;
-    padding: 1px;
+    padding: 1%;
     justify-content: center;
     word-spacing: 1px;
     
 }
 
 #Contact {
+    justify-content:center;
+    align-items:center;
     background-color: #ecf0f1;
-    border-color: #292b2c;
     border-style: solid;
+    border-color: #C0C0C0;
     border-width: 2px;
     border-radius: 24px;
-    margin-top: 50px;
-    margin-right: 400px;
-    margin-bottom: 50px;
-    margin-left: 400px;
-    box-shadow: 0px 5px 0px 3px #ecf0f1;
+    margin-top: 1%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    box-shadow: 0px 3px 0px 3px #C0C0C0;
     
     
 }
 
 #contactmsg {
-    padding: 40px;
+    padding: 5%;
     overflow: auto;
 
 }
