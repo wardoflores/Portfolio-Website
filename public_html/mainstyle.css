@@ -18,71 +18,19 @@ a {
 
 }
 
-#socmedlogos  {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background-color:#ecf0f1;
-    border-color:#ecf0f1;
-    border-style: solid;
-    border-radius: 24px;
-    margin-top: 1%;
-    margin-right: 30%;
-    margin-bottom: 1%;
-    margin-left: 30%;
-    box-shadow: 0px 5px 0px 3px #C0C0C0;
-    
+header {
+    background-color: #FFFFFF;
+    position: sticky;
+    align-items: flex-start;
+    top: 0rem;
 }
 
-#Linkedinlogo {
-    justify-content:center;
-    align-items:center;
-    display:block;
-    margin: 0 auto;
-    text-indent: 0px;
-    width: 125px;
-    height: 125px
-
+footer {
+    background-color: #FFFFFF;
+    position: sticky;
+    align-items: flex-start;
+    top: 0rem;
 }
-
-#Githublogo {
-    justify-content:center;
-    align-items:center;
-    display:block;
-    margin: 0 auto;
-    text-indent: 0px;
-    width: 125px;
-    height: 125px
-
-}
-
-#Twitterlogo {
-    justify-content:center;
-    align-items:center;
-    display:block;
-    margin: 0 auto;
-    text-indent: 0px;
-    width: 125px;
-    height: 125px
-
-}
-
-#Facebooklogo {
-    justify-content:center;
-    align-items:center;
-    display:block;
-    margin: 0 auto;
-    text-indent: 0px;
-    width: 125px;
-    height: 125px
-    /* width: 15%;
-    height: 15% */
-
-}
-
-/* #projects {
-
-} */
 
 article {
     color:#333333;
@@ -94,22 +42,7 @@ article {
     margin-right: 10%;
     margin-bottom: 5%;
     margin-left: 10%;
-    box-shadow: 0 5px 0px 3px #C0C0C0;
-}
-
-.articlemsg {
-    justify-content: center;
-    word-spacing: 1px;
-    
-}
-
-.contactforms {
-    background-color: #ecf0f1;
-    color:#333333;
-    padding: 1%;
-    justify-content: center;
-    word-spacing: 1px;
-    
+    box-shadow: 0 3px 0px 3px #C0C0C0;
 }
 
 #Contact {
@@ -126,13 +59,90 @@ article {
     margin-left: 25%;
     box-shadow: 0px 3px 0px 3px #C0C0C0;
     
-    
 }
 
 #contactmsg {
     padding: 5%;
     overflow: auto;
 
+}
+
+#socmedlogos  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#ecf0f1;
+    border-color:#ecf0f1;
+    border-style: solid;
+    border-radius: 24px;
+    margin-top: 1%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    box-shadow: 0px 5px 0px 3px #C0C0C0;
+    
+}
+
+#Linkedinlogo {
+    justify-content:center;
+    align-items:center;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: -10%;
+    height: -10%
+}
+
+#Githublogo {
+    justify-content:center;
+    align-items:center;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: -10%;
+    height: -10%
+
+}
+
+#Twitterlogo {
+    justify-content:center;
+    align-items:center;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: -10%;
+    height: -10%
+}
+#Facebooklogo {
+    justify-content:center;
+    align-items:center;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    width: -10%;
+    height: -10%
+
+}
+
+
+/* #projects {
+
+} */
+
+
+.articlemsg {
+    justify-content: center;
+    word-spacing: 1px;
+    
+}
+
+.contactforms {
+    background-color: #ecf0f1;
+    color:#333333;
+    padding: 1%;
+    justify-content: center;
+    word-spacing: 1px;
+    
 }
 
 
