@@ -5,6 +5,8 @@ html {
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
+    padding: 0px;
+
 
 }
 
@@ -19,10 +21,14 @@ a {
 }
 
 header {
-    background-color: #FFFFFF;
+    background-color: #C0C0C0;
+    margin: -25px;
+    position: fixed-top;
     position: sticky;
     align-items: flex-start;
     top: 0rem;
+    padding-top: .5px;    
+    padding-bottom: .5px;    
 }
 
 footer {
@@ -30,6 +36,7 @@ footer {
     position: sticky;
     align-items: flex-start;
     top: 0rem;
+
 }
 
 article {
@@ -42,7 +49,7 @@ article {
     margin-right: 10%;
     margin-bottom: 5%;
     margin-left: 10%;
-    box-shadow: 0 3px 0px 3px #C0C0C0;
+    box-shadow: 0 5px 0px 0px #C0C0C0;
 }
 
 #Contact {
@@ -67,67 +74,90 @@ article {
 
 }
 
-#socmedlogos  {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background-color:#ecf0f1;
+#icons  {
+    position: fixed;
+    top: 30%;
+    left: .50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf0f1;
     border-color:#ecf0f1;
     border-style: solid;
     border-radius: 24px;
-    margin-top: 1%;
-    margin-right: 30%;
-    margin-bottom: 5%;
-    margin-left: 30%;
-    box-shadow: 0px 5px 0px 3px #C0C0C0;
+    box-shadow: 0px 0px 0px 1px #C0C0C0;
     
 }
 
-#Linkedinlogo {
-    justify-content:center;
-    align-items:center;
+#icons a {
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    place-items: center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
-    width: -10%;
-    height: -10%
+
+}
+
+#Linkedinlogo {
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    place-items: center;
+    display:block;
+    margin: 0 auto;
+    text-indent: 0px;
+    
 }
 
 #Githublogo {
-    justify-content:center;
-    align-items:center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    place-items: center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
-    width: -10%;
-    height: -10%
-
+    
 }
 
 #Twitterlogo {
-    justify-content:center;
-    align-items:center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    place-items: center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
-    width: -10%;
-    height: -10%
+
 }
+
 #Facebooklogo {
-    justify-content:center;
-    align-items:center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    place-items: center;
     display:block;
     margin: 0 auto;
     text-indent: 0px;
-    width: -10%;
-    height: -10%
 
 }
 
 
-/* #projects {
-
-} */
+#projects {
+    justify-content: center;
+    word-spacing: 1px;
+}
 
 
 .articlemsg {
