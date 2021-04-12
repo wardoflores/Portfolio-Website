@@ -9,4 +9,5 @@ Code for my Porfolio Website.
 
 ## Server used
 
-* apache24
+* apache24 - For local hosting
+* Github pages - Free domain hosting
