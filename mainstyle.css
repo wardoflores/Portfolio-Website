@@ -31,7 +31,6 @@ a {
 
 header {
     background-color: #C0C0C0;
-    position: fixed-top;
     position: sticky;
     align-items: flex-start;
     margin: 0px;
