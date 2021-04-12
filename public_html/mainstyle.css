@@ -11,6 +11,10 @@ html {
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
 }
@@ -42,6 +46,7 @@ footer {
     align-items: flex-start;
     margin: 0px;
     bottom: 0rem;
+    margin-top: 60%;
     padding-top: .5px;    
     padding-bottom: .5px;    
 
@@ -49,38 +54,58 @@ footer {
 
 article {
     color:#333333;
-    background-color: #ecf0f1;
-    border-color: #C0C0C0;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 24px;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    padding: 7.5%;
+    margin: 0%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 1%;
     margin-right: 10%;
     margin-bottom: 1%;
-    margin-left: 10%;
-    /* box-shadow: 0 5px 0px 0px #C0C0C0; */
+    margin-left: 10%; */
+    
+}
+
+#projects {
+    justify-content: center;
+    word-spacing: 1px;
+    margin-bottom: 5%;
+    place-items: center;
+    
+}
+
+.row {
+    margin: 0 -5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.column {
+    float: left;
+    padding: 0 10px;
+    width: 33%; /* 4 cards = 25% 3 cards = 33% */
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
 }
 
 #Contact {
     justify-content:center;
     align-items:center;
-    background-color: #ecf0f1;
-    border-style: solid;
-    border-color: #C0C0C0;
-    border-width: 2px;
+    padding: 1%;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 24px;
     margin-top: 5%;
     margin-right: 25%;
     margin-bottom: 5%;
     margin-left: 25%;
-    /* box-shadow: 0px 3px 0px 3px #C0C0C0; */
     
-}
-
-#contactmsg {
-    padding: 5%;
-    overflow: auto;
-
 }
 
 #icons  {
@@ -89,16 +114,14 @@ article {
     left: .50%;
     display: flex;
     flex-direction: column;
-    background-color: #ecf0f1;
-    border-color:#ecf0f1;
-    border-style: solid;
-    border-radius: 24px;
-    box-shadow: 0px 0px 0px 1px #C0C0C0;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
 }
 
 #icons a {
-    padding: 10px;
+    padding: 2.5px;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -111,7 +134,8 @@ article {
 }
 
 #Linkedinlogo {
-    padding: 10px;
+    
+    padding: 2.5px;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -124,7 +148,7 @@ article {
 }
 
 #Githublogo {
-    padding: 10px;
+    padding: 2.5px;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -137,7 +161,7 @@ article {
 }
 
 #Twitterlogo {
-    padding: 10px;
+    padding: 2.5px;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -150,7 +174,7 @@ article {
 }
 
 #Facebooklogo {
-    padding: 10px;
+    padding: 2.5px;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -162,15 +186,6 @@ article {
 
 }
 
-
-#projects {
-    justify-content: center;
-    word-spacing: 1px;
-    margin-bottom: 5%;
-    
-}
-
-
 .articlemsg {
     justify-content: center;
     word-spacing: 1px;
@@ -178,12 +193,16 @@ article {
 }
 
 .contactforms {
-    background-color: #ecf0f1;
-    color:#333333;
+    background-color: #f1f1f1;
+    border-radius: 9px;
     padding: 1%;
-    justify-content: flex-start;
+    place-items: center;
+    /* justify-content: flex-start; */
     word-spacing: 1px;
     
 }
 
+.contacth1 {
+    padding: 2.5%;
+}
 
