@@ -2,6 +2,14 @@
 
 Code for my Porfolio Website.
 
+## Future Features
+
+* 
+
+## Issues
+
+* Input forms doesn't scale properly in Phone resolution.
+
 ## Languages Used
 
 * html
