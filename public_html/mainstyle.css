@@ -6,8 +6,13 @@ html {
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
     padding: 0px;
+    margin: 0px;
 
 
+}
+
+body {
+    margin: 0px;
 }
 
 span {
@@ -22,20 +27,23 @@ a {
 
 header {
     background-color: #C0C0C0;
-    margin: -25px;
     position: fixed-top;
     position: sticky;
     align-items: flex-start;
+    margin: 0px;
     top: 0rem;
     padding-top: .5px;    
     padding-bottom: .5px;    
 }
 
 footer {
-    background-color: #FFFFFF;
-    position: sticky;
+    background-color: #C0C0C0;
+    position: fixed-bottom;
     align-items: flex-start;
-    top: 0rem;
+    margin: 0px;
+    bottom: 0rem;
+    padding-top: .5px;    
+    padding-bottom: .5px;    
 
 }
 
@@ -44,12 +52,13 @@ article {
     background-color: #ecf0f1;
     border-color: #C0C0C0;
     border-style: solid;
+    border-width: 2px;
     border-radius: 24px;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     margin-left: 10%;
-    box-shadow: 0 5px 0px 0px #C0C0C0;
+    /* box-shadow: 0 5px 0px 0px #C0C0C0; */
 }
 
 #Contact {
@@ -60,11 +69,11 @@ article {
     border-color: #C0C0C0;
     border-width: 2px;
     border-radius: 24px;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-right: 25%;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
     margin-left: 25%;
-    box-shadow: 0px 3px 0px 3px #C0C0C0;
+    /* box-shadow: 0px 3px 0px 3px #C0C0C0; */
     
 }
 
@@ -157,6 +166,8 @@ article {
 #projects {
     justify-content: center;
     word-spacing: 1px;
+    margin-bottom: 5%;
+    
 }
 
 
@@ -170,7 +181,7 @@ article {
     background-color: #ecf0f1;
     color:#333333;
     padding: 1%;
-    justify-content: center;
+    justify-content: flex-start;
     word-spacing: 1px;
     
 }
