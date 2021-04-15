@@ -65,6 +65,10 @@ article {
     
 }
 
+.hide {
+    color:transparent;
+}
+
 #projects {
     justify-content: center;
     word-spacing: 1px;
@@ -91,10 +95,6 @@ article {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
-}
-
-.hide {
-    color:transparent;
 }
 
 #Contact {
