@@ -6,7 +6,6 @@ Code for my Porfolio Website.
 
 * Add Favicon
 * Complete Content
-* Format images properly
 
 ## Issues
 
