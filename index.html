@@ -124,8 +124,9 @@
             <h1 class="contacth1">Contact Form</h1>
 
             <p>Please send your message below. I'll reply as soon as possible.</p>
-
-            <form action="">
+            
+            <label class="hide" for="contact">hey there</label>
+            <form name="contact" action="">
                 <label for="Name">Name</label> 
                 <br>
                 <input type="text" name="Name" class="contactforms" required/> 
@@ -138,7 +139,7 @@
                 <br>
                 <textarea name="message" class="contactforms" maxlength="128" cols="25%" rows="5%" required ></textarea> <br>
                 <br>
-                <label style="color:transparent;" for="submit">hey there</label>
+                <label class="hide" for="submit">hey there</label>
                 <br>
                 <br> 
                 <input type="submit" name="submit" class="contactforms" value="submit" required>

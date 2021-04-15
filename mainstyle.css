@@ -93,6 +93,10 @@ article {
     background-color: #f1f1f1;
 }
 
+.hide {
+    color:transparent;
+}
+
 #Contact {
     justify-content:center;
     align-items:center;
