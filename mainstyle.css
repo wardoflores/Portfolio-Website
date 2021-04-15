@@ -24,6 +24,78 @@ span {
 
 }
 
+@media only screen and (max-width: 480px) {
+    p {
+        font-size: 10px;
+        
+    }
+
+    h1 {
+        font-size: 12px;
+        
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) and (min-width: 481px) {
+    p {
+        font-size: 12px;
+        
+    }
+
+    h1 {
+        font-size: 15px;
+        
+    }
+
+    h2 {
+        font-size: 13px;
+    }
+    
+}
+
+@media only screen and (min-width: 721px) {
+    p {
+        font-size: 16px;
+
+    }
+
+    h1 {
+        font-size: 24px;
+
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (min-width: 1441px) {
+    p {
+        font-size: 24px;
+
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+}
+
 h1 {
     max-width: 100%;
     max-height: 100%;
@@ -65,18 +137,50 @@ header {
     top: 0rem;
     padding-top: .5px;    
     padding-bottom: .5px;    
+
 }
 
-footer {
-    background-color: #C0C0C0;
-    position: fixed-bottom;
-    align-items: flex-start;
-    margin: 0px;
-    bottom: 0rem;
-    margin-top: 60%;
-    padding-top: .5%;    
-    padding-bottom: .5%;    
+@media only screen and (max-width: 480px) {
+    footer {
+        background-color: #C0C0C0;
+        position: fixed-bottom;
+        align-items: center;
+        margin: 0px;
+        bottom: 0rem;
+        margin-top: 200%;
+        padding-top: 5%;    
+        padding-bottom: .5%;    
 
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    footer {
+        background-color: #C0C0C0;
+        position: fixed-bottom;
+        align-items: center;
+        margin: 0px;
+        bottom: 0rem;
+        margin-top: 175%;
+        padding-top: .5%;    
+        padding-bottom: .5%;    
+
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    footer {
+        background-color: #C0C0C0;
+        position: fixed-bottom;
+        align-items: center;
+        margin: 0px;
+        bottom: 0rem;
+        margin-top: 60%;
+        padding-top: .5%;    
+        padding-bottom: .5%;    
+
+    }
 }
 
 article {
@@ -93,11 +197,6 @@ article {
     
 }
 
-#intro {
-    height: 100vh;
-
-}
-
 #projects {
     justify-content: center;
     word-spacing: 1%;
@@ -112,20 +211,60 @@ article {
     margin-right: 5%;
 }
 
-.column {
-    float: left;
-    padding: 0 10px;
-    width: 33%; /* 4 cards = 25% 3 cards = 33% */
+@media only screen and (max-width: 480px) {
+    .column {
+        float: left;
+        padding: 2.5%;
+        width: 99%; 
+        /* 4 cards = 25% 3 cards = 33%  2 cards = 50% */
+    
+    }
 
+    .card {
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 1px;
+        border-radius: 24px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    }
 }
 
-.card {
-    text-align: center;
-    background-color: #f1f1f1;
-    padding: 32px;
-    border-radius: 24px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+@media only screen and (max-width: 720px) {
+    .column {
+        float: left;
+        padding: 5%;
+        width: 50%; /* 4 cards = 25% 3 cards = 33%  2 cards = 50% */
     
+    }
+
+    .card {
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 16px;
+        border-radius: 24px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    .column {
+        float: left;
+        padding: 0 10px;
+        width: 33%; /* 4 cards = 25% 3 cards = 33% */
+    
+    }
+    .card {
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 32px;
+        border-radius: 24px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    }
+
 }
 
 #Contact {
@@ -234,3 +373,4 @@ article {
 
 
 
+  
