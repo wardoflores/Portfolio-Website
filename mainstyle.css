@@ -65,6 +65,10 @@ article {
     
 }
 
+.hide {
+    visibility: hidden;
+}
+
 #projects {
     justify-content: center;
     word-spacing: 1px;
