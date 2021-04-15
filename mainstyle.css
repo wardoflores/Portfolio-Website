@@ -82,7 +82,6 @@ footer {
 article {
     color:#333333;
     background-color: #f1f1f1;
-    border-radius: 6px;
     padding: 7.5%;
     margin: 0%;
     
@@ -92,6 +91,11 @@ article {
     justify-content: center;
     word-spacing: 1px;
     
+}
+
+#intro {
+    height: 100vh;
+
 }
 
 #projects {
@@ -145,14 +149,6 @@ article {
     place-items: center;
     word-spacing: 1%;
     
-}
-
-#name {
-
-}
-
-#email {
-
 }
 
 #icons  {
