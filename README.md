@@ -10,6 +10,7 @@ Code for my Porfolio Website.
 ## Issues
 
 * Input forms doesn't scale properly in Phone resolution.
+* Images doesn't scale in lower resolutions.
 
 ## Languages Used
 
