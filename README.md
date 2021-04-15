@@ -4,7 +4,9 @@ Code for my Porfolio Website.
 
 ## Future Features
 
-* 
+* Add Favicon
+* Complete Content
+* Format images properly
 
 ## Issues
 
