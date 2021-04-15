@@ -65,6 +65,10 @@ article {
     
 }
 
+.hide {
+    color: inherit;
+}
+
 #projects {
     justify-content: center;
     word-spacing: 1px;
