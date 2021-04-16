@@ -335,7 +335,7 @@ article {
     
     }
 
-    #Linkedinlogo {
+    #Linkedinimg {
         
         padding: 2.5px;
         font-size: 12px;
@@ -349,7 +349,7 @@ article {
         
     }
     
-    #Githublogo {
+    #Githubimg {
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
@@ -362,7 +362,7 @@ article {
         
     }
     
-    #Twitterlogo {
+    #Twitterimg {
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
@@ -375,7 +375,7 @@ article {
     
     }
     
-    #Facebooklogo {
+    #Facebookimg {
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
