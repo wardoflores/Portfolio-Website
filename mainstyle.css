@@ -408,6 +408,7 @@ article {
     }
 
     #icons a {
+        display: none;
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
@@ -421,7 +422,7 @@ article {
     }
     
     #Linkedinlogo {
-        
+        display: none;
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
@@ -435,6 +436,7 @@ article {
     }
     
     #Githublogo {
+        display: none;
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
@@ -448,6 +450,7 @@ article {
     }
     
     #Twitterlogo {
+        display: none;
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
@@ -461,6 +464,7 @@ article {
     }
     
     #Facebooklogo {
+        display: none;
         padding: 2.5px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
