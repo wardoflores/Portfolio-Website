@@ -5,22 +5,22 @@ Code for my Porfolio Website.
 ## Future Features
 
 * Add sticky resume button (embed pdf)
-- Put along follow buttons and adapt to all resolutions. 
+    - Put along follow buttons and adapt to all resolutions. 
 * Complete Content
-- Finish Intro, header, footer, and Project card descriptions.
+    - Finish Intro, header, footer, and Project card descriptions.
 * Style project heading
-- Design
+    - Design.
 * Add css animation for buttons.
-- Hover, design.
+    - Hover, design.
 * Add css animation for scrolling.
--Scroll magic.
+    -Scroll magic.
 * Add texture for background
 
 
 ## Issues
 
 * Replace table code to more appropriate features. 
-- Grid for project cards and navbar for social buttons.
+    - Grid for project cards and navbar for social buttons.
 
 ## Languages Used
 
