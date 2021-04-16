@@ -311,7 +311,7 @@ article {
 }
 
 @media only screen and (max-width: 480px) {
-    #mobileimgs  {
+    #imgs  {
         letter-spacing: inherit;
         border-spacing: 25%;
         border-collapse: collapse;
@@ -322,7 +322,7 @@ article {
     
     }
 
-    #mobileimgs a {
+    #imgs a {
         padding: 2.5px;
         font-size: 8px;
         font-family: 'Oswald', sans-serif;
