@@ -26,12 +26,12 @@ span {
 
 @media only screen and (max-width: 480px) {
     p {
-        font-size: 10px;
+        font-size: 12px;
         
     }
 
     h1 {
-        font-size: 12px;
+        font-size: 13px;
         
     }
 
@@ -47,7 +47,7 @@ span {
 
 @media only screen and (max-width: 720px) and (min-width: 481px) {
     p {
-        font-size: 12px;
+        font-size: 14px;
         
     }
 
