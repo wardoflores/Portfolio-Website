@@ -362,17 +362,18 @@ article {
     
 }
 
-@media only screen and (max-width: 480px) {
-    #resume {
-        display: unset;
-    }
 
-}
-@media only screen and (max-width: 720px) and (min-width:481px) {
-    #resume {
-        display: unset;
-    }   
-
+summary {
+    display: unset;
+    padding: 1%;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    margin-top: 1%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    
 }
 
 @media only screen and (max-width: 480px) {
