@@ -363,6 +363,19 @@ article {
 }
 
 @media only screen and (max-width: 480px) {
+    #resume {
+        display: unset;
+    }
+
+}
+@media only screen and (max-width: 720px) and (min-width:481px) {
+    #resume {
+        display: unset;
+    }   
+
+}
+
+@media only screen and (max-width: 480px) {
     #imgs  {
         letter-spacing: inherit;
         border-spacing: 25%;
