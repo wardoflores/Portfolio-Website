@@ -8,7 +8,7 @@ Code for my Porfolio Website.
     - Put along follow buttons and adapt to all resolutions. 
 * Complete Content
     - Finish Intro, header, footer, and Project card descriptions.
-* Style project heading
+* Style project and resume heading
     - Design.
 * Add css animation for buttons.
     - Hover, design.
