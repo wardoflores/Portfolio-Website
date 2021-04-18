@@ -227,7 +227,7 @@
                 <br>
                 <label for="email">E-mail</label> 
                 <br>
-                <input type="email" name="email" id="email" class="contactforms" required /> 
+                <input type="email" name="email" id="email" class="contactforms" onblur="checkForErrors(this)" required /> 
                 <span id="email_ErrorMessage" class="errorMessage"> </span>
                 <br>
                 <label for="message">Message</label> 
