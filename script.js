@@ -43,5 +43,5 @@ function hasValue(inputField) {
 
 function submitForm() {
     document.getElementById("contact").submit();
-    return true;
+    return false;
     }
