@@ -1,3 +1,4 @@
+/* Base elements */
 
 html {
     color:#333333;
@@ -98,7 +99,7 @@ header {
 
 
 
-
+/* Responsive Header sizes */
 
 #mobilesocials {
     display: none;
@@ -148,6 +149,9 @@ header {
 
 }
 
+
+/* Responsive Footer sizes */
+
 @media only screen and (max-width: 480px) {
     footer {
         background-color: #C0C0C0;
@@ -187,7 +191,7 @@ header {
 }
 
 
-
+/* Responsive Font sizes */
 
 @media only screen and (max-width: 480px) {
     p {
@@ -288,7 +292,17 @@ header {
 
 
 
+/* Classes */
 
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
 
 .hide {
     display: none;
@@ -329,7 +343,7 @@ header {
 
 
 
-
+/* Responsive Card sizes */
 
 @media only screen and (max-width: 480px) {
     .column {
@@ -397,7 +411,7 @@ header {
 
 
 
-
+/* Contact div */
 
 #Contact {
     justify-content:center;
@@ -430,7 +444,7 @@ header {
 
 
 
-
+/* Icon Features */
 
 #imgs img:hover {
     background: rgba(1, 1, 1, 0.2)
@@ -441,6 +455,10 @@ header {
     background: rgba(1, 1, 1, 0.2)
     
 }
+
+
+
+/* Responsive Header icons */
 
 @media only screen and (max-width: 480px) {
     #imgs  {
@@ -609,7 +627,7 @@ header {
 
 
 
-
+/* Responsive Sticky icons */
 
 @media only screen and (max-width: 480px) {
     #icons  {
