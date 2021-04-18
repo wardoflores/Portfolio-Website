@@ -222,19 +222,19 @@
             <form name="contact" class="inputField" method="POST" action="mailto:eduardojoeyflores@gmail.com" >
                 <label for="Name">Name</label> 
                 <br>
-                <input type="text" name="Name" id="Name" class="contactforms" /> 
+                <input type="text" name="Name" id="Name" class="contactforms" required/> 
                 <br>
                 <label for="email">E-mail</label> 
                 <br>
-                <input type="email" name="email" id="email" class="contactforms"  /> 
+                <input type="email" name="email" id="email" class="contactforms" required /> 
                 <span id="email_ErrorMessage" class="errorMessage"> </span>
                 <br>
                 <label for="message">Message</label> 
                 <br>
-                <textarea name="message" id="message" class="contactforms" maxlength="128" cols="50%" rows="5%"  ></textarea> <br>
+                <textarea name="message" id="message" class="contactforms" maxlength="128" cols="50%" rows="5%" required ></textarea> <br>
                 <br>
                 <label class="hide" for="submit">hey there</label>
-                <input type="submit" name="submit" id="submit" class="contactforms" value="submit" onClick="submitForm()" >
+                <input type="submit" name="submit" id="submit" class="contactforms" value="submit" onClick="submitForm()" required>
 
             </form>
             <br>
