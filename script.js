@@ -41,7 +41,7 @@ function hasValue(inputField) {
     return fieldHasValidEmail;
     }
 
-// function submitForm() {
-//     document.getElementById("contact").submit();
-//     return false;
-//     }
+function submitForm() {
+    document.getElementById("contact").submit();
+    return true;
+    }
