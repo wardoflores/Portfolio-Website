@@ -391,7 +391,12 @@ header {
     
 }
 
-
+.inputField {
+    margin-top:0px;
+}
+.errorMessage {
+    color:red; display:none;
+}
 
 
 /* Responsive Card sizes */
@@ -464,7 +469,7 @@ header {
 
 /* Contact div */
 
-#Contact {
+#Contactdiv {
     justify-content:center;
     align-items:center;
     padding: 1%;

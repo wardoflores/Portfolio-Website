@@ -212,28 +212,29 @@
             </details>
         </div>
 
-        <div id="Contact">
+        <div id="Contactdiv">
             <h1>Contact Form</h1>
 
             <p>Please send your message below. I'll reply as soon as possible.</p>
             
             <label class="hide" for="contact">hey there</label>
 
-            <form name="contact" action="" >
+            <form name="contact" class="inputField" method="POST" action="mailto:eduardojoeyflores@gmail.com" >
                 <label for="Name">Name</label> 
                 <br>
-                <input type="text" name="Name" id="Name" class="contactforms" required/> 
+                <input type="text" name="Name" id="Name" class="contactforms" /> 
                 <br>
                 <label for="email">E-mail</label> 
                 <br>
-                <input type="email" name="email" id="email" class="contactforms" required /> 
+                <input type="email" name="email" id="email" class="contactforms"  /> 
+                <span id="email_ErrorMessage" class="errorMessage"> </span>
                 <br>
                 <label for="message">Message</label> 
                 <br>
-                <textarea name="message" id="message" class="contactforms" maxlength="128" cols="50%" rows="5%" required ></textarea> <br>
+                <textarea name="message" id="message" class="contactforms" maxlength="128" cols="50%" rows="5%"  ></textarea> <br>
                 <br>
                 <label class="hide" for="submit">hey there</label>
-                <input type="submit" name="submit" id="submit" class="contactforms" value="submit" required>
+                <input type="submit" name="submit" id="submit" class="contactforms" value="submit" onClick="submitForm()" >
 
             </form>
             <br>
