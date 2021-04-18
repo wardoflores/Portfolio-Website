@@ -20,6 +20,31 @@ body {
 
 }
 
+/* @media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color: night;
+    }
+}
+@media (prefers-color-scheme: light) {
+    body {
+        color: black;
+        background-color: white;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
 span {
     display: inline;
 
@@ -146,7 +171,7 @@ header {
 
     }
 
-    td {
+    td a{
         width: 32px;
     }
 
@@ -168,7 +193,7 @@ header {
         display: unset;
     }
 
-    td {
+    td a{
         width: 64px;
 
     }
@@ -461,6 +486,8 @@ header {
     word-spacing: 1%;
     
 }
+
+
 
 
 
