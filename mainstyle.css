@@ -447,19 +447,18 @@ article {
 }
 
 .button {
+    background-color: lightcoral;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: none;
-    color: #333333;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 15px 32px;
     font-size: 16px;
     width: 50%;
     border-radius: 6px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
-    color: white;
-    background-color: lightcoral;
+    transition-duration: 0.2s;
 
 }
 
