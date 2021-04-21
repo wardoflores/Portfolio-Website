@@ -80,7 +80,7 @@ header ul {
 
 header li a {
     padding: 6px;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
 
 }
@@ -103,7 +103,7 @@ footer ul {
 
 footer li a {
     padding: 6px;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
 
 }
@@ -242,21 +242,21 @@ footer li a {
 
 @media only screen and (max-width: 480px) {
     p {
-        font-size: 12px;
+        font-size: 16px;
         
     }
 
     h1 {
-        font-size: 14px;
+        font-size: 22px;
         
     }
 
     h2 {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     label {
@@ -267,21 +267,21 @@ footer li a {
 
 @media only screen and (max-width: 720px) and (min-width: 481px) {
     p {
-        font-size: 14px;
-        
-    }
-
-    h1 {
         font-size: 18px;
         
     }
 
+    h1 {
+        font-size: 24px;
+        
+    }
+
     h2 {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     h3 {
-        font-size: 12px;
+        font-size: 20px;
     }
     
 }
@@ -303,6 +303,11 @@ footer li a {
     }
 
     h3 {
+        font-size: 22px;
+        
+    }
+
+    article h3 {
         display: none;
     }
 
