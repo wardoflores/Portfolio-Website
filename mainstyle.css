@@ -164,11 +164,21 @@ footer li a {
 
     td a{
         width: 32px;
+
     }
 
     header h1 {
         display: none;
+
     }
+
+    header li a {
+        padding: 6px;
+        font-size: 18px;
+        text-decoration: none;
+    
+    }
+    
 
 }
 
@@ -448,7 +458,7 @@ article {
 
 .button {
     background-color: lightcoral;
-    color: white;
+    color: beige;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: none;
     text-align: center;
