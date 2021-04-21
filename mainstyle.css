@@ -2,7 +2,7 @@
 
 html {
     color:#333333;
-    background-color: #FFFFFF;
+    background-color: #F0F6F9;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
@@ -56,7 +56,7 @@ textarea {
 }
 
 header {
-    background-color: #C0C0C0;
+    background-color: #cfe2f2;
     position: sticky;
     align-items: flex-start;
     margin: 0px;
@@ -84,6 +84,11 @@ header li a {
     text-decoration: none;
 
 }
+
+footer {
+    background-color: #cfe2f2;
+}
+
 footer li {
     display: inline-block;
 
@@ -144,7 +149,6 @@ footer li a {
 }
 @media only screen and (max-width: 480px) {
     header {
-        background-color: #C0C0C0;
         position: sticky;
         align-items: flex-start;
         top: 0rem;
@@ -170,7 +174,6 @@ footer li a {
 
 @media only screen and (min-width: 1441px) {
     header {
-        background-color: #C0C0C0;
         position: sticky;
         align-items: flex-start;
         top: 0rem;
@@ -198,7 +201,6 @@ footer li a {
 
 @media only screen and (max-width: 480px) {
     footer {
-        background-color: #C0C0C0;
         position: fixed-bottom;
         align-items: center;
         padding: 0px;
@@ -212,7 +214,6 @@ footer li a {
 
 @media only screen and (max-width: 720px) {
     footer {
-        background-color: #C0C0C0;
         position: fixed-bottom;
         align-items: center;
         bottom: 0rem;
@@ -224,7 +225,6 @@ footer li a {
 
 @media only screen and (min-width: 721px) {
     footer {
-        background-color: #C0C0C0;
         position: fixed-bottom;
         align-items: center;
         bottom: 0rem;
@@ -347,7 +347,8 @@ footer li a {
         justify-content:center;
         align-items:center;
         padding: 1%;
-        background-color: #f1f1f1;
+        background-color: inherit;
+        margin: auto;
         
     }
 
@@ -364,19 +365,11 @@ footer li a {
 
 @media only screen and (min-width: 481px) {
 
-    #intro article {
-        color:#333333;
-        background-color: #F1F1F1;
-        padding: 7.5%;
-        margin: 0%;
-    
-    }
-
     #Contactdiv {
         justify-content:center;
         align-items:center;
         padding: 1%;
-        background-color: #f1f1f1;
+        background-color: #e7f5fe;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         border-radius: 24px;
         margin-top: 5%;
@@ -387,7 +380,7 @@ footer li a {
     }
 
     .contactforms {
-        background-color: #f1f1f1;
+        background-color: #FFFFFF;
         border-radius: 9px;
         padding: 1%;
         place-items: center;
@@ -398,18 +391,26 @@ footer li a {
 }
 
 #PDF {
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 1%;
+    margin-bottom: 5%;
 
 }
 
 #PDF summary {
-    margin-top: 1%;
-    margin-right: 20%;
-    margin-bottom: 1%;
-    margin-left: 20%;
+    margin: auto;
 
 }
+
+
+article {
+    color:#333333;
+    background-color: #e7f5fe;
+    padding: 7.5%;
+    margin: 0%;
+
+}
+
+
 
 
 
@@ -421,6 +422,7 @@ footer li a {
     margin: 0 auto;
     padding: 0 20px 0 20px;
     max-width: 900px;
+    background-color: inherit;
 }
 
 .noselect {
@@ -431,6 +433,7 @@ footer li a {
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
+                            
   }
 
 .hide {
@@ -447,23 +450,25 @@ footer li a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    width: 25%;
+    width: 50%;
     border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition-duration: 0.4s;
+    color: white;
+    background-color: lightcoral;
 
 }
 
 .button:active {
-    background-color: #C0C0C0;
+    background-color: indianred;
     box-shadow: 0 5px #999;
     transform: translateY(4px);
 
 }
 
 .button:hover {
-    color: #C0C0C0;
-    background-color: beige;
+    color: white;
+    background-color: indianred;
 }
 
 .inputField {
@@ -477,10 +482,16 @@ footer li a {
 }
 
 .prjart {
-    margin: 0%;
+    margin: 0;
     height: 100vh;
-    background-color: #FFFFFF;
+    background-color: inherit;
 
+
+}
+
+.prjart article {
+    background-color: #F0F6F9;
+    margin-bottom: 10%;
 }
 
 .articlemsg {
@@ -490,11 +501,15 @@ footer li a {
 }
 
 .projects {
-    background-color: #FFFFFF;
-    margin: 0px;
+    background-color: inherit;
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
 
+}
+
+#projects container {
+    background-color: inherit;
 }
 
 .row {
@@ -773,6 +788,11 @@ footer li a {
 
 /* Responsive Sticky icons */
 
+#icons {
+    background-color: #C0C0C0;
+
+}
+
 @media only screen and (max-width: 480px) {
     #icons  {
         position: fixed;
@@ -783,7 +803,6 @@ footer li a {
         display: flex;
         flex-direction: column;
         padding-top: 5px;
-        background-color: #C0C0C0;
         border-radius: 12px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
@@ -868,7 +887,6 @@ footer li a {
         display: flex;
         flex-direction: column;
         padding-top: 5px;
-        background-color: #C0C0C0;
         border-radius: 12px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
@@ -948,7 +966,6 @@ footer li a {
         display: flex;
         flex-direction: column;
         padding-top: 5px;
-        background-color: #C0C0C0;
         border-radius: 12px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
@@ -1029,7 +1046,6 @@ footer li a {
         display: none;
         flex-direction: column;
         padding-top: 5px;
-        background-color: #C0C0C0;
         border-radius: 12px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
