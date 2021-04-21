@@ -1,5 +1,3 @@
-alert("Site is work in progress. Thanks for visiting!")
-
 function checkForErrors(inputField) {
     var errorMessageString = "";
     /* check for missing name */
