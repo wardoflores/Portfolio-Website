@@ -5,8 +5,8 @@
 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Portfolio website for Eduardo Flores.">
-        <title>Joey</title>
+        <meta name="description" content="Portfolio website for Eduardo Flores. Always work in progress!">
+        <title>Joey Portfolio</title>
         
         <link rel="stylesheet" href="mainstyle.css">
 
@@ -15,7 +15,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
 
-        <script src="script.js" defer></script
+        <script src="script.js" defer></script>
 
     </head>
 
@@ -23,10 +23,15 @@
 
     <body>
         <header>
-            <div id="Top menu">
-                <h1>Portfolio Website</h1>
+            <div class="container" id="Top menu">
+                <div class="container">
+                    <ul>
+                        <li><a href="#Intro">Intro</a></li>
+                        <li><a href="#Contactdiv">Contact</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
 
-                
                 <div id="mobilesocials">
                     <table id="imgs">
                         <tr>
@@ -83,11 +88,9 @@
 
             </div>
 
-            
-
         </header>
 
-        <div id="Follow">
+        <div class="container" id="Follow">
             <table id="icons">
                 <tr>
                     <td>
@@ -149,32 +152,36 @@
 
             <article>
 
-                <h1>Lorem, ipsum.</h1>
+                <h1>Hello there</h1>
             
                     <h2>
-                        Lorem, ipsum.
+                        Work in progress!
                     </h2>
 
                     <p class="articlemsg">
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                             Saepe, harum. Et illum tempora eius, ratione iste id voluptate consectetur? Odit. </span>
+                        
+                        Worked on this site as a hobby and coded everything in vanilla html/css, 
+                        code will always improve on the basis of measure.dev statistics and I can't
+                        make sure that the methods in which I structure the code is up to date.
+                        
 
                      </p>
 
-                </section>
-    
-                <section>
-
                     <h2>
-                        Lorem, ipsum dolor.
+                        Give Feedback!
                    </h2>
 
                    <p class="articlemsg">
-                        <span>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem velit cum, eius facere, 
-                            natus fugiat corporis nesciunt porro debitis dolores fugit consequatur placeat sint reprehenderit, 
-                            aliquid ut rem non aut!
-                        </span>
+                        
+                        You can do so by 
+                        <a href="#Contactdiv">
+                            sending me an email in the contact form
+                        </a>
+                        <a href="https://github.com/Coalemus/Portfolio-Website">
+                            Adding issues in the repository
+                        </a>
+                        or message me in my social media accounts.
+                        
 
                    </p>
 
@@ -187,9 +194,10 @@
         <br>
         &nbsp;
         &nbsp;
-        <div id="PDF">
+        
+        <div class="container" id="PDF">
             <details class="noselect">
-                <summary class="noselect"><h2>Resume</h2></summary>
+                <summary class="noselect"><h2>&nbsp;Resume&nbsp;</h2></summary>
                 <br>
                 <a href="Resume.pdf" id="pdfredirect" alt="redirect" target="_blank" rel="noopener">click here to
                     download PDF.</a>
@@ -208,40 +216,47 @@
             </details>
         </div>
 
-        <div id="Contactdiv">
-            <h1>Contact Form</h1>
+        <div class="container" id="Contactdiv">
+            <br>
+            <br>
+            <h1 class="noselect">Contact Form</h1>
 
-            <p>Please send your message below. I'll reply as soon as possible.</p>
+            <p class="noselect">Please send your message below. I'll reply as soon as possible.</p>
             
             <label class="hide" for="contact">hey there</label>
 
             <form name="contact" class="inputField" method="POST" action="https://mailto:eduardojoeyflores@gmail.com" target="_top">
-                <label for="Name">Name</label> 
+                <label for="Name" class="noselect">Name</label> 
                 <br>
                 <input type="text" name="Name" id="Name" class="contactforms" onblur="checkForErrors(this)" required/> 
                 <span id="Name_ErrorMessage" class="errorMessage"> </span>
                 <br>
-                <label for="email">E-mail</label> 
+                <label for="email" class="noselect">E-mail</label> 
                 <br>
                 <input type="email" name="email" id="email" class="contactforms" onblur="checkForErrors(this)" required /> 
                 <span id="email_ErrorMessage" class="errorMessage"> </span>
                 <br>
-                <label for="message">Message</label> 
+                <label for="message" class="noselect">Message</label> 
                 <br>
-                <textarea name="message" id="message" class="contactforms" maxlength="128" cols="50%" rows="5%" required ></textarea> <br>
+                <textarea name="message" id="message" class="contactforms" maxlength="128" cols="40%" rows="5%" required ></textarea> <br>
                 <br>
                 <label class="hide" for="submit">hey there</label>
                 <input type="submit" name="submit" id="submit" class="contactforms" value="submit" onClick="submitForm()" required>
 
             </form>
+            
             <br>
+            <br>
+
         </div> 
         
         <br>
-        
-        <h1 class="projects">
-            Projects
-        </h1>
+        <div class="container" id="projects">
+            <h1  class="projects">
+                Projects
+            </h1>
+        </div>
+    
 
         <div class="row">
             <div class= "column">
@@ -252,9 +267,9 @@
                     alt="Python"
                     ></a>
 
-                    <h2>Python Practice</h2>
+                    <h2 class="noselect">Python Practice</h2>
 
-                    <p>
+                    <p class="noselect">
                         Practice by using Sololearn and Books such as "Automate the Boring stuff with Python".
                     </p>
 
@@ -270,9 +285,9 @@
                     alt="Data Science"
                     ></a>
 
-                    <h2>Data Science</h2>
+                    <h2 class="noselect">Data Science</h2>
 
-                    <p>
+                    <p class="noselect">
                         Practiced along Web courses like Sololearn, and Pluralsight. 
                     </p>
 
@@ -288,9 +303,9 @@
                     alt="Discord Bot"
                     ></a>
 
-                    <h2>Discord Bot</h2>
+                    <h2 class="noselect">Discord Bot</h2>
                         
-                    <p>
+                    <p class="noselect">
                         Used Discord.py to make a Admin/music player bot in my practice server.
                     </p>
                         
@@ -308,15 +323,31 @@
             </div>
         </div> -->
         <!-- <br> -->
+        <div class="container">
+            <table>
+                
+            </table>
+        </div>
 
-        <article class="prjart">
-            <h3 class="projects">...more projects to coming soon!</h2>
-        </article>
+        <div class="container">
+            <article class="prjart">
+                <h3 class="projects">...more projects to coming soon!</h2>
+            </article>
+        </div>
         <br>
         <br>
         &nbsp;
 
         <footer>
+            <br>
+            <br>
+            <div class="container">
+                <ul>
+                    <li><a href="#Intro">Intro</a></li>
+                    <li><a href="#Contactdiv">Contact</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
             <div>
                 <p>© 2021 Eduardo Flores</p>
             </div>

@@ -20,31 +20,6 @@ body {
 
 }
 
-/* @media (prefers-color-scheme: dark) {
-    body {
-        color: white;
-        background-color: night;
-    }
-}
-@media (prefers-color-scheme: light) {
-    body {
-        color: black;
-        background-color: white;
-    }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 span {
     display: inline;
 
@@ -67,14 +42,6 @@ a {
     
 }
 
-article {
-    color:#333333;
-    background-color: #F1F1F1;
-    padding: 7.5%;
-    margin: 0%;
-
-}
-
 input {
     max-width: 100%;
     max-height: 100%;
@@ -95,9 +62,9 @@ summary {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 24px;
     margin-top: 1%;
-    margin-right: 25%;
+    margin-right: 20%;
     margin-bottom: 1%;
-    margin-left: 25%;
+    margin-left: 20%;
 
 }
 
@@ -117,8 +84,48 @@ header {
 
 }
 
+header li {
+    display: inline-block;
+
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+header li a {
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+footer li {
+    display: inline-block;
+
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+footer li a {
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
 
 
+
+
+
+/* Scrollbar attributes */
 
 /* width */
 ::-webkit-scrollbar {
@@ -143,8 +150,6 @@ header {
     background: #555;
 
 }
-
-
 
 
 
@@ -175,6 +180,9 @@ header {
         width: 32px;
     }
 
+    header h1 {
+        display: none;
+    }
 
 }
 
@@ -199,6 +207,9 @@ header {
     }
 
 }
+
+
+
 
 
 /* Responsive Footer sizes */
@@ -240,6 +251,9 @@ header {
 
     }
 }
+
+
+
 
 
 /* Responsive Font sizes */
@@ -292,17 +306,17 @@ header {
 
 @media only screen and (min-width: 721px) {
     p {
-        font-size: 16px;
+        font-size: 22px;
 
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 26px;
 
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 24px;
 
     }
 
@@ -343,7 +357,81 @@ header {
 
 
 
+/* divs */
+
+@media only screen and (max-width: 480px) {
+
+    #Contactdiv {
+        justify-content:center;
+        align-items:center;
+        padding: 1%;
+        background-color: #f1f1f1;
+        
+    }
+
+    .contactforms {
+        background-color: #f1f1f1;
+        border-radius: 9px;
+        padding: 1%;
+        place-items: center;
+        word-spacing: 1%;
+        
+    }    
+
+}
+
+@media only screen and (min-width: 481px) {
+
+    #intro article {
+        color:#333333;
+        background-color: #F1F1F1;
+        padding: 7.5%;
+        margin: 0%;
+    
+    }
+
+    #Contactdiv {
+        justify-content:center;
+        align-items:center;
+        padding: 1%;
+        background-color: #f1f1f1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 24px;
+        margin-top: 5%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        
+    }
+
+    .contactforms {
+        background-color: #f1f1f1;
+        border-radius: 9px;
+        padding: 1%;
+        place-items: center;
+        word-spacing: 1%;
+        
+    }
+    
+}
+
+#PDF {
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
+
+
+
+
 /* Classes */
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    max-width: 900px;
+}
 
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -381,9 +469,24 @@ header {
 }
 
 .row {
-    margin: 0 -5px;
+    margin: 0 auto;
     margin-left: 5%;
     margin-right: 5%;
+
+}
+
+.inputField {
+    margin-top:0px;
+}
+
+.errorMessage {
+    color:red; display:none;
+}
+
+.card {
+    display: inline-block;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
@@ -391,12 +494,8 @@ header {
     
 }
 
-.inputField {
-    margin-top:0px;
-}
-.errorMessage {
-    color:red; display:none;
-}
+
+
 
 
 /* Responsive Card sizes */
@@ -414,8 +513,6 @@ header {
         text-align: center;
         background-color: #f1f1f1;
         padding: 1px;
-        border-radius: 24px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
     }
 }
@@ -433,9 +530,7 @@ header {
         text-align: center;
         background-color: #f1f1f1;
         padding: 12px;
-        border-radius: 24px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+        
     }
 }
 
@@ -444,7 +539,7 @@ header {
         float: left;
         padding: 50px 10px;
         width: 33%; /* 4 cards = 25% 3 cards = 33% */
-        overflow:hidden ;
+        overflow: hidden;
 
     
     }
@@ -452,8 +547,6 @@ header {
         text-align: center;
         background-color: #f1f1f1;
         padding: 32px;
-        border-radius: 24px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
     }
 
@@ -467,30 +560,6 @@ header {
 
 
 
-/* Contact div */
-
-#Contactdiv {
-    justify-content:center;
-    align-items:center;
-    padding: 1%;
-    background-color: #f1f1f1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 24px;
-    margin-top: 5%;
-    margin-right: 25%;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    
-}
-
-.contactforms {
-    background-color: #f1f1f1;
-    border-radius: 9px;
-    padding: 1%;
-    place-items: center;
-    word-spacing: 1%;
-    
-}
 
 
 
@@ -505,14 +574,16 @@ header {
 /* Icon Features */
 
 #imgs img:hover {
-    background: rgba(1, 1, 1, 0.2)
+    background: rgba(1, 1, 1, 0.2);
     
 }
 
 #icons img:hover {
-    background: rgba(1, 1, 1, 0.2)
+    background: rgba(1, 1, 1, 0.2);
     
 }
+
+
 
 
 
@@ -524,9 +595,7 @@ header {
         border-spacing: 25%;
         border-collapse: collapse;
         top: 0%;
-        display: flex;
-        flex-wrap: wrap;
-        place-content: left;
+        display: inline-block;
     
     }
 
@@ -597,15 +666,15 @@ header {
     }
     
 }
+
 @media only screen and (min-width: 1441px) {
     #imgs  {
         letter-spacing: inherit;
         border-spacing: 25%;
         border-collapse: collapse;
         top: 0%;
-        display: flex;
-        flex-wrap: wrap;
-        place-content: left;
+        display: inline-block;
+        
     
     }
 
@@ -676,10 +745,6 @@ header {
     }
     
 }
-
-
-
-
 
 
 
@@ -1016,8 +1081,3 @@ header {
     }
 }
 
-
-
-
-
-  
