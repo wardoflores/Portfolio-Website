@@ -55,24 +55,6 @@ textarea {
 
 }
 
-summary {
-    display: unset;
-    padding: 1%;
-    background-color: #f1f1f1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 24px;
-    margin-top: 1%;
-    margin-right: 20%;
-    margin-bottom: 1%;
-    margin-left: 20%;
-
-}
-
-summary:hover {
-    background: rgba(1, 1, 1, 0.2)
-
-}
-
 header {
     background-color: #C0C0C0;
     position: sticky;
@@ -421,6 +403,14 @@ footer li a {
 
 }
 
+#PDF summary {
+    margin-top: 1%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    margin-left: 20%;
+
+}
+
 
 
 
@@ -445,6 +435,45 @@ footer li a {
 
 .hide {
     display: none;
+
+}
+
+.button {
+    background-color: #f1f1f1; 
+    border: none;
+    color: #333333;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+
+}
+
+.button:active {
+    background-color: #C0C0C0;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+
+}
+
+.button:hover {
+    color: #C0C0C0;
+    background-color: beige;
+}
+
+.inputField {
+    margin-top: 0px;
+
+}
+
+.errorMessage {
+    color:red; display:none;
+
 }
 
 .prjart {
@@ -473,14 +502,6 @@ footer li a {
     margin-left: 5%;
     margin-right: 5%;
 
-}
-
-.inputField {
-    margin-top:0px;
-}
-
-.errorMessage {
-    color:red; display:none;
 }
 
 .card {
