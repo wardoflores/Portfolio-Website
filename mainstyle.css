@@ -459,7 +459,6 @@ article {
 .button {
     background-color: lightcoral;
     color: #141414;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: none;
     text-align: center;
     text-decoration: none;
@@ -468,20 +467,23 @@ article {
     font-size: 16px;
     width: 50%;
     border-radius: 6px;
-    transition-duration: 0.2s;
+    
 
 }
 
 .button:active {
-    background-color: indianred;
+    background-color: lightcoral;
     box-shadow: 0 5px #999;
     transform: translateY(4px);
+    transition-duration: 1s;
 
 }
 
 .button:hover {
-    color: white;
-    background-color: indianred;
+    color: #141414;
+    background-color: lightcoral;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition-duration: 0.2s;
 }
 
 .inputField {
