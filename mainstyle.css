@@ -88,6 +88,11 @@ header li a {
 
 footer {
     background-color: #cfe2f2;
+
+}
+
+footer p {
+    font-size: 16px;
 }
 
 footer li {
