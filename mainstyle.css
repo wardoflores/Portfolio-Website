@@ -1,8 +1,8 @@
 /* Base elements */
 
 html {
-    color:#333333;
-    background-color: #F0F6F9;
+    color:#C8C3BC;
+    background-color: #1F2223;
     background-image: url("eyes.svg");
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -19,6 +19,7 @@ html {
 
 body {
     margin: 0px;
+    background-color: #181A1B;
 
 }
 
@@ -58,7 +59,7 @@ textarea {
 }
 
 header {
-    background-color: #cfe2f2;
+    background-color: #292D2E;
     position: sticky;
     align-items: flex-start;
     margin: 0px;
@@ -88,7 +89,7 @@ header li a {
 }
 
 footer {
-    background-color: #cfe2f2;
+    background-color: #292D2E;
 
 }
 
@@ -375,7 +376,7 @@ footer li a {
     }
 
     .contactforms {
-        background-color: #f1f1f1;
+        background-color: #292D2E;
         border-radius: 9px;
         padding: 1%;
         place-items: center;
@@ -391,7 +392,7 @@ footer li a {
         justify-content:center;
         align-items:center;
         padding: 1%;
-        background-color: #e7f5fe;
+        background-color: #292D2E;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         border-radius: 24px;
         margin-top: 5%;
@@ -402,7 +403,7 @@ footer li a {
     }
 
     .contactforms {
-        background-color: #FFFFFF;
+        background-color: #292D2E;
         border-radius: 9px;
         padding: 1%;
         place-items: center;
@@ -425,8 +426,8 @@ footer li a {
 
 
 article {
-    color:#333333;
-    background-color: #e7f5fe;
+    color:#C8C3BC;
+    background-color: #1F2223;
     padding: 7.5%;
     margin: 0%;
 
@@ -465,7 +466,7 @@ article {
 
 .button {
     background-color: lightcoral;
-    color: #141414;
+    color: #C8C3BC;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -487,7 +488,7 @@ article {
 }
 
 .button:hover {
-    color: #141414;
+    color: #C8C3BC;
     background-color: lightcoral;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     transition-duration: 0.2s;
@@ -512,7 +513,7 @@ article {
 }
 
 .prjart article {
-    background-color: #F0F6F9;
+    background-color: #292D2E;
     margin-bottom: 10%;
 }
 
@@ -544,6 +545,7 @@ article {
 .card {
     display: inline-block;
     border-radius: 24px;
+    background-color: #202324;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -569,7 +571,6 @@ article {
 
     .card {
         text-align: center;
-        background-color: #f1f1f1;
         padding: 1px;
 
     }
@@ -586,7 +587,6 @@ article {
 
     .card {
         text-align: center;
-        background-color: #f1f1f1;
         padding: 12px;
         
     }
@@ -603,7 +603,6 @@ article {
     }
     .card {
         text-align: center;
-        background-color: #f1f1f1;
         padding: 32px;
 
     }
@@ -811,7 +810,7 @@ article {
 /* Responsive Sticky icons */
 
 #icons {
-    background-color: #C0C0C0;
+    background-color: #3C4143;
 
 }
 
