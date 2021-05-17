@@ -499,6 +499,11 @@ article {
 
 }
 
+.contactforms {
+    color: #C8C3BC;
+    background-color:rgba(0, 0, 0, 0.2)
+}
+
 .errorMessage {
     color:red; display:none;
 
