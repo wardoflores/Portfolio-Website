@@ -6,6 +6,8 @@ Code for my Porfolio Website.
 
 * Complete Content
     - Finish Intro.
+* Rewrite Projects Div
+    - Use Grids rather than Divs
 * Style resume heading
     - Design.
 * Add css animation for scrolling.
@@ -15,7 +17,7 @@ Code for my Porfolio Website.
 
 ## Issues
 
-* Replace table code to more appropriate features. 
+* Replace table code to more appropriate features.
     - Grid for project cards and navbar for social buttons.
 
 ## Server used
