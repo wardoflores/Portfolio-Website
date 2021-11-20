@@ -574,24 +574,24 @@ article {
     background-color: inherit;
 }
 
-.row {
+/* .row {
     margin: 0 auto;
     margin-left: 5%;
     margin-right: 5%;
 
-}
+} */
 
-.card {
+/* .card {
     display: inline-block;
     border-radius: 24px;
     background-color: #202324;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+} */
 
-.card:hover {
+/* .card:hover {
     background: rgba(1, 1, 1, 0.2)
     
-}
+} */
 
 
 
@@ -599,54 +599,55 @@ article {
 
 /* Responsive Card sizes */
 
-@media only screen and (max-width: 480px) {
-    .column {
+/* @media only screen and (max-width: 480px) { */
+    /* .column {
         float: left;
         padding: 2.5%;
         width: 99%; 
         /* 4 cards = 25% 3 cards = 33%  2 cards = 50% */
     
-    }
+    /* }  */
 
-    .card {
+    /* .card {
         text-align: center;
         padding: 1px;
 
-    }
-}
+    } */
+/* } */
 
 
-@media only screen and (max-width: 720px) {
-    .column {
+/* @media only screen and (max-width: 720px) { */
+    /* .column {
         float: left;
         padding: 5%;
         width: 50%; /* 4 cards = 25% 3 cards = 33%  2 cards = 50% */
     
-    }
+    /* }  */
 
-    .card {
+    /* .card {
         text-align: center;
         padding: 12px;
         
-    }
-}
+    } */
+/* } */
 
-@media only screen and (min-width: 721px) {
-    .column {
+/* @media only screen and (min-width: 721px) { */
+    /* .column {
         float: left;
         padding: 50px 10px;
         width: 33%; /* 4 cards = 25% 3 cards = 33% */
-        overflow: hidden;
+        /* overflow: hidden; */
 
     
-    }
-    .card {
+    /* } */
+    /* .card {
         text-align: center;
         padding: 32px;
 
-    }
+    } */
 
-}
+/* } */
+
 
 
 
