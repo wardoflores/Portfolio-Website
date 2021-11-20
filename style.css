@@ -532,8 +532,6 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
   
   .box {
@@ -543,6 +541,8 @@ article {
     background: #292D2E;
     gap: 1rem;
     border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
 .projects {
