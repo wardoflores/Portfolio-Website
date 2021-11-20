@@ -538,7 +538,7 @@ article {
     /*  Stretching: */
     flex: 1 1 150px; 
     margin: 5px;
-    background: red;
+    background: inherit;
     gap: 1rem;
   }
 
