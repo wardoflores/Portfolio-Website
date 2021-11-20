@@ -540,6 +540,7 @@ article {
     margin: 5px;
     background: #292D2E;
     gap: 1rem;
+    border-radius: 24px;
   }
 
 .projects {
