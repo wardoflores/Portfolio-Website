@@ -533,8 +533,25 @@ article {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+.parent1 {
+    display: grid;
+    place-items: center;
+}
   
-  .box {
+.card {
+    width: clamp(23ch, 60%, 46ch);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+  
+.visual {
+    height: 125px;
+    width: 100%;
+}
+
+.box {
     /*  Stretching: */
     flex: 1 1 150px; 
     margin: 5px;
@@ -543,7 +560,7 @@ article {
     border-radius: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+}
 
 .projects {
     background-color: inherit;
