@@ -61,6 +61,8 @@ textarea {
 
 header {
     background-color: #292D2E;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
     position: sticky;
     align-items: flex-start;
     margin: 0px;
@@ -72,10 +74,14 @@ header {
 
 header li {
     display: inline-block;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
 
 }
 
 header ul {
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
     margin: 0;
     padding: 0;
     list-style: none;
@@ -83,6 +89,8 @@ header ul {
 }
 
 header li a {
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
     padding: 6px;
     font-size: 20px;
     text-decoration: none;
@@ -446,7 +454,32 @@ article {
     margin: 0 auto;
     padding: 0 20px 0 20px;
     max-width: 900px;
-    background-color: inherit;
+    /* background-color: inherit; */
+}
+
+.container#Topmenu {
+    background-color: #292D2E;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.container ul li a {
+    background-color: #292D2E;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+div.container#Topmenu {
+    background-color: #292D2E;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+div#Topmenu.container {
+    background-color: #292D2E;
+    background-color: transparent;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
 }
 
 .noselect {
@@ -572,6 +605,24 @@ article {
 
 #projects container {
     background-color: inherit;
+}
+
+#Topmenu {
+    background-color: #292D2E;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+#Topmenu .container {
+    background-color: #292D2E;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+div #Topmenu {
+    background-color: #292D2E;
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
 }
 
 /* .row {
