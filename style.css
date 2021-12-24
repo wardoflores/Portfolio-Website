@@ -222,6 +222,7 @@ footer li a {
 @media only screen and (max-width: 480px) {
     footer {
         position: fixed-bottom;
+        display: block;
         align-items: center;
         padding: 0px;
         bottom: 0rem;
@@ -235,6 +236,7 @@ footer li a {
 @media only screen and (max-width: 720px) {
     footer {
         position: fixed-bottom;
+        display: block;
         align-items: center;
         bottom: 0rem;
         padding-top: .5%;    
