@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <html lang="en">
-
-    
+  
     <head>
         <title>Joey Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Portfolio website for Eduardo Flores. Always work in progress!">
-        
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
@@ -23,22 +21,24 @@
         <meta property="og:description" content="Portfolio website for Eduardo Flores. Always work in progress!">
         <meta property="og:image" content="https://coalemus.github.io/Portfolio-Website/share-embed.png">
 
+        <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="manifest" href="site.webmanifest">
         
+        <!-- Stylesheet -->
         <link rel="stylesheet" href="style.css">
 
+        <!-- Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
+        <!-- Scripts -->
         <script src="script.js" defer></script>
 
-    </head>
-
-    
+    </head> 
 
     <body>
         <header>
@@ -54,7 +54,6 @@
                 <div id="mobilesocials">
                     <table id="imgs">
                         <tr>
-
                             <td>
                                 <a href="Resume.pdf" id="pdfimg" target="_blank" rel="noopener">
                                     <img src="resume.svg" 
@@ -99,8 +98,7 @@
                                     height="25"
                                     width="25"
                                     ></a>
-                            </td>
-                            
+                            </td> 
                         </tr>
                     </table>
                 </div>
@@ -164,64 +162,148 @@
                     </td>
                 </tr>        
             </table>
-
         </div>
 
         <div id="Intro">
+            <article>
+                <img src="someimg.png" 
+                            alt="Insert something here, WIP."
+                            height="25"
+                            width="25"
+                            >
+                <h1>
+                     Hi, i'm Joey Flores
+                </h1>
+                <p>
+                    Coder going where the wind blows, failing forward, for fun.
 
+                </p>
+            </article>
         </div>
 
-        <div id="statusreport">
-
+        <div id="About">
             <article>
-
-                <h1>Hello there</h1>
-            
-                    <h2>
-                        Work in progress!
-                    </h2>
-
-                    <p class="articlemsg">
-                        
-                        Worked on this site as a hobby and coded everything in vanilla html/css, 
-                        code will always improve on the basis of measure.dev statistics and I can't
-                        make sure that the methods in which I structure the code is up to date.
-
-                     </p>
-
-                    <h2>
-                        Give Feedback!
-                   </h2>
-
-                   <p class="articlemsg">
-                        
-                        <a href="#Contactdiv">
-                            Send me an email in the contact form,
-                        </a>
-                        <!-- <a href="https://mailto:eduardojoeyflores@gmail.com">Send me an email</a> -->
-                        <br>
-                        <a href="https://github.com/Coalemus/Portfolio-Website" target="_blank" rel="noopener">
-                            Add issues in the repository,
-                        </a>
-                        <br>
-                        or message me in my social media accounts.
-                        
-
-                   </p>
-
-                </section>
-
+                <h1>
+                    Hello there
+                </h1>
+                <h2>
+                    Work in progress!
+                </h2>
+                <p class="articlemsg">
+                    Worked on this site as a hobby and coded everything in vanilla html/css, 
+                    code will always improve on the basis of measure.dev statistics and I can't
+                    make sure that the methods in which I structure the code is up to date.
+                </p>
+                <h2>
+                    Give Feedback!
+                </h2>
+                <p class="articlemsg">
+                    
+                    <a href="#Contactdiv">
+                        Send me an email in the contact form,
+                    </a>
+                    <!-- <a href="https://mailto:eduardojoeyflores@gmail.com">Send me an email</a> -->
+                    <br>
+                    <a href="https://github.com/Coalemus/Portfolio-Website" target="_blank" rel="noopener">
+                        Add issues in the repository,
+                    </a>
+                    <br>
+                    or message me in my social media accounts.
+                </p>
             </article>
             
         </div>
-        <br>
+        <!-- <br>
         <br>
         &nbsp;
-        &nbsp;
+        &nbsp; -->
+
+        <div id="projects">
+            <h1 class="projects">
+                Projects
+            </h1>
+            <hr>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="parent white">
+            <div class="box">
+                <a href="https://github.com/Coalemus/Python-Discord-bot" target="_blank" rel="noopener">
+                    <img src="discordbot.svg" 
+                    alt="Discord Bot"
+                    >
+                </a>
+
+                    <h2 class="noselect">
+                        Discord Bot
+                    </h2>
+                        
+                    <p class="noselect">
+                        Used Discord.py to make a Admin/music player bot in my practice server.
+                    </p>
+            </div>
+
+            <div class="box">
+                <a href="https://github.com/Coalemus/Terminal-Projects" target="_blank" rel="noopener">
+                    <img src="shellterm.svg" 
+                    alt="Terminal projects"
+                    ></a>
+
+                    <h2 class="noselect">
+                        Terminal Projects
+                    </h2>
+
+                    <p class="noselect">
+                        Scripts for Linux systems and Coding projects.
+                    </p>
+            </div>
+
+            <div class="box">
+                <a href="https://github.com/Coalemus/Portfolio-Website" target="_blank" rel="noopener">
+                    <img src="webpage.svg" 
+                    alt="Portfolio-Website"
+                    ></a>
+
+                    <h2 class="noselect">
+                        Portfolio Website
+                    </h2>
+
+                    <p class="noselect">
+                        Code for this website. 
+                    </p>
+            </div>
+            
+            <div class="box">
+                <a href="https://github.com/Coalemus" target="_blank" rel="noopener">
+                    <img src="github.svg" 
+                    alt="Github profile"
+                    ></a>
+
+                    <h2 class="noselect">
+                        ... More soon!
+                    </h2>
+
+                    <p class="noselect">
+                        Check out my profile for latest updates. 
+                    </p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <!-- <hr> -->
+
         <div class="container" id="PDF">
-            <details class="noselect">
-                <summary class="button"><h2>Resume</h2></summary>
-                <br>
+            <details class="noselect" open>
+                <summary class="button#">
+                    <h2>
+                    Resume
+                    </h2>
+                    <hr>
+                </summary>
                 <a href="Eduardo Flores Resume.pdf" id="pdfredirect" alt="redirect" target="_blank" rel="noopener">
                     click here to download PDF.
                 </a>
@@ -231,15 +313,16 @@
 
                     Your web browser doesn't have a PDF plugin.
                     
-                    Instead you can 
+                    Instead you can; 
                     <a href="Eduardo Flores Resume.pdf"  id="pdfnoplugin" alt="Redirects you to a new tab." target="_blank" rel="noopener">
                         click here to view/download the PDF file.
                     </a>
-
                 </object>
                     
             </details>
-    </div>
+        </div>
+        
+        <!-- <hr> -->
 
         <div class="container" id="Contactdiv">
             <br>
@@ -267,87 +350,21 @@
                 <br>
                 <label class="hide" for="submit">hey there</label>
                 <input type="submit" name="submit" id="submit" class="contactforms" value="submit" onClick="submitForm()" required>
-
             </form>
             
             <br>
             <br>
 
         </div> 
-        
-        <br>
-        <div id="projects">
-            <h1  class="projects">
-                Projects
-            </h1>
-        </div>
-        <br>
-        <br>
-        <div class="parent white">
-            <div class="box">
-                <a href="https://github.com/Coalemus/Python-Discord-bot" target="_blank" rel="noopener">
-                    <img src="discordbot.svg" 
-                    alt="Discord Bot"
-                    ></a>
-
-                    <h2 class="noselect">Discord Bot</h2>
-                        
-                    <p class="noselect">
-                        Used Discord.py to make a Admin/music player bot in my practice server.
-                    </p>
-            </div>
-            <div class="box">
-                <a href="https://github.com/Coalemus/Terminal-Projects" target="_blank" rel="noopener">
-                    <img src="shellterm.svg" 
-                    alt="Terminal projects"
-                    ></a>
-
-                    <h2 class="noselect">Terminal Projects</h2>
-
-                    <p class="noselect">
-                        Scripts for Linux systems and Coding projects.
-                    </p>
-            </div>
-            <div class="box">
-                <a href="https://github.com/Coalemus/Portfolio-Website" target="_blank" rel="noopener">
-                    <img src="webpage.svg" 
-                    alt="Portfolio-Website"
-                    ></a>
-
-                    <h2 class="noselect">Portfolio Website</h2>
-
-                    <p class="noselect">
-                        Code for this website. 
-                    </p>
-            </div>
-            <div class="box">
-                <a href="https://github.com/Coalemus" target="_blank" rel="noopener">
-                    <img src="github.svg" 
-                    alt="Github profile"
-                    ></a>
-
-                    <h2 class="noselect">... More soon!</h2>
-
-                    <p class="noselect">
-                        Check out my profile for latest updates. 
-                    </p>
-            </div>
-        </div>
             
-        <!-- <div class="row">
-            <div class="column">
-                <div class="card">
-                    <br>
-                    <h1>more projects will come over time.</h1>
-                </div>
-            </div>
-        </div> -->
-        <!-- <br> -->
         <br>
         <br>
+
         <footer>
+
             <br>
             <br>
+
             <div class="container">
                 <ul>
                     <li><a href="#Intro">Intro</a></li>
@@ -355,8 +372,9 @@
                     <li><a href="#projects">Projects</a></li>
                 </ul>
             </div>
+            
             <div>
-                <p>© 2021 Eduardo Flores</p>
+                <p>© 2022 Eduardo Flores</p>
             </div>
 
         </footer>

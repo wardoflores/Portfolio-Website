@@ -118,7 +118,14 @@ footer li a {
 
 }
 
-
+hr {
+    height: 2px;
+    background-color: #292D2E;
+    border: none;
+    margin-right: 25%;
+    margin-left: 25%;
+    align-items: center;
+}
 
 
 
@@ -147,10 +154,6 @@ footer li a {
     background: #555;
 
 }
-
-
-
-
 
 /* Responsive Header sizes */
 
@@ -213,10 +216,6 @@ footer li a {
 
 }
 
-
-
-
-
 /* Responsive Footer sizes */
 
 @media only screen and (max-width: 480px) {
@@ -260,10 +259,6 @@ footer li a {
 
     }
 }
-
-
-
-
 
 /* Responsive Font sizes */
 
@@ -363,14 +358,6 @@ footer li a {
 
 }
 
-
-
-
-
-
-
-
-
 /* divs */
 
 @media only screen and (max-width: 480px) {
@@ -423,16 +410,28 @@ footer li a {
 }
 
 #PDF {
-    margin-top: 1%;
-    margin-bottom: 5%;
+    margin-top: 2.5%;
+    margin-bottom:2.5%;
 
 }
 
 #PDF summary {
     margin: auto;
+    text-align: center
 
 }
 
+details {
+    /* border: 2.5px solid #292D2E; */
+    border-radius: 4px;
+    padding: 1em 1em 0;
+}
+
+summary {
+    /* font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em; */
+}
 
 article {
     color:#C8C3BC;
@@ -441,12 +440,6 @@ article {
     margin: 0%;
 
 }
-
-
-
-
-
-
 
 /* Classes */
 
@@ -582,26 +575,6 @@ article {
     background-color: inherit;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Icon Features */
 
 #imgs img:hover {
@@ -613,10 +586,6 @@ article {
     background: rgba(1, 1, 1, 0.2);
     
 }
-
-
-
-
 
 /* Responsive Header icons */
 
@@ -776,10 +745,6 @@ article {
     }
     
 }
-
-
-
-
 
 /* Responsive Sticky icons */
 
@@ -953,6 +918,7 @@ article {
     
     }
 }
+
 @media only screen and (min-width: 721px) {
     #icons  {
         position: fixed;
@@ -1032,6 +998,7 @@ article {
     
     }
 }
+
 @media only screen and (min-width: 1441px) {
     #icons  {
         position: fixed;
@@ -1112,4 +1079,3 @@ article {
     
     }
 }
-
