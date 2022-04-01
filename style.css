@@ -3,11 +3,11 @@
 html {
     color:#C8C3BC;
     background-color: #1F2223;
-    background-image: url("eyes.svg");
+    /* background-image: url("eyes.svg"); */
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0px;
-    padding: 0px;
+    padding: 10;
     margin: 0px;
     scroll-behavior: smooth;
 
@@ -427,11 +427,11 @@ details {
     padding: 1em 1em 0;
 }
 
-summary {
-    /* font-weight: bold;
+/* summary {
+    font-weight: bold;
     margin: -.5em -.5em 0;
-    padding: .5em; */
-}
+    padding: .5em;
+} */
 
 article {
     color:#C8C3BC;
@@ -561,6 +561,13 @@ article {
     border-radius: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.box a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #C8C3BC
 }
 
 .projects {
