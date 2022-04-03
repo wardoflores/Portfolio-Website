@@ -1,0 +1,260 @@
+/* Static Intro icons */
+
+#introicons {
+    
+    
+
+}
+
+@media only screen and (max-width: 480px) {
+    #introicons  {
+        visibility: hidden;
+        display: none;
+    
+    }
+
+    #introicons a {
+        display: none;
+    
+    }
+    
+    #Linkedinlogointro {
+        display: none;
+        
+    }
+    
+    #Githublogointro {
+        display: none;
+        
+    }
+    
+    #Twitterlogointro {
+        display: none;
+    
+    }
+    
+    #Facebooklogointro {
+        display: none;
+    
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 481px){
+    #introicons  {
+        position: fixed;
+    
+    }
+
+    #introicons a {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Linkedinlogointro {
+        
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githublogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterlogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebooklogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    #introicons  {
+        /*To center a table do this: */
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    #introicons a {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Linkedinlogointro {
+        
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githublogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterlogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebooklogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    #introicons  {
+    
+    }
+
+    #introicons a {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Linkedinlogointro {
+        
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githublogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterlogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebooklogointro {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+}
