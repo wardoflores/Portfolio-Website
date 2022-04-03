@@ -6,14 +6,9 @@ Code for my Porfolio Website.
 
 - Complete Content
   - Finish Intro.
-- Rewrite Projects Div
-  - Use Grids rather than Divs
-- Style resume heading
-  - Design.
 - Add css animation for scrolling.
   -Scroll magic.
 - Add texture for background.
-
 ## Issues
 
 - Replace table code to more appropriate features.
@@ -21,7 +16,9 @@ Code for my Porfolio Website.
 
 ## Server used
 
-- apache24
-  - For local hosting
 - Github pages
   - Free domain hosting
+
+---
+
+notes: rasterize all language icons
