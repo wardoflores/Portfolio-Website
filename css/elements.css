@@ -15,9 +15,10 @@ html {
     box-sizing: border-box;
 }
 
+/* Might Override `modetoggle.css` */
 body {
     margin: 0px;
-    background-color: #181A1B;
+    background-color: #121212;
 
 }
 
