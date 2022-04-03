@@ -554,7 +554,7 @@ article {
 
 .box {
     /*  Stretching: */
-    flex: 1 1 150px; 
+    flex: 1 1 300px; 
     margin: 5px;
     background: #292D2E;
     gap: 1rem;
