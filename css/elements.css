@@ -44,6 +44,14 @@ a {
     
 }
 
+article {
+    color:#C8C3BC;
+    background-color: #1F2223;
+    padding: 7.5%;
+    margin: 0%;
+
+}
+
 input {
     max-width: 100%;
     max-height: 100%;
@@ -68,11 +76,3 @@ details {
     margin: -.5em -.5em 0;
     padding: .5em;
 } */
-
-article {
-    color:#C8C3BC;
-    background-color: #1F2223;
-    padding: 7.5%;
-    margin: 0%;
-
-}

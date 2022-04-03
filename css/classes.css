@@ -21,6 +21,10 @@
 
 }
 
+.minify {
+    font-size: 8px;
+}
+
 .button {
     background-color: lightcoral;
     color: #C8C3BC;
