@@ -1,0 +1,101 @@
+/* Responsive Font sizes */
+
+@media only screen and (max-width: 480px) {
+    p {
+        font-size: 16px;
+        
+    }
+
+    h1 {
+        font-size: 22px;
+        
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 18px:
+    }
+
+    label {
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) and (min-width: 481px) {
+    p {
+        font-size: 18px;
+        
+    }
+
+    h1 {
+        font-size: 24px;
+        
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 721px) {
+    p {
+        font-size: 22px;
+
+    }
+
+    h1 {
+        font-size: 26px;
+
+    }
+
+    h2 {
+        font-size: 24px;
+
+    }
+
+    h3 {
+        font-size: 22px;
+        
+    }
+
+    article h3 {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1441px) {
+    p {
+        font-size: 24px;
+
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    h2 {
+        font-size: 26px;
+
+    }
+
+    h3 {
+        display: none;
+
+    }
+
+}
