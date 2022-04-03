@@ -1,12 +1,15 @@
 html {
+    padding: 10;
+    /* eliminate margin that gets applied to every page */
+    margin: 0px;
+    /* font */
     color:#C8C3BC;
-    background-color: #1F2223;
-    /* background-image: url("eyes.svg"); */
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0px;
-    padding: 10;
-    margin: 0px;
+    /* Material UI dark mode color */
+    background-color: #121212;
+    /* background-image: url("eyes.svg"); */
     scroll-behavior: smooth;
 
 }
@@ -47,7 +50,7 @@ a {
 
 article {
     color:#C8C3BC;
-    background-color: #1F2223;
+    background-color: #232B32;
     padding: 7.5%;
     margin: 0%;
 
