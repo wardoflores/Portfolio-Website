@@ -1,0 +1,78 @@
+html {
+    color:#C8C3BC;
+    background-color: #1F2223;
+    /* background-image: url("eyes.svg"); */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    padding: 10;
+    margin: 0px;
+    scroll-behavior: smooth;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #181A1B;
+
+}
+
+span {
+    display: inline;
+
+}
+
+h1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #7AA6D4
+    
+}
+
+input {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+textarea {
+    resize: none;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+details {
+    /* border: 2.5px solid #292D2E; */
+    border-radius: 4px;
+    padding: 1em 1em 0;
+}
+
+/* summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+} */
+
+article {
+    color:#C8C3BC;
+    background-color: #1F2223;
+    padding: 7.5%;
+    margin: 0%;
+
+}

@@ -1,0 +1,298 @@
+header {
+    background-color: #292D2E;
+    position: sticky;
+    align-items: flex-start;
+    margin: 0px;
+    top: 0rem;
+    padding-top: .5px;    
+    padding-bottom: .5px;    
+
+}
+
+header li {
+    display: inline-block;
+
+
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+header li a {
+    padding: 6px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+footer {
+    background-color: #292D2E;
+
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer li {
+    display: inline-block;
+
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+footer li a {
+    padding: 6px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+hr {
+    height: 2px;
+    background-color: #292D2E;
+    border: none;
+    margin-right: 25%;
+    margin-left: 25%;
+    align-items: center;
+}
+
+
+
+/* Scrollbar attributes */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #292D2E;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
+}
+
+/* Responsive Header sizes */
+
+#mobilesocials {
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+    header {
+        position: sticky;
+        align-items: flex-start;
+        top: 0rem;
+        padding-top: .5px;    
+        padding-bottom: .5px; 
+
+    }
+
+    #mobilesocials {
+        display: unset;
+
+    }
+
+    td a{
+        width: 32px;
+
+    }
+
+    header h1 {
+        display: none;
+
+    }
+
+    header li a {
+        padding: 6px;
+        font-size: 18px;
+        text-decoration: none;
+    
+    }
+    
+
+}
+
+@media only screen and (min-width: 1441px) {
+    header {
+        position: sticky;
+        align-items: flex-start;
+        top: 0rem;
+        padding-top: .5px;    
+        padding-bottom: .5px; 
+
+    }
+
+    #mobilesocials {
+        display: unset;
+    }
+
+    td a{
+        width: 64px;
+
+    }
+
+}
+
+/* Responsive Footer sizes */
+
+@media only screen and (max-width: 480px) {
+    footer {
+        position: fixed-bottom;
+        align-items: center;
+        padding: 0px;
+        bottom: 0rem;
+        padding-top: .5%;    
+        padding-bottom: .5%;    
+
+    }
+
+    footer li {
+        display:block
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    footer {
+        position: fixed-bottom;
+        align-items: center;
+        bottom: 0rem;
+        padding-top: .5%;    
+        padding-bottom: .5%;    
+
+    }
+
+    footer li {
+        display:block
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    footer {
+        position: fixed-bottom;
+        align-items: center;
+        bottom: 0rem;
+        padding-top: .5%;    
+        padding-bottom: .5%;    
+
+    }
+}
+
+/* Responsive Font sizes */
+
+@media only screen and (max-width: 480px) {
+    p {
+        font-size: 16px;
+        
+    }
+
+    h1 {
+        font-size: 22px;
+        
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) and (min-width: 481px) {
+    p {
+        font-size: 18px;
+        
+    }
+
+    h1 {
+        font-size: 24px;
+        
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 721px) {
+    p {
+        font-size: 22px;
+
+    }
+
+    h1 {
+        font-size: 26px;
+
+    }
+
+    h2 {
+        font-size: 24px;
+
+    }
+
+    h3 {
+        font-size: 22px;
+        
+    }
+
+    article h3 {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1441px) {
+    p {
+        font-size: 24px;
+
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    h2 {
+        font-size: 26px;
+
+    }
+
+    h3 {
+        display: none;
+
+    }
+
+}

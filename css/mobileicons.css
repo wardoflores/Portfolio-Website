@@ -1,0 +1,163 @@
+#imgs img:hover {
+    background: rgba(1, 1, 1, 0.2);
+    
+}
+
+/* Responsive Header icons */
+
+@media only screen and (max-width: 480px) {
+    #imgs  {
+        letter-spacing: inherit;
+        border-spacing: 25%;
+        border-collapse: collapse;
+        top: 0%;
+        display: inline-block;
+    
+    }
+
+    #imgs a {
+        padding: 2.5px;
+        font-size: 8px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+
+    #Linkedinimg {
+        
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githubimg {
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterimg {
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebookimg {
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+}
+
+@media only screen and (min-width: 1441px) {
+    #imgs  {
+        letter-spacing: inherit;
+        border-spacing: 25%;
+        border-collapse: collapse;
+        top: 0%;
+        display: inline-block;
+        
+    
+    }
+
+    #imgs a {
+        padding: 2.5px;
+        font-size: 8px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+
+    #Linkedinimg {
+        
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githubimg {
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterimg {
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebookimg {
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+}

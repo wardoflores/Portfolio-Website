@@ -1,0 +1,338 @@
+#icons img:hover {
+    background: rgba(1, 1, 1, 0.2);
+    
+}
+
+/* Responsive Sticky icons */
+
+#icons {
+    background-color: #3C4143;
+
+}
+
+@media only screen and (max-width: 480px) {
+    #icons  {
+        position: fixed;
+        visibility: hidden;
+        display: none;
+        top: 30%;
+        left: .50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #icons a {
+        display: none;
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Linkedinlogo {
+        display: none;
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githublogo {
+        display: none;
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterlogo {
+        display: none;
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebooklogo {
+        display: none;
+        padding: 2.5px;
+        font-size: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 481px){
+    #icons  {
+        position: fixed;
+        top: 30%;
+        left: .50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #icons a {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Linkedinlogo {
+        
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githublogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterlogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebooklogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    #icons  {
+        position: fixed;
+        top: 30%;
+        left: .50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #icons a {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Linkedinlogo {
+        
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githublogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterlogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebooklogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    #icons  {
+        position: fixed;
+        display: none;
+        top: 30%;
+        left: .50%;
+        display: none;
+        flex-direction: column;
+        padding-top: 5px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #icons a {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Linkedinlogo {
+        
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Githublogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+        
+    }
+    
+    #Twitterlogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+    
+    #Facebooklogo {
+        padding: 2.5px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        place-items: center;
+        display:block;
+        margin: 0 auto;
+        text-indent: 0px;
+    
+    }
+}
