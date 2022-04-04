@@ -1,7 +1,7 @@
 html {
-    padding: 10;
+    /* padding: 10; */
     /* eliminate margin that gets applied to every page */
-    margin: 0px;
+    margin: 0;
     /* font */
     color:#C8C3BC;
     text-align: center;
@@ -19,11 +19,11 @@ html {
 }
 
 /* Might Override `modetoggle.css` */
-body {
+/* body {
     margin: 0px;
     background-color: #121212;
 
-}
+} */
 
 span {
     display: inline;

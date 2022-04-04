@@ -1,9 +1,9 @@
-.container {
+/* .container {
     margin: 0 auto;
     padding: 0 20px 0 20px;
-    max-width: 900px;
-    /* background-color: inherit; */
-}
+    max-width: 900px; */
+    /* background-color: inherit;  */
+/* } */
 
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */

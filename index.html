@@ -47,7 +47,7 @@
         <!-- Scripts -->
         <script src="./scripts/contactform.js" defer></script>
         <script src="./scripts/togglemode.js" defer></script>
-
+        <script src="./scripts/viewport.js" defer></script>
 
     </head> 
 
@@ -447,10 +447,11 @@
             </section>
 
             <br>
+            <br>
 
             <!-- <hr> -->
 
-            <section>
+            <!-- <section>
                 <div class="container" id="PDF">
                     <details class="noselect" open>
                         <summary class="button#">
@@ -480,12 +481,12 @@
                             
                     </details>
                 </div>
-            </section>
+            </section> -->
 
             <!-- <hr> -->
 
             <section>
-                <div class="container" id="Contactdiv">
+                <div class="container" id="Contactdiv#">
                     <br>
                     <br>
                     <h1 class="noselect">
@@ -503,7 +504,7 @@
                     <form name="contact" class="inputField" method="POST" action="https://mailto:eduardojoeyflores@gmail.com" target="_top">
                         <label for="Name" class="noselect">Name</label> 
                         <br>
-                        <input type="text" name="Name" id="Name" class="contactforms" onblur="checkForErrors(this)" required/> 
+                        <input type="text" name="Name" id="Name" class="contactforms" onblur=checkForErrors(this) required/> 
                         <span id="Name_ErrorMessage" class="errorMessage"> </span>
                         <br>
                         <label for="email" class="noselect">E-mail</label> 
@@ -516,7 +517,7 @@
                         <textarea name="message" id="message" class="contactforms" maxlength="128" cols="40%" rows="5%" required ></textarea> <br>
                         <br>
                         <label class="hide" for="submit">hey there</label>
-                        <input type="submit" name="submit" id="submit" class="contactforms" value="submit" onClick="submitForm()" required>
+                        <input type="submit" name="submit" id="submit" class="contactforms" value="submit" onClick;="submitForm()" required>
                     </form>
                     
                     <br>
@@ -525,23 +526,26 @@
                 </div>
             </section>
             
-        <br>
-        <br>
+            <br>
+            <br>
 
-        <footer>
+            <section>
+                <footer>
 
-            <div class="container">
-                <ul>
-                    <li><a href="#Intro">Intro</a></li>
-                    <li><a href="#Contactdiv">Contact</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </div>
-            
-            <div>
-                <p><b>Joey Flores</b> © 2021-2022  </p>
-            </div>
+                    <div class="container">
+                        <ul>
+                            <li><a href="#Intro">Intro</a></li>
+                            <li><a href="#Contactdiv">Contact</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <p><b>Joey Flores</b> © 2021-2022  </p>
+                    </div>
 
-        </footer>
+                </footer>
+            </section>
+        </div>
     </body>
 </html>

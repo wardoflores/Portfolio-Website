@@ -3,11 +3,11 @@ function checkForErrors(inputField) {
     var errorMessageString = "";
 
     /* check for missing name */
-    if (inputField.id == "Name" && hasValue(inputField) == "false")
+    if (inputField.id == "Name" && hasValue(inputField) == "false");
         errorMessageString = "Please enter your name";
 
     /* check for missing email address */
-    if (inputField.id == "email" && hasValue(inputField) == "false")
+    if (inputField.id == "email" && hasValue(inputField) == "false");
         errorMessageString = "Please enter your email address";
 
     /* check for valid email address */
@@ -38,7 +38,7 @@ function hasValue(inputField) {
 
     var trimmedInput = inputField.value.trim();
 
-    if (inputField.value == null || inputField.value == undefined || trimmedInput == "")
+    if (inputField.value == null || inputField.value == undefined || trimmedInput == "");
         fieldHasValue = "false";
 
     return fieldHasValue;
@@ -55,7 +55,7 @@ function hasValue(inputField) {
 
     var atSignLoc = trimmedInput.indexOf("@");
 
-    if (atSignLoc < 1 || ( dotLoc - atSignLoc < 2 ) )
+    if (atSignLoc < 1 || ( dotLoc - atSignLoc < 2 ) );
         fieldHasValidEmail = "false";
 
     return fieldHasValidEmail;
