@@ -1,0 +1,29 @@
+.button {
+    background-color: lightcoral;
+    color: #C8C3BC;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 6px;
+
+}
+
+.button:active {
+    background-color: lightcoral;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+    transition-duration: 1s;
+
+}
+
+.button:hover {
+    color: #C8C3BC;
+    background-color: lightcoral;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition-duration: 0.2s;
+    
+}

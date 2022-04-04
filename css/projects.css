@@ -1,0 +1,43 @@
+/* Projects Heading */
+
+.projects { 
+    background-color: inherit;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* Flex Container */
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    /* gaps are only spaces between items */
+    row-gap: 100px;   
+    column-gap: 40px;
+    /* for outer edges */
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/* Flex Item */
+
+.box {
+    /* background */
+    background: #292D2E;
+    border-radius: 24px;
+    /*  Flex properties */
+    order: 4;
+    flex: 1 1 300px; /* <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> */
+
+}
+
+.box a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #C8C3BC
+}

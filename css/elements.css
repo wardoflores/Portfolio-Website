@@ -1,14 +1,13 @@
 html {
-    /* padding: 10; */
     /* eliminate margin that gets applied to every page */
     margin: 0;
     /* font */
+    font-family: 'Montserrat', sans-serif;
     color:#C8C3BC;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0px;
     /* Material UI dark mode color */
-    background-color: #121212;
+    background-color: #121212; /* 1st Layer */
     /* background-image: url("eyes.svg"); */
     scroll-behavior: smooth;
 

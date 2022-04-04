@@ -1,9 +1,9 @@
-/* .container {
+.container {
     margin: 0 auto;
     padding: 0 20px 0 20px;
-    max-width: 900px; */
-    /* background-color: inherit;  */
-/* } */
+    max-width: 900px;
+    background-color: inherit; 
+}
 
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -23,118 +23,4 @@
 
 .minify {
     font-size: 8px;
-}
-
-.button {
-    background-color: lightcoral;
-    color: #C8C3BC;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px 32px;
-    font-size: 16px;
-    width: 50%;
-    border-radius: 6px;
-    
-
-}
-
-.button:active {
-    background-color: lightcoral;
-    box-shadow: 0 5px #999;
-    transform: translateY(4px);
-    transition-duration: 1s;
-
-}
-
-.button:hover {
-    color: #C8C3BC;
-    background-color: lightcoral;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    transition-duration: 0.2s;
-}
-
-.inputField {
-    margin-top: 0px;
-
-}
-
-.contactforms {
-    color: #C8C3BC;
-    background-color:rgba(0, 0, 0, 0.2)
-}
-
-.errorMessage {
-    color:lightcoral; display:none;
-
-}
-
-.prjart {
-    margin: 0;
-    /* height: 100vh; */
-    background-color: inherit;
-
-
-}
-
-.prjart article {
-    background-color: #292D2E;
-}
-
-.articlemsg {
-    justify-content: center;
-    word-spacing: 1px;
-    margin-left: 15%;
-    margin-right: 15%;
-    
-}
-
-.parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-.parent1 {
-    display: grid;
-    place-items: center;
-}
-  
-.card {
-    width: clamp(23ch, 60%, 46ch);
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-  
-.visual {
-    height: 125px;
-    width: 100%;
-}
-
-.box {
-    /*  Stretching: */
-    flex: 1 1 300px; 
-    margin: 5px;
-    background: #292D2E;
-    gap: 1rem;
-    border-radius: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.box a {
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-    color: #C8C3BC
-}
-
-.projects {
-    background-color: inherit;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
 }

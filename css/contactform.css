@@ -1,0 +1,22 @@
+.articlemsg {
+    justify-content: center;
+    word-spacing: 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.inputField {
+    margin-top: 0px;
+
+}
+
+.contactforms {
+    color: #C8C3BC;
+    background-color:rgba(0, 0, 0, 0.2)
+}
+
+.errorMessage {
+    color:lightcoral; display:none;
+
+}
