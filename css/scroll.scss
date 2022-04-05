@@ -12,6 +12,7 @@ body {
 }
 
 .snapcontainer {
+    background-color: rgba(12, 12, 12, 1); /* 1st Layer as its part of the body */
     width: 100%;
     height: 100%;
     // overflow-x: hidden;
@@ -21,6 +22,7 @@ body {
     section {
 
         scroll-snap-align: start;
+        background-color: rgba(12, 12, 12, 0.8); /* 2nd Layer */
 
         // &:nth-of-type(1) {
         //     align-items: center;

@@ -3,6 +3,12 @@
     
 }
 
+#imgs {
+    position: fixed;
+    visibility: hidden;
+    display: none;
+}
+
 /* Responsive Header icons */
 
 @media only screen and (max-width: 480px) {

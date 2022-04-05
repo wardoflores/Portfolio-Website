@@ -1,7 +1,6 @@
 /* Projects Heading */
 
 .projects { 
-    background-color: inherit;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -27,11 +26,19 @@
 
 .box {
     /* background */
-    background: #292D2E;
+    background-color: rgb(35, 43, 50, .6); /* 3rd Layer */
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
+    box-shadow: 0 2px 2px 0 rgba(35, 43, 50, 0.16), 0 0 0 1px rgba(35, 43, 50, 0.08);
     border-radius: 24px;
     /*  Flex properties */
     order: 4;
     flex: 1 1 300px; /* <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> */
+
+}
+/* 38, 50, 56 4th */
+.box:hover {
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
+    box-shadow: 0 8px 8px 0 rgba(35, 43, 50, 0.16), 0 0 0 1px rgba(35, 43, 50, 0.08);
 
 }
 

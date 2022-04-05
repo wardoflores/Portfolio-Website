@@ -1,5 +1,7 @@
 header {
-    background-color: #292D2E;
+    background-color: rgba(35, 43, 50, 0.4); /* 4th Layer */
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     position: sticky;
     align-items: flex-start;
     margin: 0px;
@@ -31,7 +33,10 @@ header li a {
 }
 
 footer {
-    background-color: #292D2E;
+    background-color: rgba(35, 43, 50, 0.4); /* 4th Layer */
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+
 
 }
 
@@ -60,7 +65,8 @@ footer li a {
 
 hr {
     height: 2px;
-    background-color: #292D2E;
+    /* TODO */
+    background-color: rgba(41, 45, 46, .8); /* 2nd layer */
     border: none;
     margin-right: 25%;
     margin-left: 25%;
@@ -70,6 +76,8 @@ hr {
 /* Responsive Header sizes */
 
 #mobilesocials {
+    position: fixed;
+    visibility: hidden;
     display: none;
 }
 @media only screen and (max-width: 480px) {

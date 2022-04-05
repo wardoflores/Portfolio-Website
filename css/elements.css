@@ -1,15 +1,18 @@
 html {
     /* eliminate margin that gets applied to every page */
     margin: 0;
+
     /* font */
     font-family: 'Montserrat', sans-serif;
     color:#C8C3BC;
     text-align: center;
     letter-spacing: 0px;
+    
     /* Material UI dark mode color */
-    background-color: #121212; /* 1st Layer */
+    background-color: rgba(12, 12, 12, 1); /* 1st Layer */
+
     /* background-image: url("eyes.svg"); */
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 
 }
 
@@ -17,12 +20,23 @@ html {
     box-sizing: border-box;
 }
 
-/* Might Override `modetoggle.css` */
-/* body {
-    margin: 0px;
-    background-color: #121212;
+article {
+    color:#C8C3BC;
+    /* Accent Color 2nd layer */ 
+    background-color: rgba(35, 43, 50, .8); 
+    padding: 7.5%;
+    margin: 0%;
 
-} */
+}
+/* rgb(0, 150, 136) */
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #03DAC6;
+    
+}
 
 span {
     display: inline;
@@ -37,22 +51,6 @@ h1 {
 p {
     max-width: 100%;
     max-height: 100%;
-}
-
-a {
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-    color: #7AA6D4
-    
-}
-
-article {
-    color:#C8C3BC;
-    background-color: #232B32;
-    padding: 7.5%;
-    margin: 0%;
-
 }
 
 input {

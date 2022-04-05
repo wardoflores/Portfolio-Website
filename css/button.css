@@ -1,5 +1,64 @@
+#submit {
+    /* background */
+    background-color: rgb(122, 166, 212, .6); /* 4th Layer */
+    /* color: #fff; */
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
+    box-shadow: 0 2px 2px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    /* border-style: outset; */
+    border-color: rgb(122, 166, 212, 1);
+    height: 50px;
+    width: 100px;
+    text-shadow: none;
+    margin-top: -30px;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    -webkit-transition: background 400ms;
+    transition: background 400ms;
+
+}
+
+#submit:hover {
+    /* background */
+    background-color: rgb(122, 166, 212, .4); /* 4th Layer */
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
+    box-shadow: 0 8px 8px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transition-duration: 0.2s;
+}
+
+#submit:active {
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
+    box-shadow: 0 2px 2px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transform: translateY(4px);
+    transition-duration: .1s;
+}
+
+.ripple {
+    background-position: center;
+    -webkit-transition: background 0.8s;
+    transition: background 0.8s;
+  }
+.ripple:hover {
+    background: rgb(122, 166, 212, .4) radial-gradient(circle, transparent 1%, rgb(122, 166, 212, .4) 1%) center/15000%;
+}
+.ripple:active {
+    background-color: #cfb2f9;
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s;
+}
+
 .button {
     background-color: lightcoral;
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     color: #C8C3BC;
     border: none;
     text-align: center;
@@ -23,7 +82,8 @@
 .button:hover {
     color: #C8C3BC;
     background-color: lightcoral;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     transition-duration: 0.2s;
-    
+
 }
