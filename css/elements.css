@@ -84,3 +84,7 @@ details {
     margin: -.5em -.5em 0;
     padding: .5em;
 } */
+
+#About h2 p {
+    align-items: left;
+}
