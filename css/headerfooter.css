@@ -104,8 +104,8 @@ hr {
 }
 @media only screen and (max-width: 480px) {
     header {
-        position: sticky;
         align-items: flex-start;
+        justify-content: space-between;
         top: 0rem;
         padding-top: .5px;    
         padding-bottom: .5px; 
@@ -131,6 +131,7 @@ hr {
         padding: 6px;
         font-size: 18px;
         text-decoration: none;
+        display: none;
     
     }
     
@@ -139,8 +140,8 @@ hr {
 
 @media only screen and (min-width: 1441px) {
     header {
-        position: sticky;
         align-items: flex-start;
+        justify-content: space-between;
         top: 0rem;
         padding-top: .5px;    
         padding-bottom: .5px; 
