@@ -41,8 +41,12 @@ a {
     text-decoration: none;
     display: block;
     padding: 8px;
-    color: #FFEB3B;
+    color: #03DAC6;
     
+}
+
+article a {
+    color: #FFEB3B;
 }
 
 span {
