@@ -2,6 +2,7 @@
     margin: 0 auto;
     padding: 0 20px 0 20px;
     max-width: 900px;
+
 }
 
 .noselect {
@@ -22,4 +23,11 @@
 
 .minify {
     font-size: 8px;
+    
+}
+
+.uncenter {
+    place-items: left;
+    justify-content: left;
+
 }
