@@ -19,11 +19,14 @@
     margin-left: 100px;
 }
 
+/* rgb(47, 79, 79)
+rgb(32, 178, 170) */
+
 .box2 {
     /* background */
-    background-color: rgb(35, 43, 50, .6); /* 3rd Layer */
+    background-color: rgba(47, 79, 79, .6); /* 3rd Layer */
     /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
-    box-shadow: 0 2px 2px 0 rgba(35, 43, 50, 0.16), 0 0 0 1px rgba(35, 43, 50, 0.08);
+    box-shadow: 0 2px 2px 0 rgba(47, 79, 79, 0.16), 0 0 0 1px rgba(35, 43, 50, 0.08);
     border-radius: 24px;
     /*  Flex properties */
     order: 4;
