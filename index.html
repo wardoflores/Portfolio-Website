@@ -404,6 +404,13 @@
                             <table>
                                 <tr>
                                     <td>
+                                        <img src="./svg/github.svg" 
+                                        alt="Python Projects"
+                                        height="25"
+                                        width="25"
+                                    >
+                                    </td>
+                                    <td>
                                         <img src="./svg/python.svg" 
                                         alt="Python Projects"
                                         height="25"
@@ -444,6 +451,13 @@
                             <table>
                                 <tr>
                                     <td>
+                                        <img src="./svg/github.svg" 
+                                        alt="Python Projects"
+                                        height="25"
+                                        width="25"
+                                    >
+                                    </td>
+                                    <td>
                                         <img src="./svg/javascript.svg" 
                                         alt="Python Projects"
                                         height="25"
@@ -469,6 +483,13 @@
                             <hr>
                             <table>
                                 <tr>
+                                    <td>
+                                        <img src="./svg/github.svg" 
+                                        alt="Python Projects"
+                                        height="25"
+                                        width="25"
+                                    >
+                                    </td>
                                     <td>
                                         <img src="./svg/shellterm.svg" 
                                         alt="Python Projects"
@@ -497,6 +518,7 @@
                             alt="Portfolio-Website"
                             height="256"
                             width="512"
+                            class="imgcurve"
                             >
                             <h2>
                                 Portfolio Website
@@ -504,6 +526,13 @@
                             <hr>
                             <table>
                                 <tr>
+                                    <td>
+                                        <img src="./svg/github.svg" 
+                                        alt="Python Projects"
+                                        height="25"
+                                        width="25"
+                                    >
+                                    </td>
                                     <td>
                                         <img src="./svg/webpage.svg" 
                                         alt="Python Projects"
@@ -533,6 +562,7 @@
                             alt="Post Box using MERN Stack CRUD"
                             height="256"
                             width="512"
+                            class="imgcurve"
                             >
                             <h2 class="noselect">
                                 Post Box using MERN Stack CRUD
@@ -540,6 +570,13 @@
                             <hr>
                             <table>
                                 <tr>
+                                    <td>
+                                        <img src="./svg/github.svg" 
+                                        alt="Python Projects"
+                                        height="25"
+                                        width="25"
+                                    >
+                                    </td>
                                     <td>
                                         <img src="./svg/webpage.svg" 
                                         alt="Python Projects"
@@ -582,7 +619,7 @@
                             </p>
                         </a>    
                     </div>
-                    
+
                     <div class="box">
                         <a href="https://github.com/Coalemus/Python-Projects/tree/main/selenium" target="_blank" rel="noopener">
                             <img src="./svg/selenium.svg" 
@@ -594,6 +631,13 @@
                             <hr>
                             <table>
                                 <tr>
+                                    <td>
+                                        <img src="./svg/github.svg" 
+                                        alt="Python Projects"
+                                        height="25"
+                                        width="25"
+                                    >
+                                    </td>
                                     <td>
                                         <img src="./svg/python.svg" 
                                         alt="Python Projects"
@@ -635,6 +679,13 @@
                             <table>
                                 <tr>
                                     <td>
+                                        <img src="./svg/github.svg" 
+                                        alt="Python Projects"
+                                        height="25"
+                                        width="25"
+                                    >
+                                    </td>
+                                    <td>
                                         <img src="./svg/python.svg" 
                                         alt="Python Projects"
                                         height="25"
@@ -674,10 +725,12 @@
                 </div>
             </section>
 
+            <section>
             <br>
             <br>
             <br>
             <br>
+            </section>
 
             <!-- <section>
                 <div class="container" id="PDF">
@@ -713,43 +766,41 @@
 
             <!-- <hr> -->
 
-            <section>
-                <div class="container" id="Contacts">
+            <div class="container" id="Contacts">
+                <br>
+                <br>
+                <h1 class="noselect">
+                    Contact Form
+                    <p class="minify">
+                        (TODO: Improve CSS into Material Design, A left-aligned template might be better)
+                    </p>
+                <hr>
+                </h1>
+
+                <p class="noselect">Please send your message below. I'll reply as soon as possible.</p>
+                
+                <label class="hide" for="contact">hey there</label>
+
+                <form name="contact" class="inputField" method="POST" action="https://mailto:eduardojoeyflores@gmail.com" target="_top">
+                    <label for="Name" class="noselect">Name</label> 
                     <br>
+                    <input type="text" name="Name" id="Name" class="contactforms" onblur=checkForErrors(this) required/> 
+                    <span id="Name_ErrorMessage" class="errorMessage"> </span>
                     <br>
-                    <h1 class="noselect">
-                        Contact Form
-                        <p class="minify">
-                            (TODO: Improve CSS into Material Design, A left-aligned template might be better)
-                        </p>
-                    <hr>
-                    </h1>
+                    <label for="email" class="noselect">E-mail</label> 
+                    <br>
+                    <input type="email" name="email" id="email" class="contactforms" onblur="checkForErrors(this)" required /> 
+                    <span id="email_ErrorMessage" class="errorMessage"> </span>
+                    <br>
+                    <label for="message" class="noselect">Message</label> 
+                    <br>
+                    <textarea name="message" id="message" class="contactforms" maxlength="128" cols="40%" rows="5%" required ></textarea> <br>
+                    <br>
+                    <label class="hide" for="submit">hey there</label>
+                    <input type="submit" name="submit" id="submit" class="ripple" value="submit" onClick;="submitForm()" required>
+                </form>
 
-                    <p class="noselect">Please send your message below. I'll reply as soon as possible.</p>
-                    
-                    <label class="hide" for="contact">hey there</label>
-
-                    <form name="contact" class="inputField" method="POST" action="https://mailto:eduardojoeyflores@gmail.com" target="_top">
-                        <label for="Name" class="noselect">Name</label> 
-                        <br>
-                        <input type="text" name="Name" id="Name" class="contactforms" onblur=checkForErrors(this) required/> 
-                        <span id="Name_ErrorMessage" class="errorMessage"> </span>
-                        <br>
-                        <label for="email" class="noselect">E-mail</label> 
-                        <br>
-                        <input type="email" name="email" id="email" class="contactforms" onblur="checkForErrors(this)" required /> 
-                        <span id="email_ErrorMessage" class="errorMessage"> </span>
-                        <br>
-                        <label for="message" class="noselect">Message</label> 
-                        <br>
-                        <textarea name="message" id="message" class="contactforms" maxlength="128" cols="40%" rows="5%" required ></textarea> <br>
-                        <br>
-                        <label class="hide" for="submit">hey there</label>
-                        <input type="submit" name="submit" id="submit" class="ripple" value="submit" onClick;="submitForm()" required>
-                    </form>
-
-                </div>
-            </section>
+            </div>
             
             <br>
             <br>
