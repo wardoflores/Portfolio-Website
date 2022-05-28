@@ -48,3 +48,54 @@
     padding: 8px;
     color: #C8C3BC
 }
+
+.boximg {
+    border-radius:8px;
+   -moz-border-radius:8px;
+   -webkit-border-radius:8px;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .boximg {
+        height: 128px;
+        width: 256px;
+
+    }
+
+    .stackimgs {
+        height: 125px;
+        width: 125px;
+    }
+}
+
+@media only screen and (max-width: 770px) and (min-width: 480px) {
+
+    .boximg {
+        height: 256px;
+        width: 512px;
+
+    }
+    
+    .stackimgs {
+        height: 125px;
+        width: 275px;
+    }
+
+}
+
+@media only screen and (min-width: 771px) {
+
+    .boximg {
+        height: 175px;
+        width: 342px;
+
+    }
+    
+    .stackimgs {
+        height: 100px;
+        width: 175px;
+    }
+
+}

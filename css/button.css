@@ -55,9 +55,8 @@
     transition: background 0s;
 }
 
-.button {
+/* .button {
     background-color: lightcoral;
-    /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     color: #C8C3BC;
     border: none;
@@ -68,6 +67,9 @@
     font-size: 16px;
     width: 50%;
     border-radius: 6px;
+
+    offset-x offset-y blur-radius spread-radius color 
+    0 2px 2px 0 for resting
 
 }
 
@@ -82,8 +84,9 @@
 .button:hover {
     color: #C8C3BC;
     background-color: lightcoral;
-    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     transition-duration: 0.2s;
 
-}
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised 
+
+} */
