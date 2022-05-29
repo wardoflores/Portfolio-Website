@@ -27,7 +27,6 @@
 }
 
 .uncenter {
-    place-items: left;
-    justify-content: left;
+    float:left;
 
 }
