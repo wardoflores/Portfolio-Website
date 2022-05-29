@@ -752,12 +752,10 @@
                 </div>
             </section>
 
-            <section>
             <br>
             <br>
             <br>
             <br>
-            </section>
 
             <!-- <section>
                 <div class="container" id="PDF">
@@ -792,15 +790,16 @@
             </section> -->
 
             <!-- <hr> -->
+        <section>
+
+        </section>
+
 
             <div class="container" id="Contacts">
                 <br>
                 <br>
                 <h1 class="noselect">
                     Contact Form
-                    <p class="minify">
-                        (TODO: Improve CSS into Material Design, A left-aligned template might be better)
-                    </p>
                 <hr>
                 </h1>
 
@@ -808,23 +807,70 @@
                 
                 <label class="hide" for="contact">hey there</label>
 
-                <form name="contact" class="inputField" method="POST" action="https://mailto:eduardojoeyflores@gmail.com" target="_top">
+                <form 
+                name="contact" 
+                class="inputField" 
+                method="POST" 
+                action="https://mailto:eduardojoeyflores@gmail.com" 
+                target="_top">
+                
+                <!--  onsubmit="return false" -->
+
                     <label for="Name" class="noselect">Name</label> 
+
                     <br>
-                    <input type="text" name="Name" id="Name" class="contactforms" onblur=checkForErrors(this) required/> 
+
+                    <input 
+                    type="text" 
+                    name="senderName" 
+                    id="senderName" 
+                    class="contactforms" 
+                    onblur=checkForErrors(this) required/> 
+                    
                     <span id="Name_ErrorMessage" class="errorMessage"> </span>
+                    
                     <br>
+                    
                     <label for="email" class="noselect">E-mail</label> 
+                    
                     <br>
-                    <input type="email" name="email" id="email" class="contactforms" onblur="checkForErrors(this)" required /> 
+                    
+                    <input 
+                    type="email" 
+                    name="senderEmail" 
+                    id="senderEmail" 
+                    class="contactforms" 
+                    onblur="checkForErrors(this)" required /> 
+                    
                     <span id="email_ErrorMessage" class="errorMessage"> </span>
+                   
                     <br>
+                    
                     <label for="message" class="noselect">Message</label> 
+                    
                     <br>
-                    <textarea name="message" id="message" class="contactforms" maxlength="128" cols="40%" rows="5%" required ></textarea> <br>
+                    
+                    <textarea 
+                    name="message" 
+                    id="message" 
+                    class="contactforms" 
+                    maxlength="128" 
+                    cols="40%" 
+                    rows="5%" 
+                    required ></textarea> <br>
+                    
                     <br>
+                    
                     <label class="hide" for="submit">hey there</label>
-                    <input type="submit" name="submit" id="submit" class="ripple" value="submit" onClick;="submitForm()" required>
+                    
+                    <input 
+                    type="submit" 
+                    name="submit" 
+                    id="submit" 
+                    class="ripple" 
+                    value="submit" 
+                    onClick;="submitForm()" required>
+                
                 </form>
 
             </div>

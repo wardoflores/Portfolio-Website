@@ -15,6 +15,53 @@
 
 }
 
+label {
+    float:left;
+    font-size:16px
+
+}
+
+input[type="text"] {
+    width:100%;
+    margin-top:10px;
+    height:35px;
+    margin-bottom:25px;
+    padding:10px;
+    border:1.5px solid #03DAC6;
+    background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
+
+}
+
+input[type="email"] {
+    width:100%;
+    margin-top:10px;
+    height:35px;
+    margin-bottom:25px;
+    padding:10px;
+    border:1.5px solid #03DAC6;
+    background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
+    
+}
+
+/* #A03DC6 */
+    
+textarea {
+    width:100%;
+    border:1.5px solid #03DAC6;
+    padding:10px;
+    margin-bottom:25px;
+    margin-top:10px;
+    height:100px;
+    resize:none;
+    background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
+
+}
+
+/* input[type="submit"]{
+
+
+} */
+
 @media only screen and (max-width: 480px) {
 
     #Contactdiv {
