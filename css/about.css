@@ -45,16 +45,26 @@ article a:hover {
 rgb(32, 178, 170) */
 
 .box2 {
-    /* background */
+    /* background of the box itself */
     background-color: rgba(47, 79, 79, .6); /* 3rd Layer */
     /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
     box-shadow: 0 2px 2px 0 rgba(47, 79, 79, 0.16), 0 0 0 1px rgba(35, 43, 50, 0.08);
     border-radius: 24px;
     /*  Flex properties */
     order: 4;
+    width: auto;
     flex: 1 1 300px; /* <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> */
 
 }
+
+@media only screen and (max-width: 480px) {
+
+    .box2 {
+        
+    }
+
+}
+
 /* 38, 50, 56 4th */
 .box2:hover {
     /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
@@ -64,7 +74,6 @@ rgb(32, 178, 170) */
 
 .box2 a {
     text-decoration: none;
-    display: block;
     padding: 8px;
     color: #C8C3BC
 }
