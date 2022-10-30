@@ -6,7 +6,8 @@
         <title>Joey Flores</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Portfolio website of Joey Flores. Always work in progress!">
-        <meta name="color-scheme" content="dark light">
+        <meta name="color-scheme" content="dark light"> 
+        <!-- TODO dark and light mode toggle AFTER switching all css with SASS. -->
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
@@ -60,11 +61,21 @@
         <script src="./scripts/togglemode.js" defer></script>
         <script src="./scripts/viewport.js" defer></script>
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQWTWT736P"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-WQWTWT736P');
+        </script>
+
     </head> 
 
     <body>
         
-        <div class="container"> <!-- Desktop Sticky icons -->
+        <div class="container"> <!-- Laptop/Tablet Sticky icons -->
             <table id="icons">
                 <tr>
                     <!-- <td>
@@ -126,7 +137,7 @@
                 <header>
                     <div>
                         <div>
-                            <ul>
+                            <ul> <!-- Main Header Links -->
                                 <a href="https://coalemus.github.io/Portfolio-Website/">🔰Joey Flores</a>
                                 <li><a href="#Intro">Intro</a></li>
                                 <li><a href="#Contacts">Contact</a></li>
@@ -218,6 +229,7 @@
 
                         <div>
 
+                            <!-- TODO disappear animation when scrolling down, switching to the side sticky icons -->
                             <table id="introicons">
                                     <!-- <td>
                                         <a href="./inc/Eduardo Flores Resume.pdf" id="pdficon" target="_blank" rel="noopener">
@@ -273,11 +285,13 @@
             <section>
             
                 <br>
+                <!-- To add a margin at the top of the page, making room for the header to show up and not block the title. -->
                 <br>
 
             </section>
             
-                <div id="About">
+                <div id="About"> 
+                    <!-- TODO slideshow for professions -->
                     <h1>
                         Who am I?
                         
@@ -298,6 +312,7 @@
                     <h2>
                         Technologies
                     </h2>
+                    <!-- TODO switch cards into slideshow for each Position of the tech industry esp. for mobile, desktop optional -->
                     <div class="parent2 white">
                         <div class="box2">
                             <p>
@@ -321,7 +336,6 @@
                                     </tr>
                                 </table><a>Automation</a>
                                 I use Python and bash scripting to automate tasks.
-                                <!-- TODO slideshow for mobile -->
                             </p>
                         </div>
                         <div class="box2">
@@ -409,11 +423,14 @@
             <section>
 
                 <br>
+                <!-- To add a margin at the top of the page, making room for the header to show up and not block the title. -->
                 <br>
 
             </section>
             
                 <div id="projects">
+                    <!-- TODO move some projects into the above slideshows -->
+                    <!-- TODO suggestion to make the cards into slideshows??? -->
                     <h1>
                         Projects
                         
@@ -808,12 +825,14 @@
         <section>
 
             <br>
+            <!-- To add a margin at the top of the page, making room for the header to show up and not block the title. -->
             <br>
 
         </section>
 
 
             <div class="container" id="Contacts">
+                <!-- TODO properly code the contact form back-end Javascript -->
                 <h1 class="noselect">
                     Contact Form
                 <hr>
@@ -899,6 +918,7 @@
 
             <section>
                 <footer>
+                    <!-- TODO . -->
 
                     <div class="container">
                         <ul>
