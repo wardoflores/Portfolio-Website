@@ -1,0 +1,190 @@
+<div class="container" id="Contacts">
+    <!-- TODO properly code the contact form back-end Javascript -->
+    <h1 class="noselect">
+        Contact Form
+    <hr>
+    </h1>
+
+    <p class="noselect">Please send your message below. I'll reply as soon as possible.</p>
+    
+    <label class="hide" for="contact">hey there</label>
+
+    <form 
+    name="contact" 
+    class="inputField" 
+    method="POST" 
+    action="https://mailto:eduardojoeyflores@gmail.com" 
+    target="_top">
+    
+    <!--  onsubmit="return false" -->
+
+        <label for="Name" class="noselect">Name</label> 
+
+        <br>
+
+        <input 
+        type="text" 
+        name="senderName" 
+        id="senderName" 
+        class="contactforms" 
+        onblur=checkForErrors(this) required/> 
+        
+        <span id="Name_ErrorMessage" class="errorMessage"> </span>
+        
+        <br>
+        
+        <label for="email" class="noselect">E-mail</label> 
+        
+        <br>
+        
+        <input 
+        type="email" 
+        name="senderEmail" 
+        id="senderEmail" 
+        class="contactforms" 
+        onblur="checkForErrors(this)" required /> 
+        
+        <span id="email_ErrorMessage" class="errorMessage"> </span>
+       
+        <br>
+        
+        <label for="message" class="noselect">Message</label> 
+        
+        <br>
+        
+        <textarea 
+        name="message" 
+        id="message" 
+        class="contactforms" 
+        maxlength="128" 
+        cols="40%" 
+        rows="5%"
+        style="background-color:rgba(35, 43, 50, 0.4);"
+        required ></textarea> <br>
+        
+        <br>
+        
+        <label class="hide" for="submit">hey there</label>
+        
+        <input 
+        type="submit" 
+        name="submit" 
+        id="submit" 
+        class="ripple" 
+        value="submit" 
+        onClick="submitForm()" required>
+    
+    </form>
+
+</div>
+
+<style>
+    .inputField {
+    margin-top: 0px;
+
+}
+
+.contactforms {
+    color: #C8C3BC;
+    background-color: rgba(12, 12, 12, 0.2); /* 2nd Layer */
+    /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.errorMessage {
+    color: #CF6679; display:none;
+
+}
+
+label {
+    float:left;
+    font-size:16px
+
+}
+
+input[type="text"] {
+    width:100%;
+    margin-top:10px;
+    height:35px;
+    margin-bottom:25px;
+    padding:10px;
+    border:1.5px solid #03DAC6;
+    background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
+
+}
+
+input[type="email"] {
+    width:100%;
+    margin-top:10px;
+    height:35px;
+    margin-bottom:25px;
+    padding:10px;
+    border:1.5px solid #03DAC6;
+    background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
+    
+}
+
+/* #A03DC6 */
+    
+textarea {
+    width:100%;
+    border:1.5px solid #03DAC6;
+    padding:10px;
+    margin-bottom:25px;
+    margin-top:10px;
+    height:100px;
+    resize:none;
+
+}
+
+/* input[type="submit"]{
+
+
+} */
+
+@media only screen and (max-width: 480px) {
+
+    #Contactdiv {
+        justify-content:center;
+        align-items:center;
+        padding: 1%;
+        margin: auto;
+        
+    }
+
+    .contactforms {
+        border-radius: 9px;
+        padding: 1%;
+        place-items: center;
+        word-spacing: 1%;
+        
+    }    
+
+}
+
+@media only screen and (min-width: 481px) {
+
+    #Contactdiv {
+        justify-content:center;
+        align-items:center;
+        padding: 1%;
+        /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+        border-radius: 24px;
+        margin-top: 5%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        
+    }
+
+    .contactforms {
+        border-radius: 9px;
+        padding: 1%;
+        place-items: center;
+        word-spacing: 1%;
+        
+    }
+    
+}
+</style>
