@@ -98,7 +98,7 @@
     align-items: center;
     font-size: 100px;
     }
-    /* .slides > div:target {
+    /* .slides > div:target { */
     /*   transform: scale(0.8); */
     /* } */
     /* .author-info {
@@ -122,7 +122,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    } */
+    }
 
     .slider > a {
     display: inline-flex;
