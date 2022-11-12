@@ -1,105 +1,213 @@
-<!-- https://codepen.io/alvarotrigo/pen/ZEXzOWQ -->
+<!-- https://codepen.io/alvarotrigo/pen/ExwYygW -->
 
-<div class="timeline">
-    <div class="outer">
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Jr. Web Developer</h3>
-          <p> First job at Virtual S Web Solutions where I learned... </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Self Study</h3>
-          <p> Practicced... </p>
-        </div>
-      </div>
-      <!-- <div class="card">
-        <div class="info">
-          <h3 class="title">Title 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Title 4</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Title 5</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div> -->
-    </div>
-  </div>
+<div class="timeline-area">
+	<div class="container">
+		<div class="title">
+			<h2>Timelines</h2>
+		</div>
+		<div class="all-timelines">
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h3>Month 2019</h3> — Started practicing Python
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h3>Month 2019 </h3> — Switched main OS to Arch Linux
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h3>July 2022 - present</h3> — Started work as a Junior Web Developer at Virtual S Web Solutions 
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
 
-  <style>
-  /* :root {
-    --primary-color: #fff; /* try #212121 also for dark mode */
-    /* --background-color: #212121;
-    --font: sans-serif;
-  } */
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  div.timeline {
-    background: var(--background-color);
-    font-family: var(--font);
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Timeline Container */
-  .timeline {
-    background: var(--primary-color);
-    margin: 20px auto;
-    padding: 20px;
+		</div>
+	</div>
+</div>
 
-  }
-  
-  /* Outer Layer with the timeline border */
-  .outer {
-    border-left: 2px solid #333;
-  }
-  
-  /* Card container */
-  .card {
-    position: relative;
-    margin: 0 0 20px 20px;
-    padding: 10px;
-    background: #D9D9D9;
-    /* color: gray; */
-    border-radius: 8px;
-    max-width: 400px;
-  }
-  
-  /* Information about the timeline */
-  .info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  /* Title of the card */
-  .title {
-    color: #C73E3E;
-    position: relative;
-  }
-  
-  /* Timeline dot  */
-  .title::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 999px;
-    left: -39px;
-    border: 3px solid #C73E3E;
-  }
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* body {
+	background-color: #1d2123;
+	font-family: "Inter", sans-serif;
+}
+
+ul {
+	list-style: none;
+	margin: 0 !important;
+}
+
+a {
+	text-decoration: none !important;
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+}
+
+button:focus {
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000;
+	margin: 0;
+}
+p {
+	font-size: 14px;
+	line-height: 26px;
+	margin: 0;
+} */
+.container {
+	width: 100%;
+	max-width: 1140px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.title h2 {
+	text-align: center;
+	/* color: #000;
+	font-weight: 600;
+	margin-bottom: 40px;
+	font-size: 32px; */
+}
+.d-flex-2 {
+	display: flex;
+	align-items: center;
+}
+.timeline-area {
+	padding-bottom: 5%;
+}
+.all-timelines {
+	position: relative;
+}
+.title h2 {
+	text-align: center;
+	/* color: #000;
+	font-weight: 600; */
+	margin-bottom: 5%; 
+}
+.all-timelines::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 100%;
+	width: 2px;
+	background: #efa22f;
+	top: 20px;
+}
+.single-timeline {
+	margin-bottom: 5%;
+}
+.timeline-blank {
+	width: 50%;
+}
+.timeline-text {
+	width: 50%;
+	padding-left: 30px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.timeline-text h3 {
+	/* color: #000; */
+	font-weight: 900;
+	display: inline-block;
+	/* font-size: 1rem; */
+}
+.timeline-text span {
+	/* color: #000; */
+	display: block;
+	width: 100%;
+}
+.single-timeline:nth-child(even) .timeline-text span {
+	text-align: right;
+}
+.t-square {
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: -6px;
+	background: #efa22f;
+}
+.single-timeline:nth-child(even) {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+.single-timeline:nth-child(even) .t-square {
+	right: -6px;
+	left: unset;
+}
+.single-timeline:nth-child(even) .timeline-text {
+	padding-left: 0;
+	padding-right: 30px;
+	text-align: right;
+}
+
+@media all and (max-width: 991px) {
+}
+@media all and (max-width: 768px) {
+	.all-timelines::before {
+		right: unset;
+		top: 0;
+	}
+	.single-timeline:nth-child(2n) .timeline-text {
+		padding-left: 30px;
+		padding-right: 0;
+		text-align: left;
+	}
+	.single-timeline:nth-child(2n) .t-square {
+		left: -6px;
+		right: unset;
+	}
+	.timeline-blank {
+		display: none;
+	}
+	.timeline-text {
+		width: 100%;
+	}
+	.single-timeline:nth-child(even) .timeline-text span {
+		text-align: left !important;
+	}
+}
+@media all and (max-width: 575px) {
+}
+@media all and (max-width: 360px) {
+	.all-timelines::before {
+		top: 32px;
+	}
+}
+
 </style>
