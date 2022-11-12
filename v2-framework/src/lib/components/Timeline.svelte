@@ -4,17 +4,17 @@
     <div class="outer">
       <div class="card">
         <div class="info">
-          <h3 class="title">Title 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <h3 class="title">Jr. Web Developer</h3>
+          <p> First job at Virtual S Web Solutions where I learned... </p>
         </div>
       </div>
       <div class="card">
         <div class="info">
-          <h3 class="title">Title 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <h3 class="title">Self Study</h3>
+          <p> Practicced... </p>
         </div>
       </div>
-      <div class="card">
+      <!-- <div class="card">
         <div class="info">
           <h3 class="title">Title 3</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -31,7 +31,7 @@
           <h3 class="title">Title 5</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -47,18 +47,19 @@
     padding: 0;
   }
   
-  /* body {
+  div.timeline {
     background: var(--background-color);
     font-family: var(--font);
     display: flex;
     justify-content: center;
-  } */
+  }
   
   /* Timeline Container */
   .timeline {
     background: var(--primary-color);
     margin: 20px auto;
     padding: 20px;
+
   }
   
   /* Outer Layer with the timeline border */
@@ -71,8 +72,8 @@
     position: relative;
     margin: 0 0 20px 20px;
     padding: 10px;
-    background: #333;
-    color: gray;
+    background: #D9D9D9;
+    /* color: gray; */
     border-radius: 8px;
     max-width: 400px;
   }
@@ -86,7 +87,7 @@
   
   /* Title of the card */
   .title {
-    color: orangered;
+    color: #C73E3E;
     position: relative;
   }
   
@@ -99,6 +100,6 @@
     background: white;
     border-radius: 999px;
     left: -39px;
-    border: 3px solid orangered;
+    border: 3px solid #C73E3E;
   }
 </style>

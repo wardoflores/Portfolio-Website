@@ -185,12 +185,11 @@
 //     }
 </script>
 
-<div class="container" id="Contacts">
+<div class="container">
     
     <label class="hide" for="contact">&nbsp;</label>
 
     <form 
-    name="contact" 
     class="inputField" 
     method="POST" 
     action="https://mailto:eduardojoeyflores@gmail.com" 
@@ -203,11 +202,10 @@
         <br>
 
         <input 
-        type="text" 
-        name="senderName" 
+        type="text"  
         id="senderName" 
         class="contactforms" 
-        onblur=checkForErrors(this) required/> 
+        required/>  <!--onblur="checkForErrors(this)"-->
         
         <span id="Name_ErrorMessage" class="errorMessage"> </span>
         
@@ -219,10 +217,9 @@
         
         <input 
         type="email" 
-        name="senderEmail" 
         id="senderEmail" 
         class="contactforms" 
-        onblur="checkForErrors(this)" required /> 
+        required /> <!--onblur="checkForErrors(this)"-->
         
         <span id="email_ErrorMessage" class="errorMessage"> </span>
        
@@ -233,7 +230,6 @@
         <br>
         
         <textarea 
-        name="message" 
         id="message" 
         class="contactforms" 
         maxlength="128"
@@ -246,11 +242,10 @@
         
         <input 
         type="submit" 
-        name="submit" 
         id="submit" 
         class="ripple" 
         value="submit" 
-        onClick="submitForm()" required>
+        required> <!-- onClick="submitForm()" -->
     
     </form>
 
@@ -262,38 +257,39 @@
 
 } */
 
-.contactforms {
+/* .contactforms { */
     /* color: #C8C3BC; */
     /* background-color:  */
     /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-}
-
+    /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+} */
+/* 
 .errorMessage {
     color: #CF6679; display:none;
 
-}
-
+} */
+/* 
 label {
     float:left;
     font-size:16px
 
-}
+} */
 
-input {
-    place-items: center;
-    text-align: center;
-    width:50%;
-    height:35px;
-    margin-top: 5%;
+/* input {
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    /* width:50%; */
+    /* height:35px; */
+    /* margin-top: 5%;
     margin-bottom: 5%;
     padding:2.5%;
     border:1.5px solid #03DAC6;
     background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
-}
+/* }  */
 
 /* #A03DC6 */
-    
+/*     
 textarea {
     width:75%;
     border:1.5px solid #03DAC6;
@@ -305,9 +301,9 @@ textarea {
 input[type="submit"]{
 
 
-}
+} */
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
 
     #Contactdiv {
         justify-content:center;
@@ -325,25 +321,25 @@ input[type="submit"]{
         
     }    
 
-}
+} */
 
-@media only screen and (min-width: 481px) {
+/* @media only screen and (min-width: 481px) { */
 
-    #Contactdiv {
+    /* #Contactdiv {
         justify-content:center;
         align-items:center;
-        padding: 1%;
+        padding: 1%; */
         /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+        /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
         border-radius: 24px;
         margin-top: 5%;
         margin-right: 25%;
         margin-bottom: 5%;
         margin-left: 25%;
         
-    }
+    } */
 
-    .contactforms {
+    /* .contactforms {
         border-radius: 9px;
         padding: 1%;
         place-items: center;
@@ -351,18 +347,18 @@ input[type="submit"]{
         
     }
     
-}
+} */
 
 /* button */
 
-#submit {
+/* #submit {
     /* background */
-    background-color: rgb(122, 166, 212, .6); /* 4th Layer */
+    /* background-color: rgb(122, 166, 212, .6); 4th Layer */
     /* color: #fff; */
     /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
-    box-shadow: 0 2px 2px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0 2px 2px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); */
     /* border-style: outset; */
-    border-color: rgb(122, 166, 212, 1);
+    /* border-color: rgb(122, 166, 212, 1);
     height: 50px;
     width: 100px;
     text-shadow: none;
@@ -378,39 +374,39 @@ input[type="submit"]{
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
     cursor: pointer;
     -webkit-transition: background 400ms;
-    transition: background 400ms;
+    transition: background 400ms; */
 
-}
+/* } */ 
 
-#submit:hover {
+/* #submit:hover {
     /* background */
-    background-color: rgb(122, 166, 212, .4); /* 4th Layer */
+    /* background-color: rgb(122, 166, 212, .4); /* 4th Layer */
     /* offset-x offset-y blur-radius spread-radius color */ /* 0 8px 8px 0 for raised */
-    box-shadow: 0 8px 8px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    transition-duration: 0.2s;
-}
+    /* box-shadow: 0 8px 8px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transition-duration: 0.2s; */
+/* } */ 
 
-#submit:active {
+/* #submit:active {
     /* offset-x offset-y blur-radius spread-radius color */ /* 0 2px 2px 0 for resting */
-    box-shadow: 0 2px 2px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0 2px 2px 0 rgba(38, 50, 56, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     transform: translateY(4px);
-    transition-duration: .1s;
-}
+    transition-duration: .1s; */
+/* }  */
 
-.ripple {
+/* .ripple {
     background-position: center;
     -webkit-transition: background 0.8s;
     transition: background 0.8s;
-  }
-.ripple:hover {
+  } */
+/* .ripple:hover {
     background: rgb(122, 166, 212, .4) radial-gradient(circle, transparent 1%, rgb(122, 166, 212, .4) 1%) center/15000%;
-}
-.ripple:active {
+} */
+/* .ripple:active {
     background-color: #cfb2f9;
     background-size: 100%;
     -webkit-transition: background 0s;
     transition: background 0s;
-}
+} */
 
 /* .button {
     background-color: lightcoral;

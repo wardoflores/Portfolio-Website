@@ -1,5 +1,6 @@
 <script>
     import Header from '../lib/components/Header.svelte'
+    import Footer from '../lib/components/Footer.svelte'
     import '$lib/styles/style.css'
 </script>
 
@@ -9,4 +10,4 @@
     <slot />
 </main>
 
-<footer>Hello, I'm the footer. o/</footer>
+<Footer />
