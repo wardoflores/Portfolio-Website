@@ -51,91 +51,101 @@
   </div>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
-
-    img {
-  width: 100%;
+  img {
+    width: 100%;
+    height: 50vh;
 }
-body {
-  background-color: #eaeff1;
-  font-family: "Raleway", sans-serif;
-  border-radius: 12px;
-  height: 214px;
-  object-fit: cover;
-}
-#container {
-  max-width: 300px;
+  #container {
+    max-width: 300px;
 
-  /* Center the container in middle on horizontal axis */
-  margin: 0 auto;
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
 
-  /* Add empty space above the container (20% of the view height) */
-  margin-top: 20vh;
-}
-.card {
-  /* Change background color */
-  background-color: white;
+    /* Add empty space above the container (20% of the view height) */
+    /* margin-top: 20vh; */
 
-  /* Add border */
-  border: 1px solid #bacdd8;
+    /* background-color: #eaeff1; */
+    /* font-family: "Raleway", sans-serif; */
+    border-radius: 12px;
+    /* height: 214px; */
+    object-fit: cover;
 
-  /* Add space between the border and the content */
-  padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+  }
+  .card {
+    /* Change background color */
+    background-color: white;
 
-  border-radius: 12px;
-}
-/* Style div elements that have class equal to tag */
-.tag {
-  padding: 4px 8px;
-  border: 1px solid #e5eaed;
+    /* Add border */
+    border: 1px solid #bacdd8;
 
-  border-radius: 50px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #788697;
-}
+    /* Add space between the border and the content */
+    padding: 8px;
 
-/* Style div elements that have class equal to name */
-.name {
-  font-size: 24px;
-  font-weight: 600;
+    border-radius: 12px;
 
-  margin-top: 16px;
-}
+    margin-top: 5%;
+    margin-bottom: 5%;
 
-/* Style p element */
-p {
-  font-size: 14px;
-  color: #7f8c9b;
-  line-height: 150%;
-}
+    order: 4;
+    flex: 1 1 300px; /* <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> */
+  }
+  /* Style div elements that have class equal to tag */
+  /* .tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
 
-/* Style button element */
-button {
-  border: none;
-  padding: 12px 24px;
-  border-radius: 50px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+  } */
 
-  font-weight: 600;
-  color: #0077ff;
-  background-color: #e0efff;
+  /* Style div elements that have class equal to name */
+  /* .name {
+    font-size: 24px;
+    font-weight: 600;
 
-  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
-  margin: 0 auto;
-  display: block;
+    margin-top: 16px;
+  } */
 
-  /* Button is a clickable element, therefore it should have a pointer cursor */
-  cursor: pointer;
-}
+  /* Style p element */
+  /* p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+  } */
 
-.card__details {
-  /* Add space around the details */
-  padding: 16px 8px 8px 8px;
-}
-/* Add style when button is focused or hovered */
-button:focus,
-button:hover {
-  background-color: #0077ff;
-  color: #e0efff;
-}
+  /* Style button element */
+  button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+
+    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    margin: 0 auto;
+    display: block;
+
+    /* Button is a clickable element, therefore it should have a pointer cursor */
+    cursor: pointer;
+  }
+
+  .card__details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+  }
+  /* Add style when button is focused or hovered */
+  button:focus,
+  button:hover {
+    background-color: #0077ff;
+    color: #e0efff;
+  }
+
 </style>

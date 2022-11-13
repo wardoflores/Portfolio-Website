@@ -15,7 +15,7 @@
   // });
 </script>
 
-<div class="all">
+<div class="container">
 
 <div class="slider">
   
@@ -104,28 +104,6 @@
     .slides > div:target {
       transform: scale(0.8);
     }
-    .author-info {
-    background: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 0.75rem;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    }
-    .author-info a {
-    color: white;
-    }
-    img {
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    }
 
     .slider > a {
     display: inline-flex;
@@ -157,7 +135,7 @@
     height: 100%;
     overflow: hidden;
     } */
-    .all {
+    .container {
     height: 100%;
     overflow: hidden;
     display: flex;
