@@ -15,25 +15,33 @@
   // });
 </script>
 
-<div class="container">
+<div class="all">
 
 <div class="slider">
   
     <div class="slides">
       <div id="slide-1">
-        SEO
+        <img src="https://www.svgrepo.com/show/388528/seo.svg" alt="">
+        <!-- <h3>SEO</h3> -->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, quisquam?</p>
       </div>
       <div id="slide-2">
-        Web Design
+        <img src="https://www.svgrepo.com/show/202990/web-design.svg" alt="">
+        <p>Web Design</p>
+        
       </div>
       <div id="slide-3">
-        E-Commerce
+        <img src="https://www.svgrepo.com/show/259180/ecommerce.svg" alt="">
+        <p>E-Commerce</p>
       </div>
       <div id="slide-4">
-        Digital Marketing
+        <img src="https://www.svgrepo.com/show/343854/digital-marketing-promotion-advertising.svg" alt="">
+        <p>Digital Marketing</p>
       </div>
       <div id="slide-5">
-        Automation
+        <!-- <img src="" alt=""> -->
+        <p>🤖</p>
+        <p>Automation</p>
       </div>
     </div>
     <a href="#slide-1">SEO</a>
@@ -104,17 +112,37 @@
     .slides > div:target {
       transform: scale(0.8);
     }
+    /* .author-info {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    }
+    .author-info a {
+    color: white;
+    } */
+    img {
+    /* object-fit: cover; */
+    width: 50%;
+    height: 50%;
+    }
 
     .slider > a {
     display: inline-flex;
     width: 5%vw;
     height: 5%vh;
-    background: white;
+    background: #03DAC6;
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    margin: 0 0 0.5rem 0;
+    /* border-radius: 40%; */
+    padding: .3rem;
+    margin: 0 0 1% 0 ;
     position: relative;
     }
     .slider > a:active {
@@ -135,7 +163,7 @@
     height: 100%;
     overflow: hidden;
     } */
-    .container {
+    .all {
     height: 100%;
     overflow: hidden;
     display: flex;
