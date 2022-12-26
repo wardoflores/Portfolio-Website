@@ -75,10 +75,10 @@
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     
-    /*
+    
     scroll-snap-points-x: repeat(300px);
     scroll-snap-type: mandatory;
-    */
+   
     }
     .slides::-webkit-scrollbar {
     width: 10px;

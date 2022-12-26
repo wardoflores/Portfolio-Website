@@ -38,6 +38,9 @@
 			</div>
 
 		</div>
+		<div>
+			<input type="button">FIND OUT MORE ABOUT ME 
+		</div>
 	</div>
 </div>
 

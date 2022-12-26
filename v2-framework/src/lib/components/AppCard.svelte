@@ -51,9 +51,9 @@
   </div>
 
 <style>
-  img {
+img {
     width: 100%;
-    height: 50vh;
+    /* height: 50vh; */
 }
   #container {
     max-width: 300px;
@@ -147,5 +147,4 @@
     background-color: #0077ff;
     color: #e0efff;
   }
-
 </style>
