@@ -12,6 +12,9 @@
         <li>
           <a href="/contact">Contact</a>
         </li>
+        <li>
+          <a href="https://wardoflores.github.io/Portfolio-Website">Visit my old Portfolio</a>
+        </li>
       </ul>
     </nav>
   </header>
