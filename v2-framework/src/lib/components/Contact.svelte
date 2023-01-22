@@ -252,6 +252,24 @@
 </div>
 
 <style>
+
+input {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    justify-content:center;
+    align-items:center;
+    place-items: center;
+}
+
+form { 
+margin: 0 auto; 
+width:250px;
+}
+
     /* .inputField {
     margin-top: 0px;
 
