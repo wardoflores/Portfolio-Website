@@ -4,16 +4,16 @@
     <nav>
       <ul>
         <li>
-          <a href="/blog">Blog</a>
+          <a target="_blank" rel="noopener noreferrer" href="/blog">Blog</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a target="_blank" rel="noopener noreferrer" href="/about">About</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a target="_blank" rel="noopener noreferrer" href="/contact">Contact</a>
         </li>
         <li>
-          <a href="https://wardoflores.github.io/Portfolio-Website">Visit my old Portfolio</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://wardoflores.github.io/Portfolio-Website">Visit my old Portfolio</a>
         </li>
       </ul>
     </nav>
