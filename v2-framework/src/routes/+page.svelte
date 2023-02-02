@@ -5,7 +5,7 @@
     import Contact from "$lib/components/Contact.svelte";
 </script>
 
-<h1>Hi, i'm Wardo Flores</h1>
+<h1>Hi, I'm Wardo Flores</h1>
 <h2>Web Developer</h2>
 <p>Coder going where the wind blows, failing forward, for fun.</p>
 <p><a target="_blank" rel="noopener noreferrer" href="#contact">Send me an email in the contact form</a>, <br />

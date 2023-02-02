@@ -39,7 +39,7 @@
 
 		</div>
 		<div>
-			<button target="_blank" rel="noopener noreferrer" onclick="window.location.href='/about'">FIND OUT MORE ABOUT ME</button>
+			<button><a target="_blank" rel="noopener noreferrer" href="/about">FIND OUT MORE ABOUT ME</a></button>
 		</div>
 	</div>
 </div>
