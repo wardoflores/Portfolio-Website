@@ -41,7 +41,7 @@
 				<div class="timeline-blank"></div>
 				<div class="timeline-text d-flex-2">
 					<span>
-						<h3>July 2022 - present</h3> — <a target="_blank" rel="noopener noreferrer" href="">Started work as a Junior Web Developer at Virtual S Web Solutions</a>
+						<h3>July 2022 - present</h3> — <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/eduardofloresiii/">Started work as a Junior Web Developer at Virtual S Web Solutions</a>
 					</span>
 					<div class="t-square"></div>
 				</div>
@@ -86,8 +86,7 @@ input {
 }
 
 .timelinebutton {
-	display:block;
-	margin: 0 auto;
+	text-align: center;
     cursor: pointer;   
     weight: 50px;
     width: 100px;
