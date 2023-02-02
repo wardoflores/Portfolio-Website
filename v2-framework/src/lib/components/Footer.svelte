@@ -16,7 +16,7 @@
 				<nav class="footer-links">
 					<a class="link-1" href="/">Home</a>
 
-					<a target="_blank" rel="noopener noreferrer" href="/blog>Blog</a>
+					<a target="_blank" rel="noopener noreferrer" href="/blog">Blog</a>
 
 					<a target="_blank" rel="noopener noreferrer" href="/about">About</a>
 
