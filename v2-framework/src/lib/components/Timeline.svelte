@@ -75,7 +75,7 @@ input {
     text-align: center;
 }
 
-submit {
+button {
     cursor: pointer;   
     weight: 50px;
     width: 100px;
