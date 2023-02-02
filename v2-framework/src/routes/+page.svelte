@@ -8,9 +8,9 @@
 <h1>Hi, i'm Wardo Flores</h1>
 <h2>Web Developer</h2>
 <p>Coder going where the wind blows, failing forward, for fun.</p>
-<p><a href="#contact">Send me an email in the contact form</a>, <br />
-Give feedback by <a href="#contact">adding issues in the repository</a>, <br />
-or <a href="/about">message me in my social media accounts</a>.</p>
+<p><a target="_blank" rel="noopener noreferrer" href="#contact">Send me an email in the contact form</a>, <br />
+Give feedback by <a target="_blank" rel="noopener noreferrer" href="https://github.com/wardoflores/Portfolio-Website">adding issues in the repository</a>, <br />
+or <a target="_blank" rel="noopener noreferrer" href="/about">message me in my social media accounts</a>.</p>
 <!-- <h2>Timeline</h2> -->
 <Timeline />
 <hr>
