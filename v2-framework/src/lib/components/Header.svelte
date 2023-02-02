@@ -13,7 +13,7 @@
           <a target="_blank" rel="noopener noreferrer" href="/contact">Contact</a>
         </li>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href="https://wardo-portoflio-old.netlify.app/">Visit my old Portfolio</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://wardo-portfolio-old.netlify.app/">Visit my old Portfolio</a>
         </li>
       </ul>
     </nav>
