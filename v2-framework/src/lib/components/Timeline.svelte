@@ -39,7 +39,7 @@
 
 		</div>
 		<div>
-			<input type="button" value="FIND OUT MORE ABOUT ME" /> 
+			<input type="button" value="FIND OUT MORE ABOUT ME"  target="_blank" rel="noopener noreferrer" href="/about" /> 
 		</div>
 	</div>
 </div>
@@ -67,6 +67,12 @@ a {
 
 img {
 	max-width: 100%;
+}
+
+input {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 button:focus {
