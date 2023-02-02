@@ -96,7 +96,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #33383b;
+  background-color: #6d6d6d;
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
