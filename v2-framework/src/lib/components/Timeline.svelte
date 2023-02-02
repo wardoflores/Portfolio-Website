@@ -75,7 +75,7 @@ input {
     text-align: center;
 }
 
-.timelinebutton {
+.timelinebutton a {
 	display: flex;  
 	justify-content: center;  
 	align-items: center; 
