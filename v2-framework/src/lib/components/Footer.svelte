@@ -16,24 +16,24 @@
 				<nav class="footer-links">
 					<a class="link-1" href="/">Home</a>
 
-					<a href="/blog>Blog</a>
+					<a target="_blank" rel="noopener noreferrer" href="/blog>Blog</a>
 
-					<a href="/about">About</a>
+					<a target="_blank" rel="noopener noreferrer" href="/about">About</a>
 
-					<a href="/contact">Contact</a>
+					<a target="_blank" rel="noopener noreferrer" href="/contact">Contact</a>
         </nav>
 
-				<p>Company Name &copy; 2015</p>
+				<p>Eduardo Jose G. Flores III &copy; 2023</p>
 			</div>
 
 		</footer>
 
 <style>
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 * {
   font-family: Roboto;
-}
+} */
 
 .footer-distributed {
   background-color: #424242;
