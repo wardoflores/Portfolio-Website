@@ -50,7 +50,7 @@
 }
 
 .footer-distributed .footer-left p {
-  color: #8f9296;
+  color: #6d6d6d;
   font-size: 14px;
   margin: 0;
 }
@@ -59,7 +59,7 @@
 .footer-distributed nav.footer-links {
   font-size: 18px;
   font-weight: bold;
-  color: #ffffff;
+  color: #26c6da;
   margin: 0 0 10px;
   padding: 0;
   transition: ease .25s;
@@ -77,7 +77,7 @@
   content: "·";
   font-size: 20px;
   left: 0;
-  color: #fff;
+  color: #26c6da;
   display: inline-block;
   padding-right: 5px;
 }
@@ -99,7 +99,7 @@
   background-color: #6d6d6d;
   border-radius: 2px;
   font-size: 20px;
-  color: #ffffff;
+  color: #26c6da;
   text-align: center;
   line-height: 35px;
   margin-left: 3px;
