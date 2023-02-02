@@ -102,6 +102,19 @@ p {
 	line-height: 26px;
 	margin: 0;
 } */
+
+.timelinebutton {
+	align-items: center;
+    justify-content: center;
+	text-align: center;
+    cursor: pointer;   
+    weight: 50px;
+    width: 100px;
+    text-shadow: none;
+    position: relative;
+    overflow: hidden;
+}
+
 .container {
 	width: 100%;
 	max-width: 1140px;
