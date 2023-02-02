@@ -259,6 +259,15 @@ input {
     text-align: center;
 }
 
+submit {
+    cursor: pointer;   
+    weight: 50px;
+    width: 100px;
+    text-shadow: none;
+    position: relative;
+    overflow: hidden;
+}
+
 .container {
     justify-content:center;
     align-items:center;
