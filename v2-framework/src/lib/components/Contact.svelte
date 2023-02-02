@@ -245,7 +245,7 @@
         id="submit" 
         class="ripple" 
         value="submit" 
-        required> <!-- onClick="submitForm()" -->
+        required /> <!-- onClick="submitForm()" -->
     
     </form>
 
