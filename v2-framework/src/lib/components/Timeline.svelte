@@ -11,27 +11,27 @@
 				<div class="timeline-blank"></div>
 				<div class="timeline-text d-flex-2">
 					<span>
-						<h3>Month 2019</h3> — <a target="_blank" rel="noopener noreferrer" href="https://github.com/wardoflores/Python-Projects">Started practicing Python</a>
-					</span>
-					<div class="t-square"></div>
-				</div>
-			</div>
-			<!--SINGLE TIMELINE-->
-			<div class="single-timeline d-flex-2">
-				<div class="timeline-blank"></div>
-				<div class="timeline-text d-flex-2">
-					<span>
-						<h3>Month 2019 </h3> — <a target="_blank" rel="noopener noreferrer" href="https://github.com/wardoflores/Linux-Dotfiles">Switched main OS to Arch Linux</a>
-					</span>
-					<div class="t-square"></div>
-				</div>
-			</div>
-			<!--SINGLE TIMELINE-->
-			<div class="single-timeline d-flex-2">
-				<div class="timeline-blank"></div>
-				<div class="timeline-text d-flex-2">
-					<span>
 						<h3>January 2021</h3> — <a target="_blank" rel="noopener noreferrer" href="https://github.com/wardoflores/Portfolio-Website">Created my Portfolio Website</a>
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h3>February 2021</h3> — <a target="_blank" rel="noopener noreferrer" href="https://github.com/wardoflores/Python-Projects">Started making automations using Python</a>
+					</span>
+					<div class="t-square"></div>
+				</div>
+			</div>
+			<!--SINGLE TIMELINE-->
+			<div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<span>
+						<h3>Month 2021</h3> — <a target="_blank" rel="noopener noreferrer" href="https://github.com/wardoflores/Linux-Dotfiles">Switched main OS to Arch Linux</a>
 					</span>
 					<div class="t-square"></div>
 				</div>
@@ -83,16 +83,6 @@ input {
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.timelinebutton {
-	text-align: center;
-    cursor: pointer;   
-    weight: 50px;
-    width: 100px;
-    text-shadow: none;
-    position: relative;
-    overflow: hidden;
 }
 
 button:focus {
