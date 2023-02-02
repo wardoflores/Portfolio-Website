@@ -38,7 +38,7 @@
 			</div>
 
 		</div>
-		<div>
+		<div class="timelinebutton">
 			<button><a target="_blank" rel="noopener noreferrer" href="/about">FIND OUT MORE ABOUT ME</a></button>
 		</div>
 	</div>
@@ -75,7 +75,10 @@ input {
     text-align: center;
 }
 
-button {
+.timelinebutton {
+	display: flex;  
+	justify-content: center;  
+	align-items: center; 
     cursor: pointer;   
     weight: 50px;
     width: 100px;
