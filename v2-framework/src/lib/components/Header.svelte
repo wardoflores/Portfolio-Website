@@ -22,7 +22,7 @@
   <style>
     header {
       padding: 1rem;
-      background: #1E1E1E;
+      background: #424242;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -37,6 +37,6 @@
     
     a {
       text-decoration: none;
-      color: #C73E3E;
+      color: #26c6da;
     }
     </style>

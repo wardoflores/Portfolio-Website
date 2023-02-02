@@ -7,11 +7,13 @@ body {
     font-family: sans-serif;
   }
   
-  main {
-    /* padding: 1rem;
+  /* main {
+    padding: 1rem;
     margin: 2rem auto;
-    max-width: 40rem; */
-  }body {
+    max-width: 40rem;
+  } */
+  
+  body {
   margin: 0;
   background: #eee;
   color: #333;
@@ -49,5 +51,5 @@ h2 {
 }
 
 a {
-  color: #FFEB3B;
+  color: #ffeb3b;
 }
