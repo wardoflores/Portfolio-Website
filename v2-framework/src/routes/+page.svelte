@@ -8,9 +8,9 @@
 <h1>Wardo</h1>
 <h2>Web Developer</h2>
 <p>Hi, i'm Joey Flores<br /> Coder going where the wind blows, failing forward, for fun.</p>
-<p>Send me an email in the contact form, <br />
-Give feedback by adding issues in the repository, <br />
-or message me in my social media accounts.</p>
+<p><a href="#contact">Send me an email in the contact form</a>, <br />
+Give feedback by <a href="#contact">adding issues in the repository</a>, <br />
+or <a href="/about">message me in my social media accounts</a>.</p>
 <!-- <h2>Timeline</h2> -->
 <Timeline />
 <hr>
