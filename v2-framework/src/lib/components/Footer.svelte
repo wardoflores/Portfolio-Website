@@ -14,17 +14,13 @@
 			<div class="footer-left">
 
 				<nav class="footer-links">
-					<a class="link-1" href="#">Home</a>
+					<a class="link-1" href="/">Home</a>
 
-					<a href="#">Blog</a>
+					<a href="/blog>Blog</a>
 
-					<a href="#">Pricing</a>
+					<a href="/about">About</a>
 
-					<a href="#">About</a>
-
-					<a href="#">Faq</a>
-
-					<a href="#">Contact</a>
+					<a href="/contact">Contact</a>
         </nav>
 
 				<p>Company Name &copy; 2015</p>
