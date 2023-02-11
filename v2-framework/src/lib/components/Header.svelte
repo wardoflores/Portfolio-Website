@@ -4,16 +4,16 @@
     <nav>
       <ul>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href="/blog">Blog</a>
+          <a target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
         </li>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href="/about">About</a>
+          <a target="_blank" rel="noopener noreferrer" href="/about">ABOUT</a>
         </li>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href="/contact">Contact</a>
+          <a target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
         </li>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href="https://wardo-portfolio-old.netlify.app/">Visit my old Portfolio</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://wardo-portfolio-old.netlify.app/">OLD PORTFOLIO</a>
         </li>
       </ul>
     </nav>
@@ -38,5 +38,6 @@
     a {
       text-decoration: none;
       color: #26c6da;
+      font-family: 'Noto Sans', sans-serif;
     }
     </style>
