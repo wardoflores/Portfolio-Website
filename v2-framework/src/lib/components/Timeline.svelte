@@ -108,7 +108,7 @@ p {
     justify-content: center;
 	text-align: center;
     cursor: pointer;   
-    weight: 50px;
+    /*weight: 50px;*/
     width: 100px;
     text-shadow: none;
     position: relative;

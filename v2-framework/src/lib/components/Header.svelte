@@ -1,10 +1,9 @@
 <header>
     <nav>
-
-    <a href="/">HOME</a>
-    </nav>
-    <nav>
       <ul>
+        <li>
+          <a href="/">HOME</a>
+        </li>
         <li>
           <a target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
         </li>
