@@ -9,7 +9,17 @@ const config = {
 
 	kit: {
 		adapter: adapter()
-	}
+  },
+
+  extensions: ['.svelte', '.md'],
+
+  preprocess: [
+    sveltePreprocess(),
+    mdsvex({
+      extensions: ['.md']
+
+	  })
+  ]
 };
 
 export default config;

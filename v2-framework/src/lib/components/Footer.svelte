@@ -14,7 +14,7 @@
 			<div class="footer-left">
 
 				<nav class="footer-links">
-					<a class="link-1" href="/">HOmE</a>
+					<a class="link-1" href="/">HOME</a>
 
 					<a target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
 
