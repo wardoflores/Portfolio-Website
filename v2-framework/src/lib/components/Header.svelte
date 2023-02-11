@@ -1,6 +1,8 @@
 <header>
+    <nav>
+
     <a href="/">HOME</a>
-  
+    </nav>
     <nav>
       <ul>
         <li>
@@ -13,7 +15,7 @@
           <a target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
         </li>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href="https://wardo-portfolio-old.netlify.app/">OLD PORTFOLIO</a>
+          <a target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
         </li>
       </ul>
     </nav>
