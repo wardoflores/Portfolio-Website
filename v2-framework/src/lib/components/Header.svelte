@@ -1,5 +1,5 @@
 <header>
-    <a href="/">Home</a>
+    <a href="/">HOME</a>
   
     <nav>
       <ul>
@@ -19,25 +19,29 @@
     </nav>
   </header>
 
-  <style>
-    header {
-      padding: 1rem;
-      background: #424242;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    
-    ul {
-      margin: 0;
-      list-style-type: none;
-      display: flex;
-      gap: 1rem;
-    }
-    
-    a {
-      text-decoration: none;
-      color: #26c6da;
-      font-family: 'Noto Sans', sans-serif;
-    }
-    </style>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+  header {
+    padding: 1rem;
+    background: #424242;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #26c6da;
+    font-family: 'Merriweather', sans-serif;
+  }
+
+</style>

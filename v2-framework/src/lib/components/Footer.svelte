@@ -16,11 +16,13 @@
 				<nav class="footer-links">
 					<a class="link-1" href="/">Home</a>
 
-					<a target="_blank" rel="noopener noreferrer" href="/blog">Blog</a>
+					<a target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
 
-					<a target="_blank" rel="noopener noreferrer" href="/about">About</a>
+					<a target="_blank" rel="noopener noreferrer" href="/about">ABOUT</a>
 
-					<a target="_blank" rel="noopener noreferrer" href="/contact">Contact</a>
+					<a target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
+
+          <a target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
         </nav>
 
 				<p>Eduardo Jose G. Flores III &copy; 2023</p>
@@ -29,11 +31,12 @@
 		</footer>
 
 <style>
-/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 * {
-  font-family: Roboto;
-} */
+  font-family: 'Merriweather', sans-serif;
+}
 
 .footer-distributed {
   background-color: #424242;
