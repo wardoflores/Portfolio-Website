@@ -21,7 +21,7 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
   header {
     padding: 1rem;
@@ -41,7 +41,7 @@
   a {
     text-decoration: none;
     color: #26c6da;
-    font-family: 'Cutive Mono', sans-serif;
+    font-family: 'IBM Plex Mono', sans-serif;
   }
 
 </style>

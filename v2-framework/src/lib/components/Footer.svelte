@@ -14,7 +14,7 @@
 			<div class="footer-left">
 
 				<nav class="footer-links">
-					<a class="link-1" href="/">Home</a>
+					<a class="link-1" href="/">HOmE</a>
 
 					<a target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
 
@@ -32,10 +32,10 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 * {
-  font-family: 'Cutive Mono', sans-serif;
+  font-family: 'IBM Plex Mono', sans-serif;
 }
 
 .footer-distributed {
