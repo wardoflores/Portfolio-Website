@@ -32,10 +32,10 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
 * {
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Cutive Mono', sans-serif;
 }
 
 .footer-distributed {
@@ -56,8 +56,8 @@
 /* Footer links */
 
 .footer-distributed nav.footer-links {
-  font-size: 18px;
-  font-weight: bold;
+  /* font-size: 18px; */
+  /* font-weight: bold; */
   color: #26c6da;
   margin: 0 0 10px;
   padding: 0;

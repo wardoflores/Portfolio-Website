@@ -21,7 +21,7 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
   header {
     padding: 1rem;
@@ -41,7 +41,7 @@
   a {
     text-decoration: none;
     color: #26c6da;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Cutive Mono', sans-serif;
   }
 
 </style>
