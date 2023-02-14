@@ -73,10 +73,10 @@
       flex-direction: column;
       align-items: flex-start;
     }
-
+/* 
     nav {
       display: ${showMenu ? 'block' : 'none'};
-    }
+    } */
   }
 
   .hamburger-menu {
