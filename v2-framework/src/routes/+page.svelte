@@ -10,6 +10,6 @@
 <!-- Teaser of the Timeline -->
 <!-- Teaser about me -->
 <!-- Teaser about apps -->
-<h2>Contact Info</h2>
-<p class="noselect">Please send your message below. I'll reply as soon as possible.</p>
+<!-- <h2>Contact Info</h2>
+<p class="noselect">Please send your message below. I'll reply as soon as possible.</p> -->
 <Contact />
