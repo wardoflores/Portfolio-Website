@@ -1,4 +1,4 @@
-<header>
+<!-- <header id="desktop-header">
     <nav>
       <ul>
         <li>
@@ -27,9 +27,9 @@
   header {
     padding: 1rem;
     background: #424242;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
   }
   
   ul {
@@ -45,4 +45,59 @@
     font-family: 'IBM Plex Mono', sans-serif;
   }
 
+</style> -->
+
+
+<script type="ts">
+  let showMenu = false;
+
+  function toggleMenu() {
+    showMenu = !showMenu;
+  }
+</script>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  @media (max-width: 767px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    nav {
+      display: ${showMenu ? 'block' : 'none'};
+    }
+  }
+
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 767px) {
+    .hamburger-menu {
+      display: block;
+    }
+  }
 </style>
+
+<header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="hamburger-menu" on:click="{toggleMenu}">
+    <!-- Add a hamburger menu icon here -->
+  </div>
+</header>

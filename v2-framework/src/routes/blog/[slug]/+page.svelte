@@ -1,5 +1,5 @@
-<script>
-  export let data;
+<script type="ts">
+  export let data: any;
 </script>
 
 <article>

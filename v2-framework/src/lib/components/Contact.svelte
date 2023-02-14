@@ -185,6 +185,10 @@
 //     }
 </script>
 
+<h1>Contact me</h1>
+
+<p>Feel free to say hi, business inquiries is also welcome!</p>
+
 <div class="container" id="contact">
     
     <label class="hide" for="contact">&nbsp;</label>
@@ -253,21 +257,15 @@
 
 <style>
 
-input {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.container {
-    justify-content:center;
-    align-items:center;
-    place-items: center;
-}
 
 form { 
 margin: 0 auto; 
 width:250px;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 5%;
 }
 
     /* .inputField {

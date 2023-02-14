@@ -44,7 +44,7 @@
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: normal 16px sans-serif;
+  font: normal 14px sans-serif;
   padding: 45px 50px;
 }
 
