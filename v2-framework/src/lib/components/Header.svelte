@@ -1,4 +1,4 @@
-<!-- <header id="desktop-header">
+<header id="desktop-header">
     <nav>
       <ul>
         <li>
@@ -45,9 +45,9 @@
     font-family: 'IBM Plex Mono', sans-serif;
   }
 
-</style> -->
+</style>
 
-
+<!-- 
 <script type="ts">
   let showMenu = false;
 
@@ -97,7 +97,7 @@
     <a href="#">About</a>
     <a href="#">Contact</a>
   </nav>
-  <div class="hamburger-menu" on:click="{toggleMenu}">
+  <div class="hamburger-menu" on:click="{toggleMenu}"> -->
     <!-- Add a hamburger menu icon here -->
-  </div>
-</header>
+  <!-- </div>
+</header> -->
