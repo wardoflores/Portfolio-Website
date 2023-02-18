@@ -27,48 +27,10 @@
     </li>
   </ul>
 </section>
-<!-- 
-<header id="desktop-header">
-    <section class="top-nav">
-        <div>
-          <a href="/">HOME</a>
-        </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-          <div class='menu-button'></div>
-        </label>
-      <ul class="menu">
-        <li>
-          <a target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
-        </li>
-        <li>
-          <a target="_blank" rel="noopener noreferrer" href="/about">ABOUT</a>
-        </li>
-        <li>
-          <a target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
-        </li>
-        <li>
-          <a target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
-        </li>
-      </ul>
-    </seciton> -->
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- <div class="hamburger-menu" on:click="{toggleMenu}"> -->
-      <!-- Add a hamburger menu icon here -->
-    <!-- </div>
-  </header> -->
 
 <style type="scss">
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-
-  header {
-    /* padding: 1rem; */
-    /* background: #424242;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
-  }
   
   ul {
     margin: 0;
@@ -84,46 +46,6 @@
   }
 
 /* 2 */
-/* 
-  @media (max-width: 767px) {
-    header {
-      flex-direction: column;
-      align-items: flex-start;
-    } */
-
-    /* nav {
-      display: ${showMenu ? 'block' : 'none'};
-    }  */
-  /* }
-
-  .hamburger-menu {
-    display: none;
-    cursor: pointer;
-  }
-
-  @media (max-width: 767px) {
-    .hamburger-menu {
-      display: block;
-    }
-  }
-
-  .hamburger-menu {
-    display: none;
-    cursor: pointer;
-  }
-
-  @media (max-width: 767px) {
-    .hamburger-menu {
-      display: block;
-    }
-  } */
-
-/* 3 */
-
-html, body {
-  margin: 0;
-  height: 100%;
-}
 
 * {
   /* font-family: "Raleway"; */
@@ -135,8 +57,8 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849);
+  background-color: #424242;
+  /*background: linear-gradient(to left, #f46b45, #eea849); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
