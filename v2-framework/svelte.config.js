@@ -15,7 +15,11 @@ const config = {
   extensions: ['.svelte', '.md'],
 
   preprocess: [
-    preprocess(),
+    preprocess({
+      scss: {
+        prependData: `@import './src/style/app.scss';`
+      }
+    }),
     mdsvex({
       extensions: ['.md']
 
