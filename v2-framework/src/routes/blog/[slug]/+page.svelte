@@ -1,5 +1,4 @@
 <script type="ts">
-	import { page } from "$app/stores";
   export let data
   const { title, date, Content } = data
 </script>
