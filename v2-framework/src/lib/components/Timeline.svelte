@@ -49,7 +49,7 @@
 
 		</div>
 		<div class="timelinebutton">
-			<button><a target="_blank" rel="noopener noreferrer" href="/about">FIND OUT MORE ABOUT ME</a></button>
+			<button><a target="_blank" rel="noopener noreferrer" href="/contact">FIND OUT MORE ABOUT ME</a></button>
 		</div>
 	</div>
 </div>
