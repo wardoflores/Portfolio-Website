@@ -20,7 +20,7 @@ const config = {
         prependData: `@import './src/style/app.scss';`
       }
     }),
-    typescript(),
+    typescript({}),
     mdsvex({
       extensions: ['.md']
 
