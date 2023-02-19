@@ -103,10 +103,14 @@ p {
 	margin: 0;
 } */
 
+button {
+	margin: 0 auto;
+	display: block;
+}
+
 .timelinebutton {
-	align-items: center;
-    justify-content: center;
-	text-align: center;
+	margin: 0 auto;
+	display: block;
     cursor: pointer;   
     /*weight: 50px;*/
     width: 100px;
