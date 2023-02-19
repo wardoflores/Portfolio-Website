@@ -1,6 +1,8 @@
 import adapter from '@sveltejs/adapter-auto';
-import preprocess, { typescript } from 'svelte-preprocess';
+import pkg from 'svelte-preprocess'; const { typescript } = pkg;
+import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
