@@ -1,7 +1,7 @@
-<script>
+<script lang="js">
     export let title
     export let date
-    </script>
+  </script>
     
     <article>
       <h1>{title}</h1>
