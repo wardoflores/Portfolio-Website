@@ -1,8 +1,8 @@
 import adapter from '@sveltejs/adapter-auto';
-import pkg from 'svelte-preprocess'; const { typescript } = pkg;
+import pkg from 'svelte-preprocess';
+const { typescript } = pkg;
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
-
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,22 +12,22 @@ const config = {
 
 	kit: {
 		adapter: adapter()
-  },
+	},
 
-  extensions: ['.svelte', '.md'],
+	extensions: ['.svelte', '.md'],
 
-  preprocess: [
-    preprocess({
-      scss: {
-        prependData: `@import './src/style/app.scss';`
-      }
-    }),
-    typescript({}),
-    mdsvex({
-      extensions: ['.md'],
-      layout: { blog: './src/routes/blog/postmdsvex.svelte'},
-	  })
-  ]
+	preprocess: [
+		preprocess({
+			scss: {
+				prependData: `@import './src/style/app.scss';`
+			}
+		}),
+		typescript({}),
+		mdsvex({
+			extensions: ['.md'],
+			// layout: { blog: './src/routes/blog/postmdsvex.svelte' }
+		})
+	]
 };
 
 export default config;

@@ -1,7 +1,5 @@
-<!-- first method=works -->
-
-<script lang="ts">
-  export let data: any;
+<script>
+  export let data;
 </script>
 
 <article>
