@@ -3,6 +3,9 @@ import pkg from 'svelte-preprocess';
 const { typescript } = pkg;
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
+import rehypeSlug from 'rehype-slug'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+import autoprefixer from 'autoprefixer'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -18,6 +21,9 @@ const config = {
 
 	preprocess: [
 		preprocess({
+			postcss: {
+				plugins: [autoprefixer]
+			  },
 			scss: {
 				prependData: `@import './src/style/app.scss';`
 			}
@@ -25,6 +31,10 @@ const config = {
 		typescript({}),
 		mdsvex({
 			extensions: ['.md'],
+			rehypePlugins: [
+				rehypeSlug,
+				rehypeAutolinkHeadings,
+			  ],
 			// layout: { blog: './src/routes/blog/postmdsvex.svelte' }
 		})
 	]

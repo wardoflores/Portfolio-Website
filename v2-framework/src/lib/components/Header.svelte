@@ -6,7 +6,7 @@
 
 <section class="top-nav">
 	<div>
-		<a href="/">HOME</a>
+		<a data-sveltekit-preload-code data-sveltekit-reload href="/">HOME</a>
 	</div>
 	<input id="menu-toggle" type="checkbox" />
 	<label class="menu-button-container" for="menu-toggle">
@@ -14,16 +14,16 @@
 	</label>
 	<ul class="menu">
 		<li>
-			<a target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
+			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
 		</li>
 		<li>
-			<a target="_blank" rel="noopener noreferrer" href="/about">ABOUT</a>
+			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/about">ABOUT</a>
 		</li>
 		<li>
-			<a target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
+			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
 		</li>
 		<li>
-			<a target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
+			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
 		</li>
 	</ul>
 </section>

@@ -1,7 +1,20 @@
 <script lang="ts">
 	import Header from '../lib/components/Header.svelte';
 	import Footer from '../lib/components/Footer.svelte';
-	import '$lib/styles/style.css';
+	import '$lib/styles/style.css'
+  	import { fade } from 'svelte/transition';
+  	// import type { RouteContext } from '@sveltejs/kit';
+
+	import { preloadCode, preloadData } from '$app/navigation'
+
+		// error 
+		// preloadCode('/blog', '/about', '/blog/*')
+		// OR:
+		// error
+		// preloadData('/blog', '/about', '/blog/*')
+
+
+  	export let data: any;
 </script>
 
 <svelte:head>
@@ -20,8 +33,10 @@
 
 <Header />
 
-<main>
-	<slot />
-</main>
+{#key data.currentRoute}
+  <main transition:fade={{ duration: 150, delay: 150 }}>
+    <slot />
+  </main>
+{/key}
 
 <Footer />
