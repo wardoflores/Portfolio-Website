@@ -1,143 +1,277 @@
-<!-- https://www.freecodecamp.org/news/learn-css-basics-by-building-a-card-component/ -->
+<!-- https://codepen.io/wikyware-net/pen/dyKPRxQ -->
 
-<!-- A div with container id to hold the card -->
-<div id="container">
-	<!-- A div with card class for the card  -->
-	<div class="card">
-		<img src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies" />
-
-		<!-- A div with card__details class to hold the details in the card  -->
-		<div class="card__details">
-			<!-- Span with tag class for the tag -->
-			<span class="tag">Svelte</span>
-
-			<span class="tag">something</span>
-
-			<!-- A div with name class for the name of the card -->
-			<div class="name">Web App Number 1</div>
-
-			<p>Description about App 1</p>
-
-			<button>Read more</button>
-		</div>
+<div class="ag-format-container">
+	<div class="ag-courses_box">
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg"></div>
+  
+		  <div class="ag-courses-item_title">
+			UI/Web&amp;Graph design for teenagers 11-17&#160;years old
+		  </div>
+  
+		  <div class="ag-courses-item_date-box">
+			Start:
+			<span class="ag-courses-item_date">
+			  04.11.2022
+			</span>
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg"></div>
+  
+		  <div class="ag-courses-item_title">
+			UX/UI Web-Design&#160;+ Mobile Design
+		  </div>
+  
+		  <div class="ag-courses-item_date-box">
+			Start:
+			<span class="ag-courses-item_date">
+			  04.11.2022
+			</span>
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg"></div>
+  
+		  <div class="ag-courses-item_title">
+			Annual package "Product+UX/UI+Graph designer&#160;2022"
+		  </div>
+  
+		  <div class="ag-courses-item_date-box">
+			Start:
+			<span class="ag-courses-item_date">
+			  04.11.2022
+			</span>
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg"></div>
+  
+		  <div class="ag-courses-item_title">
+			Graphic Design
+		  </div>
+  
+		  <div class="ag-courses-item_date-box">
+			Start:
+			<span class="ag-courses-item_date">
+			  04.11.2022
+			</span>
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg"></div>
+  
+		  <div class="ag-courses-item_title">
+			Motion Design
+		  </div>
+  
+		  <div class="ag-courses-item_date-box">
+			Start:
+			<span class="ag-courses-item_date">
+			  30.11.2022
+			</span>
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg"></div>
+  
+		  <div class="ag-courses-item_title">
+			Front-end development&#160;+ jQuery&#160;+ CMS
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg">
+		  </div>
+		  <div class="ag-courses-item_title">
+			Digital Marketing
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="ag-courses_item">
+		<a href="#" class="ag-courses-item_link">
+		  <div class="ag-courses-item_bg"></div>
+  
+		  <div class="ag-courses-item_title">
+			Interior Design
+		  </div>
+  
+		  <div class="ag-courses-item_date-box">
+			Start:
+			<span class="ag-courses-item_date">
+			  31.10.2022
+			</span>
+		  </div>
+		</a>
+	  </div>
+  
 	</div>
+  </div>
 
-	<!-- A div with card class for the card  -->
-	<div class="card">
-		<img src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies" />
+  <style>
+	.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
 
-		<!-- A div with card__details class to hold the details in the card  -->
-		<div class="card__details">
-			<!-- Span with tag class for the tag -->
-			<span class="tag">Svelte</span>
 
-			<span class="tag">something</span>
+body {
+  background-color: #000;
+}
+.ag-courses_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 
-			<!-- A div with name class for the name of the card -->
-			<div class="name">Web App Number 1</div>
+  padding: 50px 0;
+}
+.ag-courses_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
 
-			<p>Description about App 1</p>
+  margin: 0 15px 30px;
 
-			<button>Read more</button>
-		</div>
-	</div>
-</div>
+  overflow: hidden;
 
-<style>
-	img {
-		width: 100%;
-		/* height: 50vh; */
-	}
-	#container {
-		max-width: 300px;
+  border-radius: 28px;
+}
+.ag-courses-item_link {
+  display: block;
+  padding: 30px 20px;
+  background-color: #121212;
 
-		/* Center the container in middle on horizontal axis */
-		margin: 0 auto;
+  overflow: hidden;
 
-		/* Add empty space above the container (20% of the view height) */
-		/* margin-top: 20vh; */
+  position: relative;
+}
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+  color: #FFF;
+}
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
 
-		/* background-color: #eaeff1; */
-		/* font-family: "Raleway", sans-serif; */
-		border-radius: 12px;
-		/* height: 214px; */
-		object-fit: cover;
+  overflow: hidden;
 
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-content: space-around;
-	}
-	.card {
-		/* Change background color */
-		background-color: white;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
 
-		/* Add border */
-		border: 1px solid #bacdd8;
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date-box {
+  font-size: 18px;
+  color: #FFF;
 
-		/* Add space between the border and the content */
-		padding: 8px;
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date {
+  font-weight: bold;
+  color: #f9b234;
 
-		border-radius: 12px;
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #f9b234;
 
-		margin-top: 5%;
-		margin-bottom: 5%;
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
 
-		order: 4;
-		flex: 1 1 300px; /* <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> */
-	}
-	/* Style div elements that have class equal to tag */
-	/* .tag {
-    padding: 4px 8px;
-    border: 1px solid #e5eaed;
+  border-radius: 50%;
 
-    border-radius: 50px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #788697;
-  } */
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+  background-color: #3ecd5e;
+}
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+  background-color: #e44002;
+}
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+  background-color: #952aff;
+}
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+  background-color: #cd3e94;
+}
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+  background-color: #4c49ea;
+}
 
-	/* Style div elements that have class equal to name */
-	/* .name {
+
+
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
     font-size: 24px;
-    font-weight: 600;
+  }
+}
 
-    margin-top: 16px;
-  } */
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
 
-	/* Style p element */
-	/* p {
-    font-size: 14px;
-    color: #7f8c9b;
-    line-height: 150%;
-  } */
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
 
-	/* Style button element */
-	button {
-		border: none;
-		padding: 12px 24px;
-		border-radius: 50px;
-
-		font-weight: 600;
-		color: #0077ff;
-		background-color: #e0efff;
-
-		/* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
-		margin: 0 auto;
-		display: block;
-
-		/* Button is a clickable element, therefore it should have a pointer cursor */
-		cursor: pointer;
-	}
-
-	.card__details {
-		/* Add space around the details */
-		padding: 16px 8px 8px 8px;
-	}
-	/* Add style when button is focused or hovered */
-	button:focus,
-	button:hover {
-		background-color: #0077ff;
-		color: #e0efff;
-	}
-</style>
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
+  </style>
