@@ -21,8 +21,7 @@
   
 	  <div class="ag-courses_item">
 		<a href="https://wardo-mern.netlify.app/" class="ag-courses-item_link">
-		  <div class="ag-courses-item_bg"></div>
-  
+		  <div class="ag-courses-item_bg"><img src="https://imgs.search.brave.com/sc-5Rk8MymJ4OOrkLMKa30KQbZHSa0KjGO6Ih1seOGc/rs:fit:503:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/cl9QQWxFNUhSUHNS/TXI0eGdPTlNRSGFH/LSZwaWQ9QXBp" alt=""></div>
 		  <div class="ag-courses-item_title">
 			MERN Post Box Website
 		  </div>
@@ -150,7 +149,7 @@
 .ag-courses-item_bg {
   height: 128px;
   width: 128px;
-  background-color: #f9b234;
+  background-color: none;
 
   z-index: 1;
   position: absolute;
