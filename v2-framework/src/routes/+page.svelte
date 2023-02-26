@@ -5,7 +5,7 @@
 <h1>Hi, I'm Wardo</h1>
 <h2>Web Developer</h2>
 <p>Coder going where the wind blows, failing forward, for fun.</p>
-<p>🚧 Website under construction 🚧</p>
+<p>🚧 Under construction 🚧</p>
 <!-- Place Landing page essentials for your services -->
 <!-- Teaser of the Timeline -->
 <!-- Teaser about me -->

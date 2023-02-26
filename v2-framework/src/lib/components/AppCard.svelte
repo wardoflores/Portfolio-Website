@@ -3,122 +3,67 @@
 <div class="ag-format-container">
 	<div class="ag-courses_box">
 	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
+		<a href="https://wardo-portfolio.netlify.app/" class="ag-courses-item_link">
 		  <div class="ag-courses-item_bg"></div>
   
 		  <div class="ag-courses-item_title">
-			UI/Web&amp;Graph design for teenagers 11-17&#160;years old
+			Svelte Portfolio Website
 		  </div>
   
 		  <div class="ag-courses-item_date-box">
-			Start:
+			Started at:
 			<span class="ag-courses-item_date">
-			  04.11.2022
+			  2022-00-00
 			</span>
 		  </div>
 		</a>
 	  </div>
   
 	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
+		<a href="https://wardo-mern.netlify.app/" class="ag-courses-item_link">
 		  <div class="ag-courses-item_bg"></div>
   
 		  <div class="ag-courses-item_title">
-			UX/UI Web-Design&#160;+ Mobile Design
+			MERN Post Box Website
 		  </div>
   
 		  <div class="ag-courses-item_date-box">
 			Start:
 			<span class="ag-courses-item_date">
-			  04.11.2022
+			  2022-00-00
 			</span>
 		  </div>
 		</a>
 	  </div>
   
 	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
+		<a href="/" class="ag-courses-item_link">
 		  <div class="ag-courses-item_bg"></div>
-  
 		  <div class="ag-courses-item_title">
-			Annual package "Product+UX/UI+Graph designer&#160;2022"
+			Django Website
 		  </div>
   
 		  <div class="ag-courses-item_date-box">
 			Start:
 			<span class="ag-courses-item_date">
-			  04.11.2022
+			  2022-00-00
 			</span>
 		  </div>
 		</a>
 	  </div>
   
 	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
+		<a href="https://github.com/wardoflores" class="ag-courses-item_link">
 		  <div class="ag-courses-item_bg"></div>
   
 		  <div class="ag-courses-item_title">
-			Graphic Design
+			More to come!
 		  </div>
   
 		  <div class="ag-courses-item_date-box">
 			Start:
 			<span class="ag-courses-item_date">
-			  04.11.2022
-			</span>
-		  </div>
-		</a>
-	  </div>
-  
-	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
-		  <div class="ag-courses-item_bg"></div>
-  
-		  <div class="ag-courses-item_title">
-			Motion Design
-		  </div>
-  
-		  <div class="ag-courses-item_date-box">
-			Start:
-			<span class="ag-courses-item_date">
-			  30.11.2022
-			</span>
-		  </div>
-		</a>
-	  </div>
-  
-	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
-		  <div class="ag-courses-item_bg"></div>
-  
-		  <div class="ag-courses-item_title">
-			Front-end development&#160;+ jQuery&#160;+ CMS
-		  </div>
-		</a>
-	  </div>
-  
-	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
-		  <div class="ag-courses-item_bg">
-		  </div>
-		  <div class="ag-courses-item_title">
-			Digital Marketing
-		  </div>
-		</a>
-	  </div>
-  
-	  <div class="ag-courses_item">
-		<a href="#" class="ag-courses-item_link">
-		  <div class="ag-courses-item_bg"></div>
-  
-		  <div class="ag-courses-item_title">
-			Interior Design
-		  </div>
-  
-		  <div class="ag-courses-item_date-box">
-			Start:
-			<span class="ag-courses-item_date">
-			  31.10.2022
+			  
 			</span>
 		  </div>
 		</a>
@@ -133,10 +78,6 @@
   margin: 0 auto;
 }
 
-
-body {
-  background-color: #000;
-}
 .ag-courses_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,7 +103,7 @@ body {
 .ag-courses-item_link {
   display: block;
   padding: 30px 20px;
-  background-color: #121212;
+  background-color: #333;
 
   overflow: hidden;
 

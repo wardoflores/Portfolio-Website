@@ -56,6 +56,27 @@
 		<input type="submit" id="submit" class="ripple" value="submit" required />
 		<!-- onClick="submitForm()" -->
 	</form>
+	<form action="https://api.staticforms.xyz/submit" method="post">
+        <!-- Replace with accesKey sent to your email -->
+        <input type="hidden" name="accessKey" value="98848b09-38b4-487e-8d1b-1a50d030c3d0" required  > <!-- Required -->
+        <label for="Name" class="noselect">Name</label>
+		<input type="text" name="name"> <!-- Optional -->
+		<label for="email" class="noselect">Email</label>
+        <input type="text" name="email" required > <!-- Optional -->
+		<label for="phone" class="noselect">Phone Number</label>
+        <input type="text" name="phone"> <!-- Optional -->
+		<label for="subject" class="noselect">Subject</label>
+        <input type="text" name="subject"> <!-- Optional -->
+		<label for="message" class="noselect">Message</label>
+        <textarea name="message" required ></textarea> <!-- Optional -->
+        <!-- If you want replyTo to be set to specific email -->
+        <!-- <input type="text" name="replyTo" value="@example.com"> Optional -->
+        <!-- Specify @ as reply to value if you want it to be customers email -->
+        <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+        <!-- If you want form to redirect to a specific url after submission -->
+        <!-- <input type="hidden" name="redirectTo" value="https://example.com/contact/success"> Optional -->
+        <input type="submit" value="Submit" />
+    </form>
 </div>
 
 <style>
@@ -76,13 +97,13 @@
 
 	input[type="text"] {
 	font-size: 14px;
-	text-align: center;
+	/* text-align: center; */
     width:100%;
     height: 5%;
     margin-bottom: 5%;
 	margin-top: 1%;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	border-radius: 9px;
     border:1.5px solid #03DAC6;
     background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
@@ -91,13 +112,13 @@
 
 	input[type="email"] {
 	font-size: 14px;
-	text-align: center;
+	/* text-align: center; */
     width:100%;
     height:5%;
     margin-bottom:5%;
 	margin-top:1%;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	border-radius: 9px;
     border:1.5px solid #03DAC6;
     background-color:rgba(35, 43, 50, 0.4); /* 4th Layer */
@@ -118,10 +139,7 @@
 
 	}
 
-	input[type="submit"],
-input[type="reset"],
-input[type="button"],
-button {
+	input[type="submit"], input[type="reset"], input[type="button"], button {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -150,10 +168,7 @@ button {
   transition: all 0.15s ease-in-out;
 }
 
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-button:hover {
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover {
   background-color: var(--button-background-hover-color, #333);
   box-shadow: var(
     --button-box-shadow-hover,
@@ -162,10 +177,7 @@ button:hover {
   );
 }
 
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active,
-button:active {
+input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active {
   background-color: var(--button-background-active-color, #333);
   box-shadow: var(
     --button-box-shadow-active,

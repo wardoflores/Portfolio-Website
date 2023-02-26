@@ -14,7 +14,9 @@
 		// preloadData('/blog', '/about', '/blog/*')
 
 
-  	export let data: any;
+		export let data: any;
+
+
 </script>
 
 <svelte:head>
