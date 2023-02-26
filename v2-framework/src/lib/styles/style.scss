@@ -1,0 +1,8 @@
+
+html {
+    background: 
+    linear-gradient(90deg, hsl(0, 0%, 100%) calc(33px - 2px), transparent 1%) center,
+    linear-gradient(hsl(0, 0%, 100%) calc(33px - 2px), transparent 1%) center, 
+    hsl(0, 0%, 50%);
+    background-size: 33px 33px;
+}

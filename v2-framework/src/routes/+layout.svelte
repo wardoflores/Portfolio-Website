@@ -2,6 +2,7 @@
 	import Header from '../lib/components/Header.svelte';
 	import Footer from '../lib/components/Footer.svelte';
 	import '$lib/styles/style.css'
+	import '$lib/styles/style.scss'
   	import { fade } from 'svelte/transition';
   	// import type { RouteContext } from '@sveltejs/kit';
 
@@ -37,6 +38,7 @@
 
 {#key data.currentRoute}
   <main transition:fade={{ duration: 150, delay: 150 }}>
+	<div id="cursor"></div>
     <slot />
   </main>
 {/key}

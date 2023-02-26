@@ -2,12 +2,13 @@
 
 body {
 	margin: 0;
+	height:100%;
 	/* background: #eee; */
 	background:
 	linear-gradient(90deg, hsl(256,33,10) calc(22px - 1px), transparent 1%) center
 	linear-gradient(hsl(256,33,10) calc(22px - 1px), transparent 1%) center,
 	hsl(256,33,70);
-  background-size: 22px 22px;
+  	background-size: 22px 22px;
 	color: #333;
 	font-family: sans-serif;
 }

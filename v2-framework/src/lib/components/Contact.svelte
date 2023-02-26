@@ -10,52 +10,6 @@
 <div class="container" id="contact">
 	<label class="hide" for="contact">&nbsp;</label>
 
-	<form
-		class="inputField"
-		method="POST"
-		action="https://mailto:eduardojoeyflores@gmail.com"
-		target="_top"
-	>
-
-		<label for="Name" class="noselect">Name</label>
-
-		<br />
-
-		<input type="text" id="senderName" class="contactforms" required />
-
-		<span id="Name_ErrorMessage" class="errorMessage" />
-
-		<br />
-
-		<label for="email" class="noselect">E-mail</label>
-
-		<br />
-
-		<input type="email" id="senderEmail" class="contactforms" required />
-
-		<span id="email_ErrorMessage" class="errorMessage" />
-
-		<br />
-
-		<label for="message" class="noselect">Message</label>
-
-		<br />
-
-		<textarea
-			id="message"
-			class="contactforms"
-			maxlength="128"
-			style="background-color:rgba(35, 43, 50, 0.4);"
-			required
-		/> <br />
-
-		<br />
-
-		<label class="hide" for="submit">&nbsp;</label>
-
-		<input type="submit" id="submit" class="ripple" value="submit" required />
-		<!-- onClick="submitForm()" -->
-	</form>
 	<form action="https://api.staticforms.xyz/submit" method="post">
         <!-- Replace with accesKey sent to your email -->
         <input type="hidden" name="accessKey" value="98848b09-38b4-487e-8d1b-1a50d030c3d0" required  > <!-- Required -->
@@ -63,12 +17,10 @@
 		<input type="text" name="name"> <!-- Optional -->
 		<label for="email" class="noselect">Email</label>
         <input type="text" name="email" required > <!-- Optional -->
-		<label for="phone" class="noselect">Phone Number</label>
-        <input type="text" name="phone"> <!-- Optional -->
 		<label for="subject" class="noselect">Subject</label>
         <input type="text" name="subject"> <!-- Optional -->
 		<label for="message" class="noselect">Message</label>
-        <textarea name="message" required ></textarea> <!-- Optional -->
+        <textarea name="message" maxlength="128" style="background-color:rgba(35, 43, 50, 0.4);" required ></textarea> <!-- Optional -->
         <!-- If you want replyTo to be set to specific email -->
         <!-- <input type="text" name="replyTo" value="@example.com"> Optional -->
         <!-- Specify @ as reply to value if you want it to be customers email -->

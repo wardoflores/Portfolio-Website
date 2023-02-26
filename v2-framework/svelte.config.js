@@ -24,9 +24,6 @@ const config = {
 			postcss: {
 				plugins: [autoprefixer]
 			  },
-			scss: {
-				prependData: `@import './src/style/app.scss';`
-			}
 		}),
 		typescript({}),
 		mdsvex({
