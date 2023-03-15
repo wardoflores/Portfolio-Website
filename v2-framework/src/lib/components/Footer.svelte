@@ -5,7 +5,7 @@
 		<a href="/"><i class="fa fa-facebook" /></a>
 		<a href="/"><i class="fa fa-twitter" /></a>
 		<a href="/"><i class="fa fa-linkedin" /></a>
-		<a href="/"><i class="fa fa-github" /></a>
+		<a href="/"></a>
 	</div>
 
 	<div class="footer-left">
@@ -21,7 +21,8 @@
 			<a target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
 		</nav>
 
-		<p>Eduardo Jose G. Flores III &copy; 2023</p>
+		<p>Eduardo Jose G. Flores III &copy; 2021 - 2023</p>
+		<p>Made with SvelteKit</p>
 	</div>
 </footer>
 

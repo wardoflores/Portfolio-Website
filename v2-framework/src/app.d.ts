@@ -7,3 +7,6 @@ declare namespace App {
 	// interface Error {}
 	// interface Platform {}
 }
+//declare module '@fortawesome/free-brands-svg-icons/index.es' {
+//  export * from '@fortawesome/free-brands-svg-icons';
+//}
