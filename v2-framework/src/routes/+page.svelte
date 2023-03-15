@@ -3,7 +3,7 @@
 </script>
 
 <hr>
-<h1>🚧 Under construction 🚧</h1>
+<p>🚧 Under construction 🚧</p>
 <hr>
 <p>Feel free to watch the progress and visit the other pages</p>
 <!-- Place Landing page essentials for your services -->
