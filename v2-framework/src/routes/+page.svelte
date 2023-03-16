@@ -2,8 +2,11 @@
 	//
 </script>
 
+<hr>
 <p>🚧 Under construction 🚧</p>
+<hr>
+<p>Feel free to watch the progress and visit the other pages</p>
 <!-- Place Landing page essentials for your services -->
-<!-- Resume section here -->
-<!-- Project teaser section -->
-<!-- List of blogs -->
+<p>🚧 Resume section here 🚧</p>
+<p>🚧 Project teaser section here 🚧</p>
+<p>🚧 List of blogs 🚧</p>
