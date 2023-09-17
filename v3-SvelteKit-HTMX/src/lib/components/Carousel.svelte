@@ -1,5 +1,5 @@
 <!-- https://css-tricks.com/css-only-carousel/ -->
-<script lang="ts">
+<script lang="js">
 	//   fetch('https://api.unsplash.com/photos/random/?count=5&client_id=52d8369eb3e2576a5f5b6423865e074e9c7045761bff1ac5664ff3e0bdb57a1d')
 	// .then(response => response.json())
 	// .then(data => {
