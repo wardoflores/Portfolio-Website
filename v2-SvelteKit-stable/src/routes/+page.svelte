@@ -9,4 +9,4 @@
 <!-- Place Landing page essentials for your services -->
 <p>🚧 Resume section here 🚧</p>
 <p>🚧 Project teaser section here 🚧</p>
-<p>🚧 List of blogs 🚧</p>
+<p>🚧 https://docs.google.com/document/d/1kMZBOdooxe26-mhSc8pzMryQq2nRfytmgulfcnMhpnI/edit?usp=sharing 🚧</p>
