@@ -320,49 +320,92 @@ In the heart of our community, a stark image emerges—a landscape where promise
 ## Market Study
 
 ### Target Audience & Current Customers
-**Primary Segments:**
-- Municipal governments (50% target)
-- Animal welfare NGOs (30%)
-- Pet service businesses (20%)
-
-**Conversion Strategy:**
-- Freemium model for citizens
-- SaaS pricing for government partners
-- Commission-based premium listings for businesses
-
-### Market Description & Challenges
-**Market Size:** $240M in SEA urban tech solutions  
-**Growth Potential:** 18% CAGR (2025-2030)  
-**Key Challenges:**
-- Legacy system integration
-- Data privacy concerns
-- Community adoption inertia
+<div class="markdown-list">
+  <ul>
+    <li><strong>Primary Segments:</strong>
+      <ul>
+        <li>Municipal governments (50% target)</li>
+        <li>Animal welfare NGOs (30%)</li>
+        <li>Pet service businesses (20%)</li>
+      </ul>
+    </li>
+    <li><strong>Conversion Strategy:</strong>
+      <ul>
+        <li>Freemium model for citizens</li>
+        <li>SaaS pricing for government partners</li>
+        <li>Commission-based premium listings</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 ### Competitors & Advantage
-**Direct Competitors:**
-1. PetFinda (Limited GIS capabilities)
-2. CivicConnect (No animal focus)
-
-**Tarays! Differentiation:**
-- Dual animal/public service focus
-- Open API ecosystem
-- Gamified community reporting
+<div class="markdown-list">
+  <ul>
+    <li><strong>Direct Competitors:</strong>
+      <ol>
+        <li>PetFinda (Limited GIS capabilities)</li>
+        <li>CivicConnect (No animal focus)</li>
+      </ol>
+    </li>
+    <li><strong>Tarays! Differentiation:</strong>
+      <ul>
+        <li>Dual animal/public service focus</li>
+        <li>Open API ecosystem</li>
+        <li>Gamified community reporting</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 ### Demand Drivers
-1. 40% increase in urban strays (2020-2025)
-2. 65% of LGUs report service coordination issues
-3. 78% citizens willing to report via mobile app
+<div class="markdown-list">
+  <ol>
+    <li>40% increase in urban strays (2020-2025)</li>
+    <li>65% of LGUs report service coordination issues</li>
+    <li>78% citizens willing to report via mobile app</li>
+  </ol>
+</div>
 
 ### Customer Attitudes
-**Pricing Sensitivity:**
-- Governments: Value-based pricing acceptable
-- Citizens: Free base features expected
-- Businesses: Willing to pay 5-7% commission
+<div class="markdown-list">
+  <ul>
+    <li>Pricing Sensitivity:</strong>
+        <ul>
+            <li>Governments: Value-based pricing acceptable</li>
+            <li>Citizens: Free base features expected</li>
+            <li>Businesses: Willing to pay 5-7% commission</li>
+      </ul>
+    </li>
+    <li>Adoption Factors:</strong>
+        <ul>
+            <li>92% prioritize ease-of-use</li>
+            <li>85% demand multi-language support</li>
+            <li>76% require real-time updates</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
-**Adoption Factors:**
-- 92% prioritize ease-of-use
-- 85% demand multi-language support
-- 76% require real-time updates
+<div class="markdown-roi">
+  <h3>ROI PROJECTION (3-YEAR)</h3>
+  <div class="markdown-list">
+    <ul>
+      <li><strong>Key Metrics:</strong>
+        <ul>
+          <li>Municipal Partnerships: 5 → 15 → 30</li>
+          <li>Cost Savings: ₱2.4M → ₱5.1M → ₱9.8M</li>
+        </ul>
+      </li>
+      <li><strong>Efficiency Gains:</strong>
+        <ol>
+          <li>40% faster response times</li>
+          <li>25% reduction in duplicate cases</li>
+        </ol>
+      </li>
+    </ul>
+  </div>
+</div>
 
 ## Conclusion
 

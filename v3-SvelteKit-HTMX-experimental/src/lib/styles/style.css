@@ -138,3 +138,68 @@ a {
     border-color: #ddd !important;
   }
 }
+
+/* Add to existing styles */
+.markdown-list {
+  font-family: 'Monospace Web', monospace;
+  background: #1a1a1a;
+  color: #c0c0c0;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border: 1px solid #333;
+}
+
+.markdown-list ul,
+.markdown-list ol {
+  padding-left: 2rem;
+  margin: 0.8rem 0;
+}
+
+.markdown-list li {
+  padding: 0.4rem 0;
+  line-height: 1.5;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.markdown-list li:last-child {
+  border-bottom: none;
+}
+
+/* Nested list styling */
+.markdown-list ul ul,
+.markdown-list ol ol {
+  padding-left: 1.5rem;
+  margin: 0.4rem 0;
+}
+
+.markdown-list li::marker {
+  color: #666;
+}
+
+/* ROI Section */
+.markdown-roi {
+  font-family: 'Monospace Web', monospace;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.markdown-roi h3 {
+  color: #e0e0e0;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-roi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.markdown-roi-item {
+  padding: 1rem;
+  border: 1px solid #333;
+  background: #2a2a2a;
+}
