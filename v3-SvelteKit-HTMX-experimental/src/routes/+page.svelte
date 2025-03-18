@@ -1,12 +1,11 @@
 <script lang="js">
-	//
+	import AppCard from '$lib/components/AppCard.svelte';
 </script>
 
 <hr>
-<p>🚧 Under construction 🚧</p>
+<p>🚧  🚧</p>
 <hr>
 <p>Feel free to watch the progress and visit the other pages</p>
 <!-- Place Landing page essentials for your services -->
-<p>🚧 Resume section here 🚧</p>
-<p>🚧 Project teaser section here 🚧</p>
-<p>🚧 List of blogs 🚧</p>
+<AppCard />
+

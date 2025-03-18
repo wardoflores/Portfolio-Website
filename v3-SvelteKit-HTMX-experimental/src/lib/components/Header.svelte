@@ -6,7 +6,7 @@
 
 <section class="top-nav">
 	<div>
-		<a data-sveltekit-preload-code data-sveltekit-reload href="/">HOME</a>
+		<a data-sveltekit-preload-code data-sveltekit-reload href="/">KULMATA</a>
 	</div>
 	<input id="menu-toggle" type="checkbox" />
 	<label class="menu-button-container" for="menu-toggle">
