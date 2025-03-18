@@ -24,46 +24,42 @@ In the heart of our community, a stark image emerges—a landscape where promise
 <table>
   <thead>
     <tr>
+      <th colspan="4">TARAYS! VALUE PROPOSITION CANVAS</th>
+    </tr>
+    <tr>
       <th>PRODUCTS & SERVICES</th>
       <th>GAIN CREATORS</th>
-      <th>PAIN RELIEVERS</th>
       <th>GAINS</th>
-      <th>PAINS</th>
       <th>JOBS TO BE DONE</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td data-label="Products & Services">Database Website</td>
-      <td data-label="Gain Creators">Real-time data access</td>
-      <td data-label="Pain Relievers">Eliminates manual records</td>
-      <td data-label="Gains">Centralized information</td>
-      <td data-label="Pains">Fragmented data</td>
-      <td data-label="Jobs">Create unified registry</td>
-    </tr>
-    <tr>
-      <td data-label="Products & Services">API Endpoints</td>
-      <td data-label="Gain Creators">Third-party integrations</td>
-      <td data-label="Pain Relievers">Reduces dev overhead</td>
-      <td data-label="Gains">Twitter automation</td>
-      <td data-label="Pains">Manual social management</td>
-      <td data-label="Jobs">Enable partnerships</td>
-    </tr>
-    <tr>
-      <td data-label="Products & Services">GIS Mapping</td>
-      <td data-label="Gain Creators">Heatmap visualization</td>
-      <td data-label="Pain Relievers">Tracking solutions</td>
-      <td data-label="Gains">Live movement data</td>
-      <td data-label="Pains">Limited awareness</td>
-      <td data-label="Jobs">Optimize resources</td>
-    </tr>
-    <tr>
-      <td data-label="Products & Services">Mobile App</td>
-      <td data-label="Gain Creators">Reporting tools</td>
-      <td data-label="Pain Relievers">Faster response times</td>
-      <td data-label="Gains">Crowdsourced data</td>
-      <td data-label="Pains">Delayed reporting</td>
-      <td data-label="Jobs">Empower citizens</td>
+      <td>
+        <strong>Core Offerings:</strong><br>
+        • Public Database (GIS)<br>
+        • API Integration System<br>
+        • Mobile Reporting App<br>
+        • Community Engagement Platform
+      </td>
+      <td>
+        • Real-time stray animal tracking<br>
+        • Automated service request routing<br>
+        • Crowdsourced incident reporting<br>
+        • Integrated municipal systems
+      </td>
+      <td>
+        • 40% faster response times<br>
+        • 25% reduction in duplicate cases<br>
+        • Centralized service coordination<br>
+        • Transparent community metrics
+      </td>
+      <td>
+        • Report stray animals<br>
+        • Map public service gaps<br>
+        • Coordinate rescue ops<br>
+        • Track case resolutions
+      </td>
     </tr>
   </tbody>
 </table>
@@ -75,40 +71,27 @@ In the heart of our community, a stark image emerges—a landscape where promise
 <table>
   <thead>
     <tr>
-      <th colspan="6">Work Plan</th>
+      <th colspan="4">PAIN RELIEVERS & PAINS</th>
     </tr>
     <tr>
-      <td data-label="Startup Name">KULMATA</td>
-      <td data-label="Project Title">Tarays!</td>
-      <td data-label="Duration">18 months</td>
-      <td data-label="Start Date">2025-04-01</td>
-      <td data-label="End Date">2026-09-30</td>
+      <th>PAIN RELIEVERS</th>
+      <th>PAINS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td data-label="Objective">Platform Development</td>
-      <td data-label="Activities">Core architecture</td>
-      <td data-label="Accomplishments">MVP Launch</td>
-      <td data-label="Y1Q1">✔️</td>
-      <td data-label="Y1Q2"></td>
-      <td data-label="Total">1</td>
-    </tr>
-    <tr>
-      <td data-label="Objective">Community Onboarding</td>
-      <td data-label="Activities">City pilot program</td>
-      <td data-label="Accomplishments">5k users</td>
-      <td data-label="Y1Q1"></td>
-      <td data-label="Y1Q2">✔️</td>
-      <td data-label="Total">1</td>
-    </tr>
-    <tr>
-      <td data-label="Objective">Gov Partnerships</td>
-      <td data-label="Activities">LGU agreements</td>
-      <td data-label="Accomplishments">3 systems integrated</td>
-      <td data-label="Y1Q1"></td>
-      <td data-label="Y1Q2"></td>
-      <td data-label="Total">1</td>
+      <td>
+        • Unified reporting interface<br>
+        • Automated case prioritization<br>
+        • Municipal API integrations<br>
+        • Anonymous abuse reporting
+      </td>
+      <td>
+        • Fragmented service systems<br>
+        • Untracked stray populations<br>
+        • Slow municipal responses<br>
+        • Limited public engagement
+      </td>
     </tr>
   </tbody>
 </table>
@@ -120,49 +103,214 @@ In the heart of our community, a stark image emerges—a landscape where promise
 <table>
   <thead>
     <tr>
-      <th colspan="6">Financial Plan (USD)</th>
+      <th colspan="7">TARAYS! WORK PLAN (18-MONTH TIMELINE)</th>
     </tr>
     <tr>
-      <th>ITEM</th>
+      <th>OBJECTIVES</th>
+      <th>TARGET ACTIVITIES</th>
+      <th>TARGET ACCOMPLISHMENTS</th>
       <th>Y1Q1</th>
       <th>Y1Q2</th>
       <th>Y1Q3</th>
       <th>Y1Q4</th>
-      <th>TOTAL</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td data-label="Item">Cloud Services</td>
-      <td data-label="Y1Q1">2,500</td>
-      <td data-label="Y1Q2">2,500</td>
-      <td data-label="Y1Q3">3,000</td>
-      <td data-label="Y1Q4">3,000</td>
-      <td data-label="Total">11,000</td>
+      <td>Platform Development</td>
+      <td>Build core GIS/API infrastructure</td>
+      <td>MVP Launch (3 cities)</td>
+      <td>✔️</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td data-label="Item">Dev Team</td>
-      <td data-label="Y1Q1">8,000</td>
-      <td data-label="Y1Q2">8,000</td>
-      <td data-label="Y1Q3">10,000</td>
-      <td data-label="Y1Q4">10,000</td>
-      <td data-label="Total">36,000</td>
+      <td>Community Onboarding</td>
+      <td>Pilot program implementation</td>
+      <td>5k active users</td>
+      <td></td>
+      <td>✔️</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td data-label="Item">Community Ops</td>
-      <td data-label="Y1Q1">1,000</td>
-      <td data-label="Y1Q2">2,000</td>
-      <td data-label="Y1Q3">3,000</td>
-      <td data-label="Y1Q4">4,000</td>
-      <td data-label="Total">10,000</td>
+      <td>Gov't Partnerships</td>
+      <td>Sign MOAs with 5 LGUs</td>
+      <td>Integrated municipal dashboards</td>
+      <td></td>
+      <td></td>
+      <td>✔️</td>
+      <td></td>
     </tr>
     <tr>
-      <td data-label="Item">Grand Total</td>
-      <td data-label="Y1Q1">11,500</td>
-      <td data-label="Y1Q2">12,500</td>
-      <td data-label="Y1Q3">16,000</td>
-      <td data-label="Y1Q4">17,000</td>
-      <td data-label="Total">57,000</td>
+      <td>System Optimization</td>
+      <td>AI-driven case prioritization</td>
+      <td>30% faster response times</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>✔️</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="markdown-table">
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="6">PROJECT BUDGET SUMMARY</th>
+    </tr>
+    <tr>
+      <th>Item (UACS Code)</th>
+      <th>Y1Q1</th>
+      <th>Y1Q2</th>
+      <th>Y1Q3</th>
+      <th>Y1Q4</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Item">50203000 Supplies & Materials</td>
+      <td data-label="Y1Q1">₱160,000</td>
+      <td data-label="Y1Q2">₱27,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱187,000</td>
+    </tr>
+    <tr>
+      <td data-label="Breakdown">・50-20-300 ICT Equipment (50203000)</td>
+      <td>₱150,000</td>
+      <td>₱24,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱174,000</td>
+    </tr>
+    <tr>
+      <td data-label="Breakdown">・50-20-310 Office Supplies (50203010)</td>
+      <td>₱10,000</td>
+      <td>₱3,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱13,000</td>
+    </tr>
+    <tr>
+      <td data-label="Item">50211000 Professional Services</td>
+      <td>₱100,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱100,000</td>
+    </tr>
+    <tr>
+      <td data-label="Item">50299050 Rent Expenses</td>
+      <td>₱30,000</td>
+      <td>₱30,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱60,000</td>
+    </tr>
+    <tr>
+      <td data-label="Item">50299990 Other MOOE</td>
+      <td>₱50,000</td>
+      <td>₱10,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱60,000</td>
+    </tr>
+    <tr>
+      <td data-label="Total"><strong>GRAND TOTAL</strong></td>
+      <td colspan="4"></td>
+      <td><strong>₱407,000</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="markdown-table">
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="12">MAINTENANCE AND OTHER OPERATING EXPENSES (MOOE)</th>
+    </tr>
+    <tr>
+      <th>UACS Code</th>
+      <th>Item</th>
+      <th>Y1Q1</th>
+      <th>Y1Q2</th>
+      <th>Y1Q3</th>
+      <th>Y1Q4</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>50203000</td>
+      <td>Supplies & Materials</td>
+      <td>₱160,000</td>
+      <td>₱27,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱187,000</td>
+    </tr>
+    <tr>
+      <td>50203010</td>
+      <td>・Office Supplies</td>
+      <td>₱10,000</td>
+      <td>₱3,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱13,000</td>
+    </tr>
+    <tr>
+      <td>50203000</td>
+      <td>・ICT Equipment</td>
+      <td>₱150,000</td>
+      <td>₱24,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱174,000</td>
+    </tr>
+    <tr>
+      <td>50211000</td>
+      <td>Professional Services</td>
+      <td>₱100,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱100,000</td>
+    </tr>
+    <tr>
+      <td>50299050</td>
+      <td>Rent Expenses</td>
+      <td>₱30,000</td>
+      <td>₱30,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱60,000</td>
+    </tr>
+    <tr>
+      <td>50299990</td>
+      <td>Other MOOE</td>
+      <td>₱50,000</td>
+      <td>₱10,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱60,000</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>TOTAL MOOE</strong></td>
+      <td>₱340,000</td>
+      <td>₱67,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>₱407,000</strong></td>
     </tr>
   </tbody>
 </table>
