@@ -21,7 +21,7 @@
 			<a target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
 		</nav>
 
-		<p>Eduardo Jose G. Flores III &copy; 2021 - 2023</p>
+		<p>KULMATA RESEARCH AND EXPERIMENTAL DEVELOPMENT IN INFORMATION TECHNOLOGY &copy; 2021 - 2025</p>
 		<p>Made with SvelteKit</p>
 	</div>
 </footer>

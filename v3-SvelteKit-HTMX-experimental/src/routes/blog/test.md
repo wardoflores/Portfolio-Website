@@ -1,6 +1,6 @@
 ---
 title: Dev Dynamic Post
-date: '2023-02-20'
+date: 2023-02-20
 category: 'dev'
 layout: blog
 ---
