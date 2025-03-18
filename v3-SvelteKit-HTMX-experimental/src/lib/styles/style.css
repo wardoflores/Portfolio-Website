@@ -63,7 +63,7 @@ a {
 }
 
 /* 2025-03-19 monospace web */
-/* Updated .markdown-table section */
+/* Add to existing .markdown-table styles */
 .markdown-table {
   font-family: 'Monospace Web', monospace;
   width: 100%;
@@ -72,51 +72,60 @@ a {
   border: 1px solid #333;
   background: #1a1a1a;
   color: #c0c0c0;
-  table-layout: fixed; /* Added for consistent grid behavior */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  overflow: hidden;
 }
 
-.markdown-table th,
-.markdown-table td {
-  padding: 0.8em 1.2em;
-  border: 1px solid #444;
-  line-height: 1.4;
-  word-break: break-word; /* Better text handling */
-  hyphens: auto; /* Improved hyphenation */
-}
-
-/* Mobile adaptation that respects original style */
+/* Mobile-first responsive adjustments */
 @media (max-width: 768px) {
   .markdown-table {
     display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-    background:
-      linear-gradient(90deg, #1a1a1a 22px, transparent 1%) center,
-      linear-gradient(#1a1a1a 22px, transparent 1%) center,
-      #1a1a1a;
-    background-size: 22px 22px;
+    border-radius: 4px;
+    position: relative;
   }
 
-  .markdown-table th,
+  .markdown-table thead {
+    display: none;
+  }
+
+  .markdown-table tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #444;
+  }
+
   .markdown-table td {
-    padding: 0.6em 0.8em; /* Adjusted for mobile */
-    font-size: 0.9em; /* Better mobile readability */
-    white-space: normal; /* Allow text wrapping */
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1rem;
+    text-align: left !important;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-bottom: 1px solid #444;
+  }
+
+  .markdown-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 }
 
-/* Enhanced scrollbar to match theme */
+/* Enhanced scroll styling */
 .markdown-table::-webkit-scrollbar {
-  height: 6px;
+  height: 8px;
   background: #2a2a2a;
 }
 
 .markdown-table::-webkit-scrollbar-thumb {
   background: #444;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
-/* Print optimization */
+/* Print styles */
 @media print {
   .markdown-table {
     background: white !important;
