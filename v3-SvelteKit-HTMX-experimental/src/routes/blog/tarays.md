@@ -1,7 +1,7 @@
 ---
 title: Tarays! 🐶😸
 date: 2025-03-18
-revision: 2
+revision: 5
 update: 2025-03-19
 category: "dev"
 author: "flyingahas"
@@ -370,14 +370,14 @@ In the heart of our community, a stark image emerges—a landscape where promise
 ### Customer Attitudes
 <div class="markdown-list">
   <ul>
-    <li>Pricing Sensitivity:</strong>
+    <li><strong>Pricing Sensitivity:</strong>
         <ul>
             <li>Governments: Value-based pricing acceptable</li>
             <li>Citizens: Free base features expected</li>
             <li>Businesses: Willing to pay 5-7% commission</li>
       </ul>
     </li>
-    <li>Adoption Factors:</strong>
+    <li><strong>Adoption Factors:</strong>
         <ul>
             <li>92% prioritize ease-of-use</li>
             <li>85% demand multi-language support</li>
