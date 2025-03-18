@@ -9,7 +9,7 @@ tags: [Startup, Investment, Technology, Networking]
 layout: blog
 ---
 
-# Tarays!
+---
 
 Welcome to my blog post on **Tarays!**, a community-driven platform that integrates pet care with public service solutions to address urban challenges through innovative technology.
 
