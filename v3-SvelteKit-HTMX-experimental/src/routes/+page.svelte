@@ -3,9 +3,8 @@
 </script>
 
 <hr>
-<p>🚧  🚧</p>
+<p> KULMATA 🚧 dynamic words here 🚧</p>
 <hr>
-<p>Feel free to watch the progress and visit the other pages</p>
-<!-- Place Landing page essentials for your services -->
+<p>Check out our services!</p>
 <AppCard />
 

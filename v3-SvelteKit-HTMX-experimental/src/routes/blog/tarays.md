@@ -1,6 +1,8 @@
 ---
 title: Tarays! 🐶😸
 date: 2025-03-18
+revision: 2
+update: 2025-03-19
 category: "dev"
 author: "flyingahas"
 tags: [Startup, Investment, Technology, Networking]
@@ -22,6 +24,61 @@ In the heart of our community, a stark image emerges—a landscape where promise
 **Stray Animal Management:** Difficulties in tracking and managing stray animal populations.
 
 **Public Service Gaps:** Inefficiencies in public service communication hinder community support and transparency.
+
+<div class="markdown-table">
+
+Value Proposition Canvas
+
+| PRODUCTS & SERVICES | GAIN CREATORS | GAINS |JOBS TO BE DONE |
+|-------------|-------------|---------|---|
+|   | PAIN RELIEVERS  | PAINS  |   |
+| `npm start` | Run dev     | 8.11.0  |   |
+
+</div>
+
+<div class="markdown-table">
+
+Work Plan
+
+| Startup Name:      | KULMATA | * | * |
+| Project Title: | Tarays! | * | * |
+| Project Duration: |  months | Project Start Date:  | Product End Date: |
+
+| OBJECTIVES      | TARGET ACTIVITIES | TARGET ACCOMPLISHMENTS | Y1Q1 | Y1Q2 | Y1Q3 | Y1Q4 | TOTAL | 
+|-------------|-------------|---------|---|---|---|---|---|
+|   |   |   | | | | | |
+|  |      |  | | | | | |
+
+</div>
+
+<div class="markdown-table">
+
+Financial Plan
+
+| ITEM      | Y1Q1 | Y1Q2 | Y1Q3 | Y1Q4 | TOTAL | | |
+|-----------|-------------|---------|---|---|---|---|--- |
+| Maintenance and Other Operating Expenses (MOOE)  |   |   | | | | | |
+| A. Supplies and Materials |      |   | | | | | |
+| B. Professional Services |      |   | | | | | |
+| C. Rent Expenses |      |   | | | | | |
+| D. Other MOOE |      |   | | | | | |
+| Sub-Total for MOOE |      |   | | | | | |
+| GRAND TOTAL: |      |   | | | | | |
+
+MAINTENANCE AND OTHER OPERATING EXPENSES (MOOE)
+
+| ITEM      | Y1Q1 | Y1Q2 | Y1Q3 | Y1Q4 | TOTAL | GRAND TOTAL | |
+|-----------|-------------|---------|---|---|---|---|--- |
+| A. Travelling Expenses |      |   | | | | | |
+| B. Communication Expenses |      |   | | | | | |
+| C. Supplies and Materials |      |   | | | | | |
+| D. Professional Service |      |   | | | | | |
+| E. Labor and Wages  |      |   | | | | | |
+| F. Repairs and Maintenance |      |   | | | | | |
+| G. Other Maintenance and Operating Expenses |      |   | | | | | |
+
+
+</div>
 
 ## The Solution
 
@@ -48,6 +105,22 @@ These partnerships not only strengthen service delivery but also improve visibil
 **Community:** Tarays! will strengthen community bonds by providing a centralized platform where citizens, local organizations, and service providers collaborate effectively. This unified approach not only enables prompt responses to local issues but also fosters a sense of belonging and collective responsibility, resulting in a more resilient and empowered community.
 
 **Significance of Animals in Cultural Development:** Animals are integral to our cultural identity, symbolizing empathy, resilience, and tradition. Tarays! honors this heritage by promoting animal welfare and highlighting the role of animals as catalysts for cultural expression and community pride, thereby inspiring a renewed appreciation for our shared values and traditions.
+
+Market Study
+
+Target Audience current customers
+
+Market Description and Potential Challenges
+
+Competitors and Competitive Advantage
+
+Demand
+
+Data on Purchase Influence and Conversion among the Target Audience
+
+Data on Customer Attitudes
+
+Data on Customer Attitudes about Pricing
 
 ## Conclusion
 
