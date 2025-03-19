@@ -19,6 +19,7 @@ Tarays! aims to centralize stray animal management and enhance public service co
 
 In the heart of our community, a stark image emerges—a landscape where promise and neglect collide. The streets, once vibrant with shared hope, now reveal the subtle scars of disjointed public services and outdated infrastructure. Stray animals wander unheeded, their presence echoing the broader disconnect: a failure to maintain the technological and social networks that once united us. This fragmented scene, marked by faltering communication and isolated pockets of need, calls for a transformative solution to restore cohesion and breathe new life into our shared spaces.
 
+
 <div class="markdown-table">
 
 <table>
@@ -36,37 +37,29 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <tbody>
     <tr>
       <td>
-        <strong>Core Offerings:</strong>
-        <ul>
-          <li>Public Database (GIS)</li>
-          <li>API Integration System</li>
-          <li>Mobile Reporting App</li>
-          <li>Community Engagement Platform</li>
-        </ul>
+        <strong>Core Offerings:</strong><br>
+        • Public Database (GIS)<br>
+        • API Integration System<br>
+        • Mobile Reporting App<br>
+        • Community Engagement Platform
       </td>
       <td>
-        <ul>
-          <li>Real-time stray animal tracking</li>
-          <li>Automated service request routing</li>
-          <li>Crowdsourced incident reporting</li>
-          <li>Integrated municipal systems</li>
-        </ul>
+        • Real-time stray animal tracking<br>
+        • Automated service request routing<br>
+        • Crowdsourced incident reporting<br>
+        • Integrated municipal systems
       </td>
       <td>
-        <ul>
-          <li>40% faster response times</li>
-          <li>25% reduction in duplicate cases</li>
-          <li>Centralized service coordination</li>
-          <li>Transparent community metrics</li>
-        </ul>
+        • 40% faster response times<br>
+        • 25% reduction in duplicate cases<br>
+        • Centralized service coordination<br>
+        • Transparent community metrics
       </td>
       <td>
-        <ul>
-          <li>Report stray animals</li>
-          <li>Map public service gaps</li>
-          <li>Coordinate rescue ops</li>
-          <li>Track case resolutions</li>
-        </ul>
+        • Report stray animals<br>
+        • Map public service gaps<br>
+        • Coordinate rescue ops<br>
+        • Track case resolutions
       </td>
     </tr>
   </tbody>
@@ -187,15 +180,31 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </thead>
   <tbody>
     <tr>
-      <td data-label="Item">50203000 Supplies & Materials</td>
-      <td data-label="Y1Q1">₱160,000</td>
-      <td data-label="Y1Q2">₱27,000</td>
-      <td data-label="Y1Q3">-</td>
-      <td data-label="Y1Q4">-</td>
-      <td data-label="Total">₱187,000</td>
+      <td>
+        <div class="markdown-list">
+          50203000 Supplies & Materials
+          <ul>
+            <li>50-20-300 ICT Equipment</li>
+            <li>50-20-310 Office Supplies</li>
+          </ul>
+        </div>
+      </td>
+      <td>₱160,000</td>
+      <td>₱27,000</td>
+      <td>-</td>
+      <td>-</td>
+      <td>₱187,000</td>
     </tr>
     <tr>
-      <td data-label="Breakdown">・50-20-300 ICT Equipment (50203000)</td>
+      <td>
+        <div class="markdown-list">
+          50203000 ICT Equipment
+          <ul>
+            <li>Mobile reporting devices</li>
+            <li>GIS mapping terminals</li>
+          </ul>
+        </div>
+      </td>
       <td>₱150,000</td>
       <td>₱24,000</td>
       <td>-</td>
@@ -203,7 +212,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
       <td>₱174,000</td>
     </tr>
     <tr>
-      <td data-label="Breakdown">・50-20-310 Office Supplies (50203010)</td>
+      <td>
+        <div class="markdown-list">
+          50203010 Office Supplies
+          <ul>
+            <li>Field reporting kits</li>
+            <li>Community outreach materials</li>
+          </ul>
+        </div>
+      </td>
       <td>₱10,000</td>
       <td>₱3,000</td>
       <td>-</td>
@@ -211,7 +228,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
       <td>₱13,000</td>
     </tr>
     <tr>
-      <td data-label="Item">50211000 Professional Services</td>
+      <td>50211000 Professional Services</td>
       <td>₱100,000</td>
       <td>-</td>
       <td>-</td>
@@ -219,7 +236,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
       <td>₱100,000</td>
     </tr>
     <tr>
-      <td data-label="Item">50299050 Rent Expenses</td>
+      <td>50299050 Rent Expenses</td>
       <td>₱30,000</td>
       <td>₱30,000</td>
       <td>-</td>
@@ -227,7 +244,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
       <td>₱60,000</td>
     </tr>
     <tr>
-      <td data-label="Item">50299990 Other MOOE</td>
+      <td>
+        <div class="markdown-list">
+          50299990 Other MOOE
+          <ul>
+            <li>Cloud storage subscriptions</li>
+            <li>API maintenance fees</li>
+          </ul>
+        </div>
+      </td>
       <td>₱50,000</td>
       <td>₱10,000</td>
       <td>-</td>
@@ -235,8 +260,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
       <td>₱60,000</td>
     </tr>
     <tr>
-      <td data-label="Total"><strong>GRAND TOTAL</strong></td>
-      <td colspan="4"></td>
+      <td colspan="5"><strong>GRAND TOTAL</strong></td>
       <td><strong>₱407,000</strong></td>
     </tr>
   </tbody>
@@ -264,7 +288,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <tbody>
     <tr>
       <td>50203000</td>
-      <td>Supplies & Materials</td>
+      <td>
+        <div class="markdown-list">
+          Supplies & Materials
+          <ul>
+            <li>ICT Equipment</li>
+            <li>Office Supplies</li>
+          </ul>
+        </div>
+      </td>
       <td>₱160,000</td>
       <td>₱27,000</td>
       <td>-</td>
@@ -273,7 +305,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td>50203010</td>
-      <td>・Office Supplies</td>
+      <td>
+        <div class="markdown-list">
+          Office Supplies
+          <ul>
+            <li>Field reporting kits</li>
+            <li>Community outreach materials</li>
+          </ul>
+        </div>
+      </td>
       <td>₱10,000</td>
       <td>₱3,000</td>
       <td>-</td>
@@ -282,7 +322,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td>50203000</td>
-      <td>・ICT Equipment</td>
+      <td>
+        <div class="markdown-list">
+          ICT Equipment
+          <ul>
+            <li>Mobile reporting devices</li>
+            <li>GIS mapping terminals</li>
+          </ul>
+        </div>
+      </td>
       <td>₱150,000</td>
       <td>₱24,000</td>
       <td>-</td>
@@ -300,7 +348,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td>50299050</td>
-      <td>Rent Expenses</td>
+      <td>
+        <div class="markdown-list">
+          Rent Expenses
+          <ul>
+            <li>Co-working space</li>
+            <li>Equipment storage</li>
+          </ul>
+        </div>
+      </td>
       <td>₱30,000</td>
       <td>₱30,000</td>
       <td>-</td>
@@ -309,7 +365,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td>50299990</td>
-      <td>Other MOOE</td>
+      <td>
+        <div class="markdown-list">
+          Other MOOE
+          <ul>
+            <li>Cloud subscriptions</li>
+            <li>API maintenance</li>
+          </ul>
+        </div>
+      </td>
       <td>₱50,000</td>
       <td>₱10,000</td>
       <td>-</td>
@@ -434,3 +498,5 @@ These initiatives demonstrate our commitment to leveraging technology for sustai
 ---
 
 Thank you for reading! Feel free to [contact me](mailto:flyingahas@kulmata.com) or leave a comment below(?).
+
+
