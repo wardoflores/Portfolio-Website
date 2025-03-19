@@ -203,7 +203,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <tbody>
     <tr>
       <td data-label="OBJECTIVES">Nationwide Service</td>
-      <td data-label="TARGET ACTIVITIES">Build Communication Infratructure - Computer Network Servers</td>
+      <td data-label="TARGET ACTIVITIES">Development of Communication Infratructure - omputer Network Servers</td>
       <td data-label="TARGET ACCOMPLISHMENTS">Contact Visibility through Telecommunication and Consultation</td>
       <td data-label="Y1Q1">✔️</td>
       <td data-label="Y1Q2">✔️</td>
@@ -212,7 +212,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Stray Animal Dashboard</td>
-      <td data-label="TARGET ACTIVITIES">Build Database Infrastructure </td>
+      <td data-label="TARGET ACTIVITIES">Development of Database Webpage - API Endpoints</td>
       <td data-label="TARGET ACCOMPLISHMENTS">MVP Launch for Pet Animals</td>
       <td data-label="Y1Q1">✔️</td>
       <td data-label="Y1Q2">✔️</td>
@@ -221,7 +221,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Social Networking Service Integration</td>
-      <td data-label="TARGET ACTIVITIES">Build core GIS/API infrastructure</td>
+      <td data-label="TARGET ACTIVITIES">Development of core GIS/API infrastructure - Utilize Enterprise SNS APIs</td>
       <td data-label="TARGET ACCOMPLISHMENTS">Cultural Integration</td>
       <td data-label="Y1Q1">✔️</td>
       <td data-label="Y1Q2">✔️</td>
@@ -229,17 +229,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
       <td data-label="Y1Q4">✔️</td>
     </tr>
     <tr>
-      <td data-label="OBJECTIVES"></td>
-      <td data-label="TARGET ACTIVITIES">Build core GIS/API infrastructure</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">MVP Launch</td>
-      <td data-label="Y1Q1">✔️</td>
-      <td data-label="Y1Q2">✔️</td>
-      <td data-label="Y1Q3">✔️</td>
-      <td data-label="Y1Q4">✔️</td>
-    </tr>
-    <tr>
       <td data-label="OBJECTIVES">Crowdfunding Stray Animal Care</td>
-      <td data-label="TARGET ACTIVITIES">Build Enterprise Dashboard for Endorsements</td>
+      <td data-label="TARGET ACTIVITIES">Development of Enterprise Dashboard for Endorsements</td>
       <td data-label="TARGET ACCOMPLISHMENTS">Veterinary Professional Partnership</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2">✔️</td>
@@ -248,8 +239,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">House Pet Foster Care</td>
-      <td data-label="TARGET ACTIVITIES">User </td>
-      <td data-label="TARGET ACCOMPLISHMENTS">5k active users</td>
+      <td data-label="TARGET ACTIVITIES">Development of Appointment System for daycare</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Cultural Integration</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2">✔️</td>
       <td data-label="Y1Q3">✔️</td>
@@ -257,8 +248,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Pet Care Dashboard</td>
-      <td data-label="TARGET ACTIVITIES">Animal Pathology and Pet Grooming Monitor</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">5k active users</td>
+      <td data-label="TARGET ACTIVITIES">Development of Animal Pathology and Pet Grooming Monitor</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Significant impact on disease Treatments and Prevention</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2">✔️</td>
       <td data-label="Y1Q3">✔️</td>
@@ -266,7 +257,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Shelter Endorsement Service</td>
-      <td data-label="TARGET ACTIVITIES">Pilot program implementation</td>
+      <td data-label="TARGET ACTIVITIES">Cooperation with Veterinary for Stray Aftercare</td>
       <td data-label="TARGET ACCOMPLISHMENTS">5k active users</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2">✔️</td>
@@ -275,8 +266,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Gov't Partnerships Park Service</td>
-      <td data-label="TARGET ACTIVITIES">Sign MOAs with 5 LGUs</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">Integrated municipal dashboards</td>
+      <td data-label="TARGET ACTIVITIES">Development of Integrated municipal dashboard</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Sign MOA with LGU Tourism Department</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3">✔️</td>
@@ -284,8 +275,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Gov't Partnerships Police Enforcer</td>
-      <td data-label="TARGET ACTIVITIES">Sign MOAs with 5 LGUs</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">Integrated municipal dashboards</td>
+      <td data-label="TARGET ACTIVITIES">Development of Integrated municipal dashboard</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Sign MOA with LGU Police Department</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3">✔️</td>
@@ -293,8 +284,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Private Business Partnerships</td>
-      <td data-label="TARGET ACTIVITIES">Sign MOAs with 5 LGUs</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">Integrated municipal dashboards</td>
+      <td data-label="TARGET ACTIVITIES">Development of Integrated municipal dashboard</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Sign MOA with Local Business NGOs</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3">✔️</td>
@@ -302,8 +293,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">LGU Partnerships</td>
-      <td data-label="TARGET ACTIVITIES">Sign MOAs with 5 LGUs</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">Integrated municipal dashboards</td>
+      <td data-label="TARGET ACTIVITIES">Development of Integrated municipal dashboard</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Sign MOA with LGU Department</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3">✔️</td>
@@ -311,8 +302,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Tracker Collar Manufacturing</td>
-      <td data-label="TARGET ACTIVITIES">AI-driven case prioritization</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">30% faster response times</td>
+      <td data-label="TARGET ACTIVITIES">Manufacturing Tracker Collar - Development of Network of Collar Checker communicator</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Full Coverage of Collar Scanner</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3"></td>
@@ -320,8 +311,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Waste Disposal Service</td>
-      <td data-label="TARGET ACTIVITIES">AI-driven case prioritization</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">30% faster response times</td>
+      <td data-label="TARGET ACTIVITIES">Hair Resource Extraction - Excretion for Agricultural Activties</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Cultural Integration</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3"></td>
@@ -329,8 +320,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Burial Service</td>
-      <td data-label="TARGET ACTIVITIES">AI-driven case prioritization</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">30% faster response times</td>
+      <td data-label="TARGET ACTIVITIES">Sign MOA with Funeral Homes</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">N/A</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3"></td>
@@ -338,8 +329,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td data-label="OBJECTIVES">Pet Toy Merchandise</td>
-      <td data-label="TARGET ACTIVITIES">AI-driven case prioritization</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">30% faster response times</td>
+      <td data-label="TARGET ACTIVITIES">Production and Resale Service</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Positive Profit Margin</td>
       <td data-label="Y1Q1"></td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3"></td>
