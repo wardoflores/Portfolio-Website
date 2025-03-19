@@ -350,35 +350,6 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </ul>
 </div>
 
-<div class="markdown-roi">
-  <h3>ROI PROJECTION (3-YEAR)</h3>
-  <div class="markdown-list">
-    <ul>
-      <li><strong>Key Metrics:</strong>
-        <ul>
-          <li>Municipal Partnerships: 5 → 15 → 30</li>
-          <li>Cost Savings: ₱2.4M → ₱5.1M → ₱9.8M</li>
-          <li>Projected market share: 8% → 15% → 22% of addressable market[¹⁵]</li>
-        </ul>
-      </li>
-      <li><strong>Efficiency Gains:</strong>
-        <ol>
-          <li>40% faster response times for animal control services[¹⁶]</li>
-          <li>25% reduction in duplicate cases through centralized reporting[¹⁷]</li>
-          <li>35% improvement in stray animal rehabilitation outcomes[¹⁸]</li>
-        </ol>
-      </li>
-      <li><strong>Social Impact:</strong>
-        <ol>
-          <li>Potential reduction of 12,000+ stray animals from streets by Year 3[¹⁹]</li>
-          <li>Estimated 45% increase in pet adoption rates in participating LGUs[²⁰]</li>
-          <li>Alignment with Philippine Animal Welfare Act goals and SDG 11 (Sustainable Cities)[²¹]</li>
-        </ol>
-      </li>
-    </ul>
-  </div>
-</div>
-
 ## Footnotes
 
 [¹] Philippine Animal Welfare Society. (2023). "Digital Initiatives for Animal Welfare." PAWS Annual Report 2023.
