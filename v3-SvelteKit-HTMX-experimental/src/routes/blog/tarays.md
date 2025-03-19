@@ -13,6 +13,86 @@ layout: blog
 
 Welcome to my blog post on **Tarays!**, a community-driven platform that integrates pet care with public service solutions to address urban challenges through innovative technology.
 
+## Why I ask to raise an investment
+
+As proof for potential with what I did develop with a;
+<div class="markdown-list">
+    <ul>
+    <li>Hand-me-down L450 Thinkpad with Arch Linux OS as Host
+        <ul>
+            <li>cracked screen, water logged keyboard with;</li>
+            <li>USB membrane keyboard that's with keyswitches not working or in need of a ritual to work and a;</li>
+            <li>broken wireless USB Mouse.</li>
+        </ul>
+    </ul>
+</div>
+
+Obsidian PKM by diary with each word in a timestamp log being a note, Notation by Linguistics.
+Parse into a Postgresql database, a little bit of fun with Schemas and soon I may be able to supplement my activities
+
+Setback by having c++ for it at first before doing it by web;
+<div class="markdown-list">
+    <ul>
+        <li>GLAD</li>
+        <li>GLFW</li>
+        <li>DearIMGUI</li>
+        <li>psqlxx</li>
+    </ul>
+</div>
+
+and more but hindered by 3D Shaders. Realized that I was naive, needed to learn about concepts like Pointcloud, or even postGIS
+
+Intranet utilize psql, and htmx for Website that consists of; 
+<div class="markdown-list">
+    <ul>
+        <li>Console</li>
+        <li>Dashboard</li>
+        <li>Analytics</li>
+        <li>ReactNative for WebView only from Intranet</li>
+    </ul>
+
+</div>
+
+As of present, my infrastructure is as follows:
+<div class="markdown-list">
+    <ul>
+<li>Cloudflare DNS</li>
+<li>Hostinger KVM1 VPS use Docker Compose for;</li>
+    <ul>
+        <li>mailcow</li>
+        <li>baikal</li>
+        <li>traccar</li>
+        <li>immich</li>
+        <li>wirehole</li>
+        <li>paperless-ngx</li>
+        <li>linkwarden</li>
+        <li>and an attempt on using minIO.</li>
+    </ul>
+<li>Also Docker for Websites.</li>
+    </ul>
+
+</div>
+
+Which is really lacking in resources. For storage concerns in my attempts to connect HDD to VPS:
+<div class="markdown-list">
+    <ul>
+        <li>sshfs</li>
+        <li>nfs</li>
+        <li>glusterfs</li>
+        <li>and with all 3 some attempt to use wirehole with it</li>
+    </ul>
+</div>
+
+There's a ngat called NAT, the correct solution is a personal Router and a NetworkSwitch. Tarays!
+
+Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a 3DPrinter for Businesses of;
+<div class="markdown-list">
+    <ul>
+        <li>Jeepney Stop Sensor and Database, for Ride Sharing in Rush Hour;</li>
+        <li>Sewage Robotics Service</li>
+    </ul>
+</div>
+
 ## Community Pet & Public Service Platform
 
 Tarays! aims to centralize stray animal management and enhance public service communication by leveraging technology. Our goal is to facilitate business opportunities and provide a robust system that benefits both the community and public service sectors.
@@ -483,17 +563,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </div>
 </div>
 
-## Conclusion
 
-Tarays! is more than a project—it's a comprehensive solution designed to transform community engagement and public services through technology. We invite you to join us in this innovative venture by investing in our future. Your support will help us secure the necessary equipment, focus solely on development, and expand our services for the greater good.
-
-Our long-term vision includes:
-
-**Expanded Community Services:** Scouting jeepney stops to facilitate ride sharing for passengers.
-
-**Innovative Infrastructure Monitoring:** Deploying bird robots to scan sewage conditions, thereby improving public health and infrastructure maintenance.
-
-These initiatives demonstrate our commitment to leveraging technology for sustainable community development and innovation.
+## Footnotes
 
 ---
 
