@@ -64,20 +64,39 @@ a {
 
 /* 2025-03-19 monospace web */
 /* Add to existing .markdown-table styles */
+/* Updated table styles without dark background */
 .markdown-table {
   font-family: 'Monospace Web', monospace;
   width: 100%;
   margin: 2em 0;
   border-collapse: collapse;
-  border: 1px solid #333;
-  background: #1a1a1a;
-  color: #c0c0c0;
+  border: 1px solid #333; /* Keep border */
+  background: transparent; /* Removed dark background */
+  color: inherit; /* Use body text color */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   overflow: hidden;
 }
 
-/* Mobile-first responsive adjustments */
+/* Center table cell content */
+.markdown-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.8em 1.2em;
+  border: 1px solid #333; /* Keep cell borders */
+}
+
+/* Header styling */
+.markdown-table th {
+  text-align: center;
+  padding: 0.8em 1.2em;
+  border: 1px solid #333; /* Keep header borders */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .markdown-table {
     display: block;
@@ -92,27 +111,38 @@ a {
   .markdown-table tr {
     display: block;
     margin-bottom: 1rem;
-    border: 1px solid #444;
+    border: 1px solid #333; /* Keep border */
   }
 
   .markdown-table td {
-    text-align: left; /* Left-align for mobile */
-    grid-template-columns: 100px 1fr; /* Keep existing grid */
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1rem;
+    text-align: left !important; /* Left-align for mobile */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-bottom: 1px solid #333; /* Keep bottom border */
   }
-  
+
   .markdown-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: inherit; /* Use body text color */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     text-align: right; /* Align labels to right */
     padding-right: 1rem;
-  }}
+  }
+}
 
-/* Enhanced scroll styling */
+/* Scrollbar styling */
 .markdown-table::-webkit-scrollbar {
   height: 8px;
-  background: #2a2a2a;
+  background: #f0f0f0; /* Light scrollbar background */
 }
 
 .markdown-table::-webkit-scrollbar-thumb {
-  background: #444;
+  background: #666; /* Darker scrollbar thumb */
   border-radius: 4px;
 }
 
@@ -126,31 +156,35 @@ a {
   
   .markdown-table th,
   .markdown-table td {
-    text-align: center;
-    vertical-align: middle;
-    padding: 0.8em 1.2em; /* Maintain existing padding */
+    border-color: #ddd !important;
   }
 }
 
-/* Add to existing styles */
+/* markdown list */
+/* Center all lists */
 .markdown-list {
   font-family: 'Monospace Web', monospace;
-  background: transparent; /* Removed dark background */
-  color: inherit; /* Use body text color */
+  background: transparent;
+  color: inherit;
   padding: 1.5rem;
-  margin: 1.5rem 0;
-  border: 1px solid #333; /* Kept border */
+  margin: 1.5rem auto; /* Center the list container */
+  text-align: center; /* Center list content */
+  border: 1px solid #333;
+  max-width: 800px; /* Prevent lists from being too wide */
 }
-
 
 .markdown-list ul,
 .markdown-list ol {
-  padding-left: 2rem;
-  margin: 0.8rem 0;
+  padding-left: 0; /* Remove default padding */
+  list-style-position: inside; /* Center bullet points */
+  display: inline-block; /* Center the list itself */
+  text-align: left; /* Align text inside lists */
 }
 
 .markdown-list li {
-  border-bottom: 1px solid #eee; /* Lighter separator */
+  padding: 0.4rem 0;
+  line-height: 1.5;
+  border-bottom: 1px solid #eee;
 }
 
 .markdown-list li:last-child {
@@ -166,6 +200,77 @@ a {
 
 .markdown-list li::marker {
   color: #666;
+}
+
+/* Fix mobile table headers */
+@media (max-width: 768px) {
+  .markdown-table thead {
+    display: table-header-group; /* Show headers on mobile */
+  }
+
+  .markdown-table th {
+    display: table-cell; /* Ensure headers are visible */
+    text-align: center;
+    padding: 0.8em 1.2em;
+    border: 1px solid #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: #f0f0f0; /* Light background for headers */
+  }
+
+  .markdown-table tr {
+    display: table-row; /* Reset to table-row for mobile */
+    margin-bottom: 0; /* Remove extra margin */
+    border: none; /* Remove extra borders */
+  }
+
+  .markdown-table td {
+    display: table-cell; /* Reset to table-cell for mobile */
+    text-align: center; /* Center content */
+    padding: 0.8em 1.2em;
+    border: 1px solid #333; /* Keep cell borders */
+  }
+
+  .markdown-table td::before {
+    display: none; /* Hide data-label on mobile */
+  }
+}
+
+/* Fix lists inside table cells */
+.markdown-table td ul,
+.markdown-table td ol {
+  padding-left: 1.5rem; /* Add proper indentation */
+  margin: 0.5rem 0; /* Add spacing */
+  text-align: left; /* Align text to the left */
+  list-style-position: inside; /* Keep bullets/numbers inside */
+}
+
+.markdown-table td li {
+  padding: 0.2rem 0; /* Add spacing between list items */
+  line-height: 1.4; /* Improve readability */
+}
+
+/* Center table cell content */
+.markdown-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.8em 1.2em;
+  border: 1px solid #333;
+}
+
+/* Ensure lists don't break table alignment */
+.markdown-table td {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.markdown-table td > ul,
+.markdown-table td > ol {
+  width: 100%; /* Ensure lists take full cell width */
+  text-align: left; /* Align list text to the left */
 }
 
 /* ROI Section */

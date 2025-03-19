@@ -36,29 +36,37 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <tbody>
     <tr>
       <td>
-        <strong>Core Offerings:</strong><br>
-        • Public Database (GIS)<br>
-        • API Integration System<br>
-        • Mobile Reporting App<br>
-        • Community Engagement Platform
+        <strong>Core Offerings:</strong>
+        <ul>
+          <li>Public Database (GIS)</li>
+          <li>API Integration System</li>
+          <li>Mobile Reporting App</li>
+          <li>Community Engagement Platform</li>
+        </ul>
       </td>
       <td>
-        • Real-time stray animal tracking<br>
-        • Automated service request routing<br>
-        • Crowdsourced incident reporting<br>
-        • Integrated municipal systems
+        <ul>
+          <li>Real-time stray animal tracking</li>
+          <li>Automated service request routing</li>
+          <li>Crowdsourced incident reporting</li>
+          <li>Integrated municipal systems</li>
+        </ul>
       </td>
       <td>
-        • 40% faster response times<br>
-        • 25% reduction in duplicate cases<br>
-        • Centralized service coordination<br>
-        • Transparent community metrics
+        <ul>
+          <li>40% faster response times</li>
+          <li>25% reduction in duplicate cases</li>
+          <li>Centralized service coordination</li>
+          <li>Transparent community metrics</li>
+        </ul>
       </td>
       <td>
-        • Report stray animals<br>
-        • Map public service gaps<br>
-        • Coordinate rescue ops<br>
-        • Track case resolutions
+        <ul>
+          <li>Report stray animals</li>
+          <li>Map public service gaps</li>
+          <li>Coordinate rescue ops</li>
+          <li>Track case resolutions</li>
+        </ul>
       </td>
     </tr>
   </tbody>
@@ -81,16 +89,20 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <tbody>
     <tr>
       <td>
-        • Unified reporting interface<br>
-        • Automated case prioritization<br>
-        • Municipal API integrations<br>
-        • Anonymous abuse reporting
+        <ul>
+          <li>Unified reporting interface</li>
+          <li>Automated case prioritization</li>
+          <li>Municipal API integrations</li>
+          <li>Anonymous abuse reporting</li>
+        </ul>
       </td>
       <td>
-        • Fragmented service systems<br>
-        • Untracked stray populations<br>
-        • Slow municipal responses<br>
-        • Limited public engagement
+        <ul>
+          <li>Fragmented service systems</li>
+          <li>Untracked stray populations</li>
+          <li>Slow municipal responses</li>
+          <li>Limited public engagement</li>
+        </ul>
       </td>
     </tr>
   </tbody>
@@ -422,5 +434,3 @@ These initiatives demonstrate our commitment to leveraging technology for sustai
 ---
 
 Thank you for reading! Feel free to [contact me](mailto:flyingahas@kulmata.com) or leave a comment below(?).
-
-
