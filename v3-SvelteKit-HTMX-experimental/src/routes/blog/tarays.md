@@ -1,7 +1,7 @@
 ---
 title: Tarays! 🐶😸
 date: 2025-03-18
-revision: 5
+revision: 7
 update: 2025-03-19
 category: "dev"
 author: "flyingahas"
@@ -130,10 +130,10 @@ In the heart of our community, a stark image emerges—a landscape where promise
         • Integrated municipal systems
       </td>
       <td data-label="GAINS">
-        • 40% faster response times<br>
-        • 25% reduction in duplicate cases<br>
-        • Centralized service coordination<br>
-        • Transparent community metrics
+        • N/A<br>
+        • N/A<br>
+        • N/A<br>
+        • N/A
       </td>
       <td data-label="JOBS TO BE DONE">
         • Report stray animals<br>
@@ -202,9 +202,27 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </thead>
   <tbody>
     <tr>
-      <td data-label="OBJECTIVES">Platform Development</td>
+      <td data-label="OBJECTIVES"></td>
+      <td data-label="TARGET ACTIVITIES">Build Communication Infratructure</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Contact Visibility through Telecommunication and Consultation</td>
+      <td data-label="Y1Q1">✔️</td>
+      <td data-label="Y1Q2"></td>
+      <td data-label="Y1Q3"></td>
+      <td data-label="Y1Q4"></td>
+    </tr>
+    <tr>
+      <td data-label="OBJECTIVES">Computer Network Setup</td>
+      <td data-label="TARGET ACTIVITIES"></td>
+      <td data-label="TARGET ACCOMPLISHMENTS">MVP Launch</td>
+      <td data-label="Y1Q1">✔️</td>
+      <td data-label="Y1Q2"></td>
+      <td data-label="Y1Q3"></td>
+      <td data-label="Y1Q4"></td>
+    </tr>
+    <tr>
+      <td data-label="OBJECTIVES">Computer Network Setup</td>
       <td data-label="TARGET ACTIVITIES">Build core GIS/API infrastructure</td>
-      <td data-label="TARGET ACCOMPLISHMENTS">MVP Launch (3 cities)</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">MVP Launch</td>
       <td data-label="Y1Q1">✔️</td>
       <td data-label="Y1Q2"></td>
       <td data-label="Y1Q3"></td>
