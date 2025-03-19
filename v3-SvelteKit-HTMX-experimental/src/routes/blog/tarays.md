@@ -36,26 +36,26 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td data-label="PRODUCTS & SERVICES">
         <strong>Core Offerings:</strong><br>
         • Public Database (GIS)<br>
         • API Integration System<br>
         • Mobile Reporting App<br>
         • Community Engagement Platform
       </td>
-      <td>
+      <td data-label="GAIN CREATORS">
         • Real-time stray animal tracking<br>
         • Automated service request routing<br>
         • Crowdsourced incident reporting<br>
         • Integrated municipal systems
       </td>
-      <td>
+      <td data-label="GAINS">
         • 40% faster response times<br>
         • 25% reduction in duplicate cases<br>
         • Centralized service coordination<br>
         • Transparent community metrics
       </td>
-      <td>
+      <td data-label="JOBS TO BE DONE">
         • Report stray animals<br>
         • Map public service gaps<br>
         • Coordinate rescue ops<br>
@@ -81,7 +81,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td data-label="PAIN RELIEVERS">
         <ul>
           <li>Unified reporting interface</li>
           <li>Automated case prioritization</li>
@@ -89,7 +89,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
           <li>Anonymous abuse reporting</li>
         </ul>
       </td>
-      <td>
+      <td data-label="PAINS">
         <ul>
           <li>Fragmented service systems</li>
           <li>Untracked stray populations</li>
@@ -122,40 +122,40 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </thead>
   <tbody>
     <tr>
-      <td>Platform Development</td>
-      <td>Build core GIS/API infrastructure</td>
-      <td>MVP Launch (3 cities)</td>
-      <td>✔️</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td data-label="OBJECTIVES">Platform Development</td>
+      <td data-label="TARGET ACTIVITIES">Build core GIS/API infrastructure</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">MVP Launch (3 cities)</td>
+      <td data-label="Y1Q1">✔️</td>
+      <td data-label="Y1Q2"></td>
+      <td data-label="Y1Q3"></td>
+      <td data-label="Y1Q4"></td>
     </tr>
     <tr>
-      <td>Community Onboarding</td>
-      <td>Pilot program implementation</td>
-      <td>5k active users</td>
-      <td></td>
-      <td>✔️</td>
-      <td></td>
-      <td></td>
+      <td data-label="OBJECTIVES">Community Onboarding</td>
+      <td data-label="TARGET ACTIVITIES">Pilot program implementation</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">5k active users</td>
+      <td data-label="Y1Q1"></td>
+      <td data-label="Y1Q2">✔️</td>
+      <td data-label="Y1Q3"></td>
+      <td data-label="Y1Q4"></td>
     </tr>
     <tr>
-      <td>Gov't Partnerships</td>
-      <td>Sign MOAs with 5 LGUs</td>
-      <td>Integrated municipal dashboards</td>
-      <td></td>
-      <td></td>
-      <td>✔️</td>
-      <td></td>
+      <td data-label="OBJECTIVES">Gov't Partnerships</td>
+      <td data-label="TARGET ACTIVITIES">Sign MOAs with 5 LGUs</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">Integrated municipal dashboards</td>
+      <td data-label="Y1Q1"></td>
+      <td data-label="Y1Q2"></td>
+      <td data-label="Y1Q3">✔️</td>
+      <td data-label="Y1Q4"></td>
     </tr>
     <tr>
-      <td>System Optimization</td>
-      <td>AI-driven case prioritization</td>
-      <td>30% faster response times</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>✔️</td>
+      <td data-label="OBJECTIVES">System Optimization</td>
+      <td data-label="TARGET ACTIVITIES">AI-driven case prioritization</td>
+      <td data-label="TARGET ACCOMPLISHMENTS">30% faster response times</td>
+      <td data-label="Y1Q1"></td>
+      <td data-label="Y1Q2"></td>
+      <td data-label="Y1Q3"></td>
+      <td data-label="Y1Q4">✔️</td>
     </tr>
   </tbody>
 </table>
@@ -180,7 +180,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td data-label="Item (UACS Code)">
         <div class="markdown-list">
           50203000 Supplies & Materials
           <ul>
@@ -189,14 +189,14 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱160,000</td>
-      <td>₱27,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱187,000</td>
+      <td data-label="Y1Q1">₱160,000</td>
+      <td data-label="Y1Q2">₱27,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱187,000</td>
     </tr>
     <tr>
-      <td>
+      <td data-label="Item (UACS Code)">
         <div class="markdown-list">
           50203000 ICT Equipment
           <ul>
@@ -205,14 +205,14 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱150,000</td>
-      <td>₱24,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱174,000</td>
+      <td data-label="Y1Q1">₱150,000</td>
+      <td data-label="Y1Q2">₱24,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱174,000</td>
     </tr>
     <tr>
-      <td>
+      <td data-label="Item (UACS Code)">
         <div class="markdown-list">
           50203010 Office Supplies
           <ul>
@@ -221,30 +221,30 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱10,000</td>
-      <td>₱3,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱13,000</td>
+      <td data-label="Y1Q1">₱10,000</td>
+      <td data-label="Y1Q2">₱3,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱13,000</td>
     </tr>
     <tr>
-      <td>50211000 Professional Services</td>
-      <td>₱100,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱100,000</td>
+      <td data-label="Item (UACS Code)">50211000 Professional Services</td>
+      <td data-label="Y1Q1">₱100,000</td>
+      <td data-label="Y1Q2">-</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱100,000</td>
     </tr>
     <tr>
-      <td>50299050 Rent Expenses</td>
-      <td>₱30,000</td>
-      <td>₱30,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱60,000</td>
+      <td data-label="Item (UACS Code)">50299050 Rent Expenses</td>
+      <td data-label="Y1Q1">₱30,000</td>
+      <td data-label="Y1Q2">₱30,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱60,000</td>
     </tr>
     <tr>
-      <td>
+      <td data-label="Item (UACS Code)">
         <div class="markdown-list">
           50299990 Other MOOE
           <ul>
@@ -253,15 +253,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱50,000</td>
-      <td>₱10,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱60,000</td>
+      <td data-label="Y1Q1">₱50,000</td>
+      <td data-label="Y1Q2">₱10,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱60,000</td>
     </tr>
     <tr>
-      <td colspan="5"><strong>GRAND TOTAL</strong></td>
-      <td><strong>₱407,000</strong></td>
+      <td colspan="5" data-label=""><strong>GRAND TOTAL</strong></td>
+      <td data-label="Total"><strong>₱407,000</strong></td>
     </tr>
   </tbody>
 </table>
@@ -287,8 +287,8 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </thead>
   <tbody>
     <tr>
-      <td>50203000</td>
-      <td>
+      <td data-label="UACS Code">50203000</td>
+      <td data-label="Item">
         <div class="markdown-list">
           Supplies & Materials
           <ul>
@@ -297,15 +297,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱160,000</td>
-      <td>₱27,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱187,000</td>
+      <td data-label="Y1Q1">₱160,000</td>
+      <td data-label="Y1Q2">₱27,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱187,000</td>
     </tr>
     <tr>
-      <td>50203010</td>
-      <td>
+      <td data-label="UACS Code">50203010</td>
+      <td data-label="Item">
         <div class="markdown-list">
           Office Supplies
           <ul>
@@ -314,15 +314,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱10,000</td>
-      <td>₱3,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱13,000</td>
+      <td data-label="Y1Q1">₱10,000</td>
+      <td data-label="Y1Q2">₱3,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱13,000</td>
     </tr>
     <tr>
-      <td>50203000</td>
-      <td>
+      <td data-label="UACS Code">50203000</td>
+      <td data-label="Item">
         <div class="markdown-list">
           ICT Equipment
           <ul>
@@ -331,24 +331,24 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱150,000</td>
-      <td>₱24,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱174,000</td>
+      <td data-label="Y1Q1">₱150,000</td>
+      <td data-label="Y1Q2">₱24,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱174,000</td>
     </tr>
     <tr>
-      <td>50211000</td>
-      <td>Professional Services</td>
-      <td>₱100,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱100,000</td>
+      <td data-label="UACS Code">50211000</td>
+      <td data-label="Item">Professional Services</td>
+      <td data-label="Y1Q1">₱100,000</td>
+      <td data-label="Y1Q2">-</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱100,000</td>
     </tr>
     <tr>
-      <td>50299050</td>
-      <td>
+      <td data-label="UACS Code">50299050</td>
+      <td data-label="Item">
         <div class="markdown-list">
           Rent Expenses
           <ul>
@@ -357,15 +357,15 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱30,000</td>
-      <td>₱30,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱60,000</td>
+      <td data-label="Y1Q1">₱30,000</td>
+      <td data-label="Y1Q2">₱30,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱60,000</td>
     </tr>
     <tr>
-      <td>50299990</td>
-      <td>
+      <td data-label="UACS Code">50299990</td>
+      <td data-label="Item">
         <div class="markdown-list">
           Other MOOE
           <ul>
@@ -374,19 +374,19 @@ In the heart of our community, a stark image emerges—a landscape where promise
           </ul>
         </div>
       </td>
-      <td>₱50,000</td>
-      <td>₱10,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td>₱60,000</td>
+      <td data-label="Y1Q1">₱50,000</td>
+      <td data-label="Y1Q2">₱10,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total">₱60,000</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>TOTAL MOOE</strong></td>
-      <td>₱340,000</td>
-      <td>₱67,000</td>
-      <td>-</td>
-      <td>-</td>
-      <td><strong>₱407,000</strong></td>
+      <td colspan="2" data-label=""><strong>TOTAL MOOE</strong></td>
+      <td data-label="Y1Q1">₱340,000</td>
+      <td data-label="Y1Q2">₱67,000</td>
+      <td data-label="Y1Q3">-</td>
+      <td data-label="Y1Q4">-</td>
+      <td data-label="Total"><strong>₱407,000</strong></td>
     </tr>
   </tbody>
 </table>
@@ -498,5 +498,3 @@ These initiatives demonstrate our commitment to leveraging technology for sustai
 ---
 
 Thank you for reading! Feel free to [contact me](mailto:flyingahas@kulmata.com) or leave a comment below(?).
-
-
