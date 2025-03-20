@@ -1,5 +1,6 @@
-<script lang="js">
+<script lang="js" >
 	export let data;
+    import BuyMeACoffee from '$lib/components/BuyMeACoffee.svelte';
   </script>
   
   {#if data.posts && data.posts.length}
@@ -18,4 +19,5 @@
   {:else}
 	<p>No posts to display.</p>
   {/if}
-  
+
+  <BuyMeACoffee />

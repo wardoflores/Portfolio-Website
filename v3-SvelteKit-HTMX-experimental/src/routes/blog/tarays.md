@@ -9,6 +9,8 @@ tags: [Startup, Investment, Technology, Networking]
 layout: blog
 ---
 
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="flyingahas" data-description="Support me on Buy me a coffee!" data-message="*Donations for Business Bank Account > Investors*" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 ---
 
 Welcome to my blog post on **Tarays!**, a community-driven platform that integrates pet care with public service solutions to address urban challenges through innovative technology.
@@ -272,8 +274,154 @@ In the heart of our community, a stark image emerges—a landscape where promise
 <table> <thead> <tr> <th colspan="7">MAINTENANCE AND OTHER OPERATING EXPENSES (MOOE)</th> </tr> <tr> <th>UACS Code</th> <th>Item</th> <th>Y1Q1</th> <th>Y1Q2</th> <th>Y1Q3</th> <th>Y1Q4</th> <th>Total</th> </tr> </thead> <tbody> <tr> <td data-label="UACS Code">50203010 00</td> <td data-label="Item">Office Supplies</td> <td data-label="Y1Q1">₱10,000</td> <td data-label="Y1Q2">₱3,000</td> <td data-label="Y1Q3">-</td> <td data-label="Y1Q4">-</td> <td data-label="Total">₱13,000</td> </tr> <tr> <td data-label="UACS Code">50205030 00</td> <td data-label="Item">Internet Subscriptions</td> <td data-label="Y1Q1">₱50,000</td> <td data-label="Y1Q2">₱10,000</td> <td data-label="Y1Q3">-</td> <td data-label="Y1Q4">-</td> <td data-label="Total">₱60,000</td> </tr> <tr> <td data-label="UACS Code">50299050 06</td> <td data-label="Item">Rent (Co-working space)</td> <td data-label="Y1Q1">₱30,000</td> <td data-label="Y1Q2">₱30,000</td> <td data-label="Y1Q3">₱30,000</td> <td data-label="Y1Q4">₱30,000</td> <td data-label="Total">₱120,000</td> </tr> <tr> <td colspan="2" data-label=""><strong>TOTAL MOOE</strong></td> <td data-label="Y1Q1">₱90,000</td> <td data-label="Y1Q2">₱43,000</td> <td data-label="Y1Q3">₱30,000</td> <td data-label="Y1Q4">₱30,000</td> <td data-label="Total"><strong>₱193,000</strong></td> </tr> </tbody> </table>
 </div>
 
+<h3>ROI PROJECTION (3-YEAR)</h3>
+
+
 <div class="markdown-table">
-<table> <thead> <tr> <th colspan="4">FINANCIAL SUMMARY (₱ MILLIONS)</th> </tr> <tr> <th>Metric</th> <th>Year 1</th> <th>Year 2</th> <th>Year 3</th> </tr> </thead> <tbody> <tr> <td data-label="Metric">Revenue Streams</td> <td data-label="Year 1"></td> <td data-label="Year 2"></td> <td data-label="Year 3"></td> </tr> <tr> <td data-label="Metric">- Government SaaS Subscriptions (₱500k/LGU)</td> <td data-label="Year 1">₱2.5</td> <td data-label="Year 2">₱7.5</td> <td data-label="Year 3">₱15.0</td> </tr> <tr> <td data-label="Metric">- Premium Features (₱200/user)</td> <td data-label="Year 1">₱0.1</td> <td data-label="Year 2">₱0.5</td> <td data-label="Year 3">₱1.5</td> </tr> <tr> <td data-label="Metric">- Business Commissions (5% of ₱2B market share)</td> <td data-label="Year 1">-</td> <td data-label="Year 2">₱10.0</td> <td data-label="Year 3">₱100.0</td> </tr> <tr> <td data-label="Metric"><strong>Total Revenue</strong></td> <td data-label="Year 1"><strong>₱2.6</strong></td> <td data-label="Year 2"><strong>₱18.0</strong></td> <td data-label="Year 3"><strong>₱116.5</strong></td> </tr> <tr> <td data-label="Metric">Operational Costs (Budget)</td> <td data-label="Year 1">₱0.7</td> <td data-label="Year 2">₱1.2</td> <td data-label="Year 3">₱1.5</td> </tr> <tr> <td data-label="Metric"><strong>Net Profit</strong></td> <td data-label="Year 1"><strong>₱1.9</strong></td> <td data-label="Year 2"><strong>₱16.8</strong></td> <td data-label="Year 3"><strong>₱115.0</strong></td> </tr> </tbody> </table></div>
+  
+  <table>
+    <thead>
+      <tr>
+        <th colspan="4">FINANCIAL SUMMARY (₱ MILLIONS)</th>
+      </tr>
+      <tr>
+        <th>Metric</th>
+        <th>Year 1</th>
+        <th>Year 2</th>
+        <th>Year 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Metric">Revenue Streams</td>
+        <td data-label="Year 1"></td>
+        <td data-label="Year 2"></td>
+        <td data-label="Year 3"></td>
+      </tr>
+      <tr>
+        <td data-label="Metric">- Government SaaS Subscriptions (₱500k/LGU)</td>
+        <td data-label="Year 1">₱2.5</td>
+        <td data-label="Year 2">₱7.5</td>
+        <td data-label="Year 3">₱15.0</td>
+      </tr>
+      <tr>
+        <td data-label="Metric">- Premium Features (₱200/user)</td>
+        <td data-label="Year 1">₱0.1</td>
+        <td data-label="Year 2">₱0.5</td>
+        <td data-label="Year 3">₱1.5</td>
+      </tr>
+      <tr>
+        <td data-label="Metric">- Business Commissions (5% of ₱2B market share)</td>
+        <td data-label="Year 1">-</td>
+        <td data-label="Year 2">₱10.0</td>
+        <td data-label="Year 3">₱100.0</td>
+      </tr>
+      <tr>
+        <td data-label="Metric"><strong>Total Revenue</strong></td>
+        <td data-label="Year 1"><strong>₱2.6</strong></td>
+        <td data-label="Year 2"><strong>₱18.0</strong></td>
+        <td data-label="Year 3"><strong>₱116.5</strong></td>
+      </tr>
+      <tr>
+        <td data-label="Metric">Operational Costs (Budget)</td>
+        <td data-label="Year 1">₱0.7</td>
+        <td data-label="Year 2">₱1.2</td>
+        <td data-label="Year 3">₱1.5</td>
+      </tr>
+      <tr>
+        <td data-label="Metric"><strong>Net Profit</strong></td>
+        <td data-label="Year 1"><strong>₱1.9</strong></td>
+        <td data-label="Year 2"><strong>₱16.8</strong></td>
+        <td data-label="Year 3"><strong>₱115.0</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>EFFICIENCY GAINS → COST SAVINGS (For Municipal Partners)</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Year 1</th>
+        <th>Year 2</th>
+        <th>Year 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Metric">Faster response times (40%)</td>
+        <td data-label="Year 1">₱0.5M</td>
+        <td data-label="Year 2">₱1.2M</td>
+        <td data-label="Year 3">₱2.5M</td>
+      </tr>
+      <tr>
+        <td data-label="Metric">Reduced duplicate cases (25%)</td>
+        <td data-label="Year 1">₱0.3M</td>
+        <td data-label="Year 2">₱0.8M</td>
+        <td data-label="Year 3">₱1.5M</td>
+      </tr>
+      <tr>
+        <td data-label="Metric"><strong>Total Partner Savings</strong></td>
+        <td data-label="Year 1"><strong>₱0.8M</strong></td>
+        <td data-label="Year 2"><strong>₱2.0M</strong></td>
+        <td data-label="Year 3"><strong>₱4.0M</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>SOCIAL IMPACT VALUATION</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Year 3 Impact</th>
+        <th>Monetary Value*</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Metric">Stray animals reduced (12,000)</td>
+        <td data-label="Impact">Lower disease control costs</td>
+        <td data-label="Value">₱24M</td>
+      </tr>
+      <tr>
+        <td data-label="Metric">Increased pet adoptions (45% in LGUs)</td>
+        <td data-label="Impact">Reduced shelter expenses</td>
+        <td data-label="Value">₱9M</td>
+      </tr>
+      <tr>
+        <td data-label="Metric">Tourism boost (cleaner public spaces)</td>
+        <td data-label="Impact">Additional LGU revenue</td>
+        <td data-label="Value">₱15M</td>
+      </tr>
+      <tr>
+        <td data-label="Metric"><strong>Total Social Value</strong></td>
+        <td data-label="Impact"></td>
+        <td data-label="Value"><strong>₱48M</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="markdown-list">
+    <h4>SENSITIVITY ANALYSIS</h4>
+    <ul>
+      <li><strong>Conservative (8% market share):</strong> ₱116.5M Year 3 Revenue</li>
+      <li><strong>Base Case (15% market share):</strong> ₱218.0M Year 3 Revenue</li>
+      <li><strong>Optimistic (22% market share):</strong> ₱319.5M Year 3 Revenue</li>
+    </ul>
+  </div>
+
+  <div class="markdown-list">
+    <h4>ROI VISUALIZATION</h4>
+    <ul>
+      <li><strong>Year 1:</strong> ₱1.9M Net Profit (274% ROI)</li>
+      <li><strong>Year 2:</strong> ₱16.8M Net Profit (1,400% ROI)</li>
+      <li><strong>Year 3:</strong> ₱115.0M Net Profit (7,567% ROI)</li>
+    </ul>
+  </div>
+
+  <p><em>*Conservative estimates based on DENR and PSA data.</em></p>
+</div>
 
 ## Market Study
 

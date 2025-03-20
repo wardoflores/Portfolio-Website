@@ -166,3 +166,28 @@ a {
     border-color: #ddd !important;
   }
 }
+
+/* Prevent layout shift */
+.bmc-btn-container {
+  position: fixed;
+  z-index: 999;
+  
+  /* Right position default */
+  right: 20px;
+  bottom: 20px;
+  
+  /* For left position */
+  /* left: 20px;
+  bottom: 20px; */
+  
+  /* For bottom position */
+  /* left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px; */
+}
+
+@media (max-width: 768px) {
+  .bmc-btn-container {
+    display: none; /* Hide on mobile if desired */
+  }
+}
