@@ -5,6 +5,7 @@
 	import '$lib/styles/style.scss'
   	import { fade } from 'svelte/transition';
   	// import type { RouteContext } from '@sveltejs/kit';
+    import BuyMeACoffee from '$lib/components/BuyMeACoffee.svelte';
 
 	import { preloadCode, preloadData } from '$app/navigation'
 
@@ -16,7 +17,6 @@
 
 
 		export let data;
-
 
 </script>
 
@@ -32,6 +32,9 @@
 
 		gtag('config', 'G-WQWTWT736P');
 	</script>
+
+<BuyMeACoffee />
+
 </svelte:head>
 
 <Header />
@@ -43,4 +46,7 @@
   </main>
 {/key}
 
+
 <Footer />
+
+
