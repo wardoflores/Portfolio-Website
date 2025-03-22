@@ -1,18 +1,37 @@
 <script>
   export let data;
+  import { onMount } from 'svelte';
+
+  // Load BMC widget client-side
+  onMount(() => {
+    if (typeof window !== 'undefined' && !document.querySelector('[data-name="BMC-Widget"]')) {
+      const script = document.createElement('script');
+      script.dataset.name = "BMC-Widget";
+      script.dataset.cfasync = "false";
+      script.src = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js";
+      script.dataset.id = "flyingahas";
+      script.dataset.description = "Support me on Buy me a coffee!";
+      script.dataset.message = "*Donations for Business Bank Account > Investors*";
+      script.dataset.color = "#5F7FFF";
+      script.dataset.position = "Right";
+      script.dataset.x_margin = "18";
+      script.dataset.y_margin = "18";
+      document.body.appendChild(script);
+    }
+  });
 
 </script>
 
 <svelte:head>
   <title>Kulmata devlog - {data.title}</title>
   <meta property="og:title" content={data.title} />
-  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="flyingahas" data-description="Support me on Buy me a coffee!" data-message="*Donations for Business Bank Account > Investors*" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
 </svelte:head>
 
 <article>
   <h1>{ data.title }</h1>
-  <p>Published: {data.date}</p>
+  <h3>Published: {data.date} <!--| Revisions: {data.revision} | Last updated: {data.lastUpdated}--></h3>
+
   <svelte:component this={data.content} />
 </article>
 
@@ -31,7 +50,7 @@
   </aside>
 {/if} -->
 
-<style>
+<!--<style>
 
   h2 .icon-link,
   h3 .icon-link,
@@ -63,4 +82,4 @@
     opacity: 1;
   }
   
-  </style>
+  </style> -->
