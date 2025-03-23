@@ -191,3 +191,52 @@ a {
     display: none; /* Hide on mobile if desired */
   }
 }
+
+/* 2025-03-23 */
+/* Add to style.css */
+.styled-select {
+  background: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: 'Monospace Web', monospace;
+  font-size: 14px;
+  margin: 1rem 0;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0e0e0'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.styled-select:hover {
+  border-color: #5F7FFF;
+  box-shadow: 0 0 8px rgba(95, 127, 255, 0.2);
+}
+
+.styled-select:focus {
+  outline: none;
+  border-color: #5F7FFF;
+  box-shadow: 0 0 8px rgba(95, 127, 255, 0.4);
+}
+
+.currency-selector {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+option {
+  background: #2a2a2a;
+  color: #e0e0e0;
+}
+
+/* Mobile select styling */
+@media (max-width: 768px) {
+  .styled-select {
+    width: 100%;
+    max-width: 300px;
+  }
+}

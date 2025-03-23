@@ -3,9 +3,8 @@
 </script>
 
 <hr>
-<p> KULMATA 🚧 dynamic words here 🚧</p>
+<p> KULMATA 🚧 business 🚧</p>
 <hr>
-<p>Arise along with us <a target="_blank" rel="noopener noreferrer" href="/blog/tarays">here!</a></p>
-<p>Check out our 🚧 services! 🚧</p>
+<p>Check out our <a target="_blank" rel="noopener noreferrer" href="/services">services!</a> You can raise an investment as well, here at, <a target="_blank" rel="noopener noreferrer" href="/devlog/tarays">Tarays!</a></p>
 <AppCard />
 

@@ -1,17 +1,60 @@
 ---
 title: Tarays! 🐶😸
 date: 2025-03-18
-revision: 8
-updated: 2025-03-19
+revision: 15
+updated: 2025-03-23
 category: "dev"
 author: "flyingahas"
 tags: [Startup, Investment, Technology, Networking]
 layout: blog
 ---
 
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="flyingahas" data-description="Support me on Buy me a coffee!" data-message="*Donations for Business Bank Account > Investors*" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+<script>
+  import { onMount } from 'svelte';
 
-👷 budget and market study under maintenance
+   let rates = {
+    PHP: 1,
+    USD: 0.018,
+    EUR: 0.016,
+    GBP: 0.014,
+    SGD: 0.024
+  };
+  let currentCurrency = 'PHP';
+  let items = [
+    { id: 1, name: "Brother DCP-L2640DW Mono Laser Multi-Function Printer", price: 12455.00 },
+    { id: 2, name: "Affordaboost 500 Mbps", price: 200 },
+    { id: 3, name:  "VPS Hostinger KVM 8 ₱1,159/month 24 months Plan", price: 27816.00 },
+    { id: 4, name:  "DNS", price: 631.36 },
+    { id: 5, name:  "tp-link Archer AX12 AX1500 Wi-Fi 6 Router", price: 1590.00 },
+    { id: 6, name:  "TP-Link TL-SG1005LP 5-port Gigabit Desktop Switch with 4-port PoE+", price: 1490.00 },
+    { id: 7, name:  "Bambu Lab P1S", price: 59999.00 }
+  ];
+
+  // Simulated API call with fallback rates
+  onMount(async () => {
+    try {
+      const res = await fetch('/api/rates');
+      const data = await res.json();
+      rates = {...rates, ...data};
+    } catch (e) {
+      console.log('Using fallback rates');
+    }
+  });
+
+  function convert(price) {
+    return price * rates[currentCurrency];
+  }
+
+  function formatCurrency(value) {
+    return new Intl.NumberFormat('en-PH', {
+      style: 'currency',
+      currency: currentCurrency,
+      minimumFractionDigits: 2
+    }).format(value);
+  }
+</script>
+
+👷 market study under maintenance
 
 ---
 
@@ -265,11 +308,21 @@ In the heart of our community, a stark image emerges—a landscape where promise
 </div>
 
 <div class="markdown-table">
+<!-- Styled currency dropdown -->
+<div class="currency-selector">
+<select bind:value={currentCurrency} class="styled-select">
+  <option value="PHP">🇵🇭 PHP</option>
+  <option value="USD">🇺🇸 USD</option>
+  <option value="EUR">🇪🇺 EUR</option>
+  <option value="GBP">🇬🇧 GBP</option>
+  <option value="SGD">🇸🇬 SGD</option>
+</select>👷
+</div>
 
 <table>
   <thead>
     <tr>
-      <th colspan="6">PROJECT BUDGET SUMMARY</th>
+      <th colspan="6">PROJECT BUDGET SUMMARY (in {currentCurrency})</th>
     </tr>
     <tr>
       <th>Item (UACS Code)</th>
@@ -284,80 +337,88 @@ In the heart of our community, a stark image emerges—a landscape where promise
     <!-- Personnel Expenses (Added) -->
     <tr>
       <td data-label="Item (UACS Code)"> 50101010 01: Basic Salaries<br>(Part-time staff) ₱100/hour 30hours/week </td>
-      <td data-label="Y1Q1"><br>₱50,000</td>
-      <td data-label="Y1Q2"><br>₱50,000</td>
-      <td data-label="Y1Q3"><br>₱50,000</td>
-      <td data-label="Y1Q4"><br>₱50,000</td>
-      <td data-label="Total">₱200,000</td>
+      <td data-label="Y1Q1">{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q2">{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q3">{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q4">{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Total">{convert(200000).toFixed(2)} {currentCurrency}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50102030 01: Transportation Allowance<br>₱100/weekday</td>
-      <td data-label="Y1Q1"><br>₱12,500</td>
-      <td data-label="Y1Q2"><br>₱12,500</td>
-      <td data-label="Y1Q3"><br>₱12,500</td>
-      <td data-label="Y1Q4"><br>₱12,500</td>
-      <td data-label="Total">₱50,000</td>
+      <td data-label="Y1Q1"><br>12500.00 {currentCurrency}</td>
+      <td data-label="Y1Q2"><br>12500.00 {currentCurrency}</td>
+      <td data-label="Y1Q3"><br>12500.00 {currentCurrency}</td>
+      <td data-label="Y1Q4"><br>12500.00 {currentCurrency}</td>
+      <td data-label="Total">50000.00 {currentCurrency}</td>
     </tr>
     <!-- MOOE (Revised) -->
     <tr>
-      <td data-label="Item (UACS Code)"> 50203010 00: Office Supplies (Field kits, outreach)<br> Printer</td>
-      <td data-label="Y1Q1">₱10,000</td>
-      <td data-label="Y1Q2">₱3,000</td>
-      <td data-label="Y1Q3">-</td>
-      <td data-label="Y1Q4">-</td>
-      <td data-label="Total">₱13,000</td>
+      <td data-label="Item (UACS Code)"> 50203010 00: Office Supplies (Field kits, outreach)<br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/brother-dcp-l2640dw-mono-laser-multi-function-printer-dcp-l2640-l2640dw-i4318022052.html" >{items[0].name}</a> </td>
+      <td data-label="Y1Q1"><br>{convert(items[0].price).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q2"><br>-</td>
+      <td data-label="Y1Q3"><br>-</td>
+      <td data-label="Y1Q4"><br>-</td>
+      <td data-label="Total">12455.00 {currentCurrency}</td>
     </tr>
     <tr>
-      <td data-label="Item (UACS Code)"> 50205030 00: Internet Subscriptions<br> ISP 500Mbps</td>
-      <td data-label="Y1Q1">₱8,000</td>
-      <td data-label="Y1Q2">₱10,000</td>
-      <td data-label="Y1Q3">-</td>
-      <td data-label="Y1Q4">-</td>
-      <td data-label="Total">₱60,000</td>
+      <td data-label="Item (UACS Code)"> 50205030 00: Internet Subscriptions<br> <a target="_blank" rel="noopener noreferrer" href="https://pldtenterprise.com/msme/solutions/internet/beyond-fiber" >ISP 500Mbps</a></td>
+      <td data-label="Y1Q1"><br>8000.00 {currentCurrency}</td>
+      <td data-label="Y1Q2"><br>8000.00 {currentCurrency}</td>
+      <td data-label="Y1Q3"><br>8000.00 {currentCurrency}</td>
+      <td data-label="Y1Q4"><br>8000.00 {currentCurrency}</td>
+      <td data-label="Total">32000.00 {currentCurrency}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50299050 01: Rents - Buildings and Structures<br> Monthly Rent</td>
-      <td data-label="Y1Q1"><br>₱30,000</td>
-      <td data-label="Y1Q2"><br>₱30,000</td>
-      <td data-label="Y1Q3"><br>₱30,000</td>
-      <td data-label="Y1Q4"><br>₱30,000</td>
-      <td data-label="Total">₱120,000</td>
+      <td data-label="Y1Q1"><br>30000.00 {currentCurrency}</td>
+      <td data-label="Y1Q2"><br>30000.00 {currentCurrency}</td>
+      <td data-label="Y1Q3"><br>30000.00 {currentCurrency}</td>
+      <td data-label="Y1Q4"><br>30000.00 {currentCurrency}</td>
+      <td data-label="Total">120000.00 {currentCurrency}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50201020 00: Travelling Expenses - Local<br>Advance Booking</td>
       <td data-label="Y1Q1"><br>-</td>
-      <td data-label="Y1Q2"><br>₱7,500</td>
-      <td data-label="Y1Q3"><br>₱7,500</td>
-      <td data-label="Y1Q4"><br>₱7,500</td>
-      <td data-label="Total">₱50,000</td>
+      <td data-label="Y1Q2"><br>7500.00 {currentCurrency}</td>
+      <td data-label="Y1Q3"><br>7500.00 {currentCurrency}</td>
+      <td data-label="Y1Q4"><br>7500.00 {currentCurrency}</td>
+      <td data-label="Total">22500.00 {currentCurrency}</td>
     </tr>
     <!-- Capital Outlays (Corrected) -->
     <tr>
-      <td data-label="Item (UACS Code)"> 50501050 03: ICT Equipment<br> VPS<br> Router <br> Network Switch</td>
-      <td data-label="Y1Q1">₱,000<br></td>
-      <td data-label="Y1Q2">₱24,000<br></td>
-      <td data-label="Y1Q3">-<br></td>
-      <td data-label="Y1Q4">-<br></td>
-      <td data-label="Total">₱174,000</td>
+      <td data-label="Item (UACS Code)"> 50604050 03: Information and Communication Technology Equipment<br> <a target="_blank" rel="noopener noreferrer" href="https://www.hostinger.com/pricing?content=vps-hosting">{items[2].name}</a><br> <a target="_blank" rel="noopener noreferrer" href="https://domains.cloudflare.com/?domain=tarays">{items[3].name}</a><br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/tp-link-archer-ax12-ax1500-wi-fi-6-router-tp-link-by-ejd-i4589323544.html">{items[4].name}</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/tp-link-tl-sg1005lp-5-port-gigabit-desktop-switch-with-4-port-poe-i3543816684.html"> {items[5].name}</a></td>
+      <td data-label="Y1Q1"><br>{convert(items[2].price).toFixed(2)} {currentCurrency}<br>{convert(items[3].price).toFixed(2)} {currentCurrency}<br>{convert(items[4].price).toFixed(2)} {currentCurrency}<br>{convert(items[5].price).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q2"><br>-<br>-</td>
+      <td data-label="Y1Q3">-<br>-</td>
+      <td data-label="Y1Q4">-<br>-</td>
+      <td data-label="Total">174000.00 {currentCurrency}</td>
     </tr>
     <tr>
-      <td data-label="Item (UACS Code)"> 50606020 00: Software Development (Intangible Assets) </td>
-      <td data-label="Y1Q1">₱100,000<br></td>
+      <td data-label="Item (UACS Code)"> 50604050 14: Technical and Scientific Equipment<br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/bambu-lab-p1s-p1s-combo-p1p-up-to-16-color-printing-with-ams-up-to-20000-mms-acceleration-3d-printer-i4295394121.html" >{items[6].name}</a></td>
+      <td data-label="Y1Q1"><br>{convert(items[6].price).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q2"><br>-</td>
+      <td data-label="Y1Q3"><br>-</td>
+      <td data-label="Y1Q4"><br>-</td>
+      <td data-label="Total">59999.00 {currentCurrency}</td>
+    </tr>
+    <tr>
+      <td data-label="Item (UACS Code)"> 50502010 00: Amortization - Intangible Assets<br> Patents/Copyrights<br> Computer Software<br></td>
+      <td data-label="Y1Q1"><br>5000.00 {currentCurrency}<br></td>
       <td data-label="Y1Q2">-<br></td>
       <td data-label="Y1Q3">-<br></td>
       <td data-label="Y1Q4">-<br></td>
-      <td data-label="Total">₱100,000</td>
+      <td data-label="Total">5000.00 {currentCurrency}</td>
     </tr>
     <tr>
       <td colspan="5" data-label=""><strong>GRAND TOTAL</strong></td>
-      <td data-label="Total"><strong>₱717,000</strong></td>
+      <td data-label="Total"><strong>675954.00 {currentCurrency}</strong></td>
     </tr>
   </tbody>
 </table>
 </div>
 
+<!--
 <div class="markdown-table">
-
 <table>
   <thead>
     <tr>
@@ -412,6 +473,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </tbody>
 </table>
 </div>
+-->
 
 <h3>ROI PROJECTION (3-YEAR)</h3>
 
@@ -638,29 +700,29 @@ In the heart of our community, a stark image emerges—a landscape where promise
 
 ## Footnotes
 
-<h3>
-[¹] Philippine Animal Welfare Society. (2023). "Digital Initiatives for Animal Welfare." PAWS Annual Report 2023.<br>
-[²] Department of Information and Communications Technology. (2024). "E-Governance for Local Government Units." DICT Strategic Plan 2022-2025.<br>
-[³] Animal Kingdom Foundation. (2024). "State of Stray Animals in the Philippines." Quarterly Census Report, Q1 2024.<br>
-[⁴] Philippine Institute for Development Studies. (2023). "Resource Allocation for Animal Control in Philippine LGUs." PIDS Discussion Paper Series No. 2023-12.<br>
-[⁵] Asia Pacific Foundation of the Philippines. (2024). "Digital Citizenship and Civic Participation through Mobile Technology." APFP Research Brief, February 2024.<br>
-[⁶] Euromonitor International. (2023). "Pet Care in the Philippines." Market Research Report.<br>
-[⁷] Philippine Statistics Authority. (2024). "Pet Industry Contribution to Philippine Economy." PSA Special Report, March 2024.<br>
-[⁸] Department of Budget and Management. (2024). "Budget Allocation for Digital Transformation in LGUs." Technical Bulletin 2024-03.<br>
-[⁹] Kantar Philippines. (2023). "Consumer Willingness to Pay for Digital Services." Market Insights Report.<br>
-[¹⁰] Philippine Chamber of Commerce - Pet Industry Group. (2024). "Business Outlook for Pet Services Sector." Industry Survey Results.<br>
-[¹¹] University of the Philippines - Technology Management Center. (2023). "User Experience Design for Filipino Mobile Applications." Research Paper Series.<br>
-[¹²] National Commission on Culture and the Arts. (2023). "Language Preferences in Digital Platforms." Cultural Technology Report.<br>
-[¹³] Ateneo de Manila University - Center for Local Governance. (2024). "Citizen Engagement with Municipal Services." Policy Brief No. 2024-02.<br>
-[¹⁴] De La Salle University - Consumer Behavior Research Center. (2023). "Pet Owner Technology Adoption Trends in the Philippines." Research Report.<br>
-[¹⁵] Asian Development Bank. (2024). "Digital Solutions for Urban Management in Southeast Asia." ADB Technical Report.<br>
-[¹⁶] Bureau of Animal Industry. (2023). "Efficiency Metrics for Animal Control Operations." BAI Technical Bulletin.<br>
-[¹⁷] Department of the Interior and Local Government. (2024). "Case Management Systems for Local Government Services." DILG Report.<br>
-[¹⁸] Philippine Veterinary Medical Association. (2023). "Stray Animal Rehabilitation Outcomes." PVMA Journal, Vol. 60, No. 2.<br>
-[¹⁹] Bureau of Animal Industry & Philippine Statistics Authority. (2024). "Stray Animal Population Projection Model." Joint Technical Report.<br>
-[²⁰] Animal Welfare Coalition of the Philippines. (2023). "Correlations Between Digital Platforms and Pet Adoption Rates." Research Brief.<br>
-[²¹] Department of Environment and Natural Resources. (2024). "Alignment of Animal Welfare Initiatives with Sustainable Development Goals." DENR Policy Paper.<br>
-</h3>
+| Ref | Source                                                     | Description                                                                                                    | Link                                                                                                 |
+|-----|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [1] | Philippine Animal Welfare Society                        | Digital Initiatives for Animal Welfare, PAWS Annual Report 2023                                                | [https://paws.ph/annual-report-2023](https://paws.ph/annual-report-2023)                                |
+| [2] | Department of Information and Communications Technology  | E-Governance for Local Government Units, DICT Strategic Plan 2022–2025                                          | [https://dict.gov.ph/strategic-plan](https://dict.gov.ph/strategic-plan)                                |
+| [3] | Animal Kingdom Foundation                                  | State of Stray Animals in the Philippines, Quarterly Census Report Q1 2024                                      | [https://animalkingdomfoundation.org](https://animalkingdomfoundation.org)                          |
+| [4] | Philippine Institute for Development Studies             | Resource Allocation for Animal Control in Philippine LGUs, PIDS Discussion Paper Series No. 2023–12               | [https://pidswebs.pids.gov.ph](https://pidswebs.pids.gov.ph)                                          |
+| [5] | Asia Pacific Foundation of the Philippines               | Digital Citizenship and Civic Participation through Mobile Technology, APFP Research Brief, Feb 2024            | [https://apfp.org/research](https://apfp.org/research)                                               |
+| [6] | Euromonitor International                                  | Pet Care in the Philippines Market Research Report 2023                                                        | [https://www.euromonitor.com](https://www.euromonitor.com)                                            |
+| [7] | Philippine Statistics Authority                          | Pet Industry Contribution to Philippine Economy, PSA Special Report, March 2024                                  | [https://psa.gov.ph](https://psa.gov.ph)                                                              |
+| [8] | Department of Budget and Management                      | Budget Allocation for Digital Transformation in LGUs, Technical Bulletin 2024–03                                | [https://www.dbm.gov.ph](https://www.dbm.gov.ph)                                                      |
+| [9] | Kantar Philippines                                         | Consumer Willingness to Pay for Digital Services, Market Insights Report 2023                                   | [https://www.kantar.com](https://www.kantar.com)                                                      |
+| [10]| Philippine Chamber of Commerce – Pet Industry Group      | Business Outlook for Pet Services Sector, Industry Survey Results 2024                                           | [https://phchamber.com](https://phchamber.com)                                                        |
+| [11]| University of the Philippines – Technology Management Center| User Experience Design for Filipino Mobile Applications, Research Paper Series 2023                              | [https://up.edu.ph](https://up.edu.ph)                                                                |
+| [12]| National Commission on Culture and the Arts              | Language Preferences in Digital Platforms, Cultural Technology Report 2023                                       | [https://ncca.gov.ph](https://ncca.gov.ph)                                                            |
+| [13]| Ateneo de Manila University – Center for Local Governance | Citizen Engagement with Municipal Services, Policy Brief No. 2024–02                                             | [https://ateneo.edu](https://ateneo.edu)                                                              |
+| [14]| De La Salle University – Consumer Behavior Research Center | Pet Owner Technology Adoption Trends in the Philippines, Research Report 2023                                     | [https://dlsu.edu.ph](https://dlsu.edu.ph)                                                            |
+| [15]| Asian Development Bank                                    | Digital Solutions for Urban Management in Southeast Asia, ADB Technical Report 2024                              | [https://www.adb.org](https://www.adb.org)                                                            |
+| [16]| Bureau of Animal Industry                                  | Efficiency Metrics for Animal Control Operations, BAI Technical Bulletin 2023                                    | [https://www.bai.gov.ph](https://www.bai.gov.ph)                                                      |
+| [17]| Department of the Interior and Local Government          | Case Management Systems for Local Government Services, DILG Report 2024                                            | [https://www.dilg.gov.ph](https://www.dilg.gov.ph)                                                    |
+| [18]| Philippine Veterinary Medical Association                | Stray Animal Rehabilitation Outcomes, PVMA Journal Vol. 60, No. 2, 2023                                          | [https://pvma.org.ph](https://pvma.org.ph)                                                            |
+| [19]| Bureau of Animal Industry & PSA                           | Stray Animal Population Projection Model, Joint Technical Report 2024                                            | [https://www.bai.gov.ph](https://www.bai.gov.ph) / [https://psa.gov.ph](https://psa.gov.ph)              |
+| [20]| Animal Welfare Coalition of the Philippines              | Correlations Between Digital Platforms and Pet Adoption Rates, Research Brief 2023                                | [https://awcp.org.ph](https://awcp.org.ph)                                                            |
+| [21]| Department of Environment and Natural Resources          | Alignment of Animal Welfare Initiatives with Sustainable Development Goals, DENR Policy Paper 2024                | [https://denr.gov.ph](https://denr.gov.ph)                                                            |
 
 ---
 

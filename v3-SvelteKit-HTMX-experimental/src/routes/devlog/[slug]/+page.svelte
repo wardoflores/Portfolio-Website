@@ -1,7 +1,7 @@
+<!-- /src/routes/dwvlog/[slug]/+page.svelte -->
 <script>
   export let data;
   import { onMount } from 'svelte';
-
   // Load BMC widget client-side
   onMount(() => {
     if (typeof window !== 'undefined' && !document.querySelector('[data-name="BMC-Widget"]')) {
@@ -19,19 +19,15 @@
       document.body.appendChild(script);
     }
   });
-
+  let currentCurrency = 'PHP';
 </script>
-
 <svelte:head>
   <title>Kulmata devlog - {data.title}</title>
   <meta property="og:title" content={data.title} />
-
 </svelte:head>
-
 <article>
   <h1>{ data.title }</h1>
-  <h3>Published: {data.date} <!--| Revisions: {data.revision} | Last updated: {data.lastUpdated}--></h3>
-
+  <h3>Published: {data.date} {#if data.revision > 1}| Revision: {data.revision} | Last updated: {data.lastUpdated}{/if}</h3>
   <svelte:component this={data.content} />
 </article>
 
@@ -41,7 +37,7 @@
     <ul>
       {#each data.categories as category (category)}
         <li>
-          <a href={`/blog/category/${category}`}>
+          <a href={`/devlog/category/${category}`}>
             {category}
           </a>
         </li>

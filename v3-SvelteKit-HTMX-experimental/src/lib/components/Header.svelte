@@ -14,16 +14,16 @@
 	</label>
 	<ul class="menu">
 		<li>
-			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/blog">BLOG</a>
+			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/devlog">DEVLOG</a>
 		</li>
-		<li>
+<!--		<li>
 			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/about">ABOUT</a>
-		</li>
+		</li> -->
 		<li>
 			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
 		</li>
 		<li>
-			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/projects">PROJECTS</a>
+			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/services">SERVICES</a>
 		</li>
 	</ul>
 </section>
