@@ -54,7 +54,7 @@ layout: blog
   }
 </script>
 
-👷 market study under maintenance
+👷 market study and ROI under maintenance
 
 ---
 
@@ -698,31 +698,6 @@ In the heart of our community, a stark image emerges—a landscape where promise
   </ul>
 </div>
 
-## Footnotes
-
-| Ref | Source                                                     | Description                                                                                                    | Link                                                                                                 |
-|-----|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [1] | Philippine Animal Welfare Society                        | Digital Initiatives for Animal Welfare, PAWS Annual Report 2023                                                | [https://paws.ph/annual-report-2023](https://paws.ph/annual-report-2023)                                |
-| [2] | Department of Information and Communications Technology  | E-Governance for Local Government Units, DICT Strategic Plan 2022–2025                                          | [https://dict.gov.ph/strategic-plan](https://dict.gov.ph/strategic-plan)                                |
-| [3] | Animal Kingdom Foundation                                  | State of Stray Animals in the Philippines, Quarterly Census Report Q1 2024                                      | [https://animalkingdomfoundation.org](https://animalkingdomfoundation.org)                          |
-| [4] | Philippine Institute for Development Studies             | Resource Allocation for Animal Control in Philippine LGUs, PIDS Discussion Paper Series No. 2023–12               | [https://pidswebs.pids.gov.ph](https://pidswebs.pids.gov.ph)                                          |
-| [5] | Asia Pacific Foundation of the Philippines               | Digital Citizenship and Civic Participation through Mobile Technology, APFP Research Brief, Feb 2024            | [https://apfp.org/research](https://apfp.org/research)                                               |
-| [6] | Euromonitor International                                  | Pet Care in the Philippines Market Research Report 2023                                                        | [https://www.euromonitor.com](https://www.euromonitor.com)                                            |
-| [7] | Philippine Statistics Authority                          | Pet Industry Contribution to Philippine Economy, PSA Special Report, March 2024                                  | [https://psa.gov.ph](https://psa.gov.ph)                                                              |
-| [8] | Department of Budget and Management                      | Budget Allocation for Digital Transformation in LGUs, Technical Bulletin 2024–03                                | [https://www.dbm.gov.ph](https://www.dbm.gov.ph)                                                      |
-| [9] | Kantar Philippines                                         | Consumer Willingness to Pay for Digital Services, Market Insights Report 2023                                   | [https://www.kantar.com](https://www.kantar.com)                                                      |
-| [10]| Philippine Chamber of Commerce – Pet Industry Group      | Business Outlook for Pet Services Sector, Industry Survey Results 2024                                           | [https://phchamber.com](https://phchamber.com)                                                        |
-| [11]| University of the Philippines – Technology Management Center| User Experience Design for Filipino Mobile Applications, Research Paper Series 2023                              | [https://up.edu.ph](https://up.edu.ph)                                                                |
-| [12]| National Commission on Culture and the Arts              | Language Preferences in Digital Platforms, Cultural Technology Report 2023                                       | [https://ncca.gov.ph](https://ncca.gov.ph)                                                            |
-| [13]| Ateneo de Manila University – Center for Local Governance | Citizen Engagement with Municipal Services, Policy Brief No. 2024–02                                             | [https://ateneo.edu](https://ateneo.edu)                                                              |
-| [14]| De La Salle University – Consumer Behavior Research Center | Pet Owner Technology Adoption Trends in the Philippines, Research Report 2023                                     | [https://dlsu.edu.ph](https://dlsu.edu.ph)                                                            |
-| [15]| Asian Development Bank                                    | Digital Solutions for Urban Management in Southeast Asia, ADB Technical Report 2024                              | [https://www.adb.org](https://www.adb.org)                                                            |
-| [16]| Bureau of Animal Industry                                  | Efficiency Metrics for Animal Control Operations, BAI Technical Bulletin 2023                                    | [https://www.bai.gov.ph](https://www.bai.gov.ph)                                                      |
-| [17]| Department of the Interior and Local Government          | Case Management Systems for Local Government Services, DILG Report 2024                                            | [https://www.dilg.gov.ph](https://www.dilg.gov.ph)                                                    |
-| [18]| Philippine Veterinary Medical Association                | Stray Animal Rehabilitation Outcomes, PVMA Journal Vol. 60, No. 2, 2023                                          | [https://pvma.org.ph](https://pvma.org.ph)                                                            |
-| [19]| Bureau of Animal Industry & PSA                           | Stray Animal Population Projection Model, Joint Technical Report 2024                                            | [https://www.bai.gov.ph](https://www.bai.gov.ph) / [https://psa.gov.ph](https://psa.gov.ph)              |
-| [20]| Animal Welfare Coalition of the Philippines              | Correlations Between Digital Platforms and Pet Adoption Rates, Research Brief 2023                                | [https://awcp.org.ph](https://awcp.org.ph)                                                            |
-| [21]| Department of Environment and Natural Resources          | Alignment of Animal Welfare Initiatives with Sustainable Development Goals, DENR Policy Paper 2024                | [https://denr.gov.ph](https://denr.gov.ph)                                                            |
 
 ---
 
@@ -803,5 +778,148 @@ Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a
         <li>Sewage Robotics Service</li>
     </ul>
 </div>
+
+<section id="footnotes" class="footnotes-section">
+  <h2>Footnotes</h2>
+  <table class="footnotes-table">
+    <thead>
+      <tr>
+        <th>Ref</th>
+        <th>Source</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[1]</td>
+        <td>Philippine Animal Welfare Society</td>
+        <td>Digital Initiatives for Animal Welfare, PAWS Annual Report 2023</td>
+        <td><a href="https://paws.ph/annual-report-2023" target="_blank" rel="noopener noreferrer">paws.ph/annual-report-2023</a></td>
+      </tr>
+      <tr>
+        <td>[2]</td>
+        <td>Department of Information and Communications Technology</td>
+        <td>E-Governance for Local Government Units, DICT Strategic Plan 2022–2025</td>
+        <td><a href="https://dict.gov.ph/strategic-plan" target="_blank" rel="noopener noreferrer">dict.gov.ph/strategic-plan</a></td>
+      </tr>
+      <tr>
+        <td>[3]</td>
+        <td>Animal Kingdom Foundation</td>
+        <td>State of Stray Animals in the Philippines, Quarterly Census Report Q1 2024</td>
+        <td><a href="https://animalkingdomfoundation.org" target="_blank" rel="noopener noreferrer">animalkingdomfoundation.org</a></td>
+      </tr>
+      <tr>
+        <td>[4]</td>
+        <td>Philippine Institute for Development Studies</td>
+        <td>Resource Allocation for Animal Control in Philippine LGUs, PIDS Discussion Paper Series No. 2023–12</td>
+        <td><a href="https://pidswebs.pids.gov.ph" target="_blank" rel="noopener noreferrer">pidswebs.pids.gov.ph</a></td>
+      </tr>
+      <tr>
+        <td>[5]</td>
+        <td>Asia Pacific Foundation of the Philippines</td>
+        <td>Digital Citizenship and Civic Participation through Mobile Technology, APFP Research Brief, Feb 2024</td>
+        <td><a href="https://apfp.org/research" target="_blank" rel="noopener noreferrer">apfp.org/research</a></td>
+      </tr>
+      <tr>
+        <td>[6]</td>
+        <td>Euromonitor International</td>
+        <td>Pet Care in the Philippines Market Research Report 2023</td>
+        <td><a href="https://www.euromonitor.com" target="_blank" rel="noopener noreferrer">euromonitor.com</a></td>
+      </tr>
+      <tr>
+        <td>[7]</td>
+        <td>Philippine Statistics Authority</td>
+        <td>Pet Industry Contribution to Philippine Economy, PSA Special Report, March 2024</td>
+        <td><a href="https://psa.gov.ph" target="_blank" rel="noopener noreferrer">psa.gov.ph</a></td>
+      </tr>
+      <tr>
+        <td>[8]</td>
+        <td>Department of Budget and Management</td>
+        <td>Budget Allocation for Digital Transformation in LGUs, Technical Bulletin 2024–03</td>
+        <td><a href="https://www.dbm.gov.ph" target="_blank" rel="noopener noreferrer">dbm.gov.ph</a></td>
+      </tr>
+      <tr>
+        <td>[9]</td>
+        <td>Kantar Philippines</td>
+        <td>Consumer Willingness to Pay for Digital Services, Market Insights Report 2023</td>
+        <td><a href="https://www.kantar.com" target="_blank" rel="noopener noreferrer">kantar.com</a></td>
+      </tr>
+      <tr>
+        <td>[10]</td>
+        <td>Philippine Chamber of Commerce – Pet Industry Group</td>
+        <td>Business Outlook for Pet Services Sector, Industry Survey Results 2024</td>
+        <td><a href="https://phchamber.com" target="_blank" rel="noopener noreferrer">phchamber.com</a></td>
+      </tr>
+      <tr>
+        <td>[11]</td>
+        <td>University of the Philippines – Technology Management Center</td>
+        <td>User Experience Design for Filipino Mobile Applications, Research Paper Series 2023</td>
+        <td><a href="https://up.edu.ph" target="_blank" rel="noopener noreferrer">up.edu.ph</a></td>
+      </tr>
+      <tr>
+        <td>[12]</td>
+        <td>National Commission on Culture and the Arts</td>
+        <td>Language Preferences in Digital Platforms, Cultural Technology Report 2023</td>
+        <td><a href="https://ncca.gov.ph" target="_blank" rel="noopener noreferrer">ncca.gov.ph</a></td>
+      </tr>
+      <tr>
+        <td>[13]</td>
+        <td>Ateneo de Manila University – Center for Local Governance</td>
+        <td>Citizen Engagement with Municipal Services, Policy Brief No. 2024–02</td>
+        <td><a href="https://ateneo.edu" target="_blank" rel="noopener noreferrer">ateneo.edu</a></td>
+      </tr>
+      <tr>
+        <td>[14]</td>
+        <td>De La Salle University – Consumer Behavior Research Center</td>
+        <td>Pet Owner Technology Adoption Trends in the Philippines, Research Report 2023</td>
+        <td><a href="https://dlsu.edu.ph" target="_blank" rel="noopener noreferrer">dlsu.edu.ph</a></td>
+      </tr>
+      <tr>
+        <td>[15]</td>
+        <td>Asian Development Bank</td>
+        <td>Digital Solutions for Urban Management in Southeast Asia, ADB Technical Report 2024</td>
+        <td><a href="https://www.adb.org" target="_blank" rel="noopener noreferrer">adb.org</a></td>
+      </tr>
+      <tr>
+        <td>[16]</td>
+        <td>Bureau of Animal Industry</td>
+        <td>Efficiency Metrics for Animal Control Operations, BAI Technical Bulletin 2023</td>
+        <td><a href="https://www.bai.gov.ph" target="_blank" rel="noopener noreferrer">bai.gov.ph</a></td>
+      </tr>
+      <tr>
+        <td>[17]</td>
+        <td>Department of the Interior and Local Government</td>
+        <td>Case Management Systems for Local Government Services, DILG Report 2024</td>
+        <td><a href="https://www.dilg.gov.ph" target="_blank" rel="noopener noreferrer">dilg.gov.ph</a></td>
+      </tr>
+      <tr>
+        <td>[18]</td>
+        <td>Philippine Veterinary Medical Association</td>
+        <td>Stray Animal Rehabilitation Outcomes, PVMA Journal Vol. 60, No. 2, 2023</td>
+        <td><a href="https://pvma.org.ph" target="_blank" rel="noopener noreferrer">pvma.org.ph</a></td>
+      </tr>
+      <tr>
+        <td>[19]</td>
+        <td>Bureau of Animal Industry & PSA</td>
+        <td>Stray Animal Population Projection Model, Joint Technical Report 2024</td>
+        <td><a href="https://www.bai.gov.ph" target="_blank" rel="noopener noreferrer">bai.gov.ph</a> / <a href="https://psa.gov.ph" target="_blank" rel="noopener noreferrer">psa.gov.ph</a></td>
+      </tr>
+      <tr>
+        <td>[20]</td>
+        <td>Animal Welfare Coalition of the Philippines</td>
+        <td>Correlations Between Digital Platforms and Pet Adoption Rates, Research Brief 2023</td>
+        <td><a href="https://awcp.org.ph" target="_blank" rel="noopener noreferrer">awcp.org.ph</a></td>
+      </tr>
+      <tr>
+        <td>[21]</td>
+        <td>Department of Environment and Natural Resources</td>
+        <td>Alignment of Animal Welfare Initiatives with Sustainable Development Goals, DENR Policy Paper 2024</td>
+        <td><a href="https://denr.gov.ph" target="_blank" rel="noopener noreferrer">denr.gov.ph</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
 
 Thank you for reading! Feel free to [contact me](mailto:eduardojosefloresiii@gmail.com)(not mailserver address yet ☺) or leave a comment below(?).
