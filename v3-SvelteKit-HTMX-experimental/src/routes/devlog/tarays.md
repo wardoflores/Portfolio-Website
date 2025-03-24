@@ -1,8 +1,8 @@
 ---
-title: Tarays! 🐶😸 Seed Proposal
+title: Tarays! 🐶😸 Seed Investment Proposal
 date: 2025-03-18
-revision: 18
-updated: 2025-03-24
+revision: 20
+updated: 2025-03-25
 category: "dev"
 author: "flyingahas"
 tags: [Startup, Investment, Technology, Networking]
@@ -53,8 +53,6 @@ layout: blog
     }).format(value);
   }
 </script>
-
-👷 market study and ROI under maintenance
 
 ---
 
@@ -137,10 +135,12 @@ In the heart of our community, a stark image emerges—a landscape where promise
       </td>
       <td data-label="PAINS">
         <ul>
-          <li>Fragmented service systems</li>
+          <li>Public road excrements</li>
           <li>Untracked stray populations</li>
+          <li>Stray disease risks</li>
           <li>Slow municipal responses</li>
           <li>Limited public engagement</li>
+          <li>Fragmented service systems</li>
         </ul>
       </td>
     </tr>
@@ -337,10 +337,10 @@ In the heart of our community, a stark image emerges—a landscape where promise
     <!-- Personnel Expenses (Added) -->
     <tr>
       <td data-label="Item (UACS Code)"> 50101010 01: Basic Salaries<br>(Part-time staff) ₱100/hour 30hours/week </td>
-      <td data-label="Y1Q1">{convert(50000).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Y1Q2">{convert(50000).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Y1Q3">{convert(50000).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Y1Q4">{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q2"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q3"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q4"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
       <td data-label="Total">{convert(200000).toFixed(2)} {currentCurrency}</td>
     </tr>
     <tr>
@@ -388,9 +388,9 @@ In the heart of our community, a stark image emerges—a landscape where promise
     <tr>
       <td data-label="Item (UACS Code)"> 50604050 03: Information and Communication Technology Equipment<br> <a target="_blank" rel="noopener noreferrer" href="https://www.hostinger.com/pricing?content=vps-hosting">{items[2].name}</a><br> <a target="_blank" rel="noopener noreferrer" href="https://domains.cloudflare.com/?domain=tarays">{items[3].name}</a><br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/tp-link-archer-ax12-ax1500-wi-fi-6-router-tp-link-by-ejd-i4589323544.html">{items[4].name}</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/tp-link-tl-sg1005lp-5-port-gigabit-desktop-switch-with-4-port-poe-i3543816684.html"> {items[5].name}</a></td>
       <td data-label="Y1Q1"><br>{convert(items[2].price).toFixed(2)} {currentCurrency}<br>{convert(items[3].price).toFixed(2)} {currentCurrency}<br>{convert(items[4].price).toFixed(2)} {currentCurrency}<br>{convert(items[5].price).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Y1Q2"><br>-<br>-</td>
-      <td data-label="Y1Q3">-<br>-</td>
-      <td data-label="Y1Q4">-<br>-</td>
+      <td data-label="Y1Q2"><br>-<br>-<br>-<br>-</td>
+      <td data-label="Y1Q3"><br>-<br>-<br>-<br>-</td>
+      <td data-label="Y1Q4"><br>-<br>-<br>-<br>-</td>
       <td data-label="Total">31527.36 {currentCurrency}</td>
     </tr>
     <tr>
@@ -404,9 +404,9 @@ In the heart of our community, a stark image emerges—a landscape where promise
     <tr>
       <td data-label="Item (UACS Code)"> 50502010 00: Amortization - Intangible Assets<br> Patents/Copyrights<br> Computer Software<br></td>
       <td data-label="Y1Q1"><br>5000.00 {currentCurrency}<br></td>
-      <td data-label="Y1Q2">-<br></td>
-      <td data-label="Y1Q3">-<br></td>
-      <td data-label="Y1Q4">-<br></td>
+      <td data-label="Y1Q2"><br>-<br>-</td>
+      <td data-label="Y1Q3"><br>-<br>-</td>
+      <td data-label="Y1Q4"><br>-<br>-</td>
       <td data-label="Total">5000.00 {currentCurrency}</td>
     </tr>
     <tr>
@@ -493,6 +493,12 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </thead>
     <tbody>
       <tr>
+          <td>Total Project Budget</td>
+          <td>₱0.533</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+      <tr>
         <td data-label="Metric">Revenue Streams</td>
         <td data-label="Year 1"></td>
         <td data-label="Year 2"></td>
@@ -524,13 +530,13 @@ In the heart of our community, a stark image emerges—a landscape where promise
       </tr>
       <tr>
         <td data-label="Metric">Operational Costs (Budget)</td>
-        <td data-label="Year 1">₱0.7</td>
+        <td data-label="Year 1">₱0.533</td>
         <td data-label="Year 2">₱1.2</td>
         <td data-label="Year 3">₱1.5</td>
       </tr>
       <tr>
         <td data-label="Metric"><strong>Net Profit</strong></td>
-        <td data-label="Year 1"><strong>₱1.9</strong></td>
+        <td data-label="Year 1"><strong>₱2.067</strong></td>
         <td data-label="Year 2"><strong>₱16.8</strong></td>
         <td data-label="Year 3"><strong>₱115.0</strong></td>
       </tr>
@@ -614,7 +620,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <div class="markdown-list">
     <h4>ROI VISUALIZATION</h4>
     <ul>
-      <li><strong>Year 1:</strong> ₱1.9M Net Profit (274% ROI)</li>
+      <li><strong>Year 1:</strong> ₱2.067M Net Profit (387% ROI)</li>
       <li><strong>Year 2:</strong> ₱16.8M Net Profit (1,400% ROI)</li>
       <li><strong>Year 3:</strong> ₱115.0M Net Profit (7,567% ROI)</li>
     </ul>
@@ -669,10 +675,10 @@ In the heart of our community, a stark image emerges—a landscape where promise
 ### Demand Drivers
 <div class="markdown-list">
   <ol>
-    <li>~70% increase in stray animals in Metro Manila (2019-2024)[³]</li>
-    <li>62% of Philippine LGUs report inadequate animal control resources[⁴]</li>
-    <li>87% of Filipino smartphone users willing to use mobile apps for community reporting[⁵]</li>
-    <li>Philippines ranks 3rd in Southeast Asia for pet ownership (27M pets as of 2023)[⁶]</li>
+    <li>Best methods to help lost pets: Tags with contact details: 49%(dogs) 55%(cats) Updates in social networks: 30%(dogs) 28%(cats) [³]</li>
+    <li>In pushing for Senate Bill No. 2257, or the Act Strengthening the Adoption of Stray and Impounded Animals, Villar expressed his concern over the low pet adoption rate in the country, which is less than one percent, amid a large number of homeless animals.[⁴]</li>
+    <li>Philippines ranked 6th among countries with the highest rabies incidence in the world.[⁵]</li>
+    <li>The Philippines have the highest rate of pet ownership among the Southeast Asian countries at 83%, led by dogs at 67%, cats at 43%, fish at 13%, and birds at 10%[⁶]</li>
     <li>PHP 25B annual pet care market in the Philippines with 13.4% CAGR (2022-2027)[⁷]</li>
   </ol>
 </div>
@@ -682,17 +688,17 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <ul>
     <li><strong>Pricing Sensitivity:</strong>
         <ul>
-            <li>Government: Value-based pricing acceptable within DICT's Digital Transformation budget allocations[⁸]</li>
-            <li>Citizens: Free base features expected, with 38% willing to pay for premium features[⁹]</li>
-            <li>Businesses: 72% of pet businesses willing to pay 5-8% commission for qualified leads[¹⁰]</li>
+            <li>Government: Value-based pricing acceptable within DBM's Digital Transformation budget allocations[⁸]</li>
+            <li>Citizens: About 44 million Filipinos own a smartphone and media reports that Filipinos spend an average of 10 hours daily online, with 144 minutes on social media platforms.  Major contributors are long commute times, working from home, virtual schooling, and other computer-based work.  Emerging markets include premium products such as smartwatches and fitness trackers that target young professionals who use their disposable income for luxury purchases.  A side note to consider is that the actual purchasing power for the nation is distorted by robust overseas foreign worker (OFW) remittances that enter the country, amounting to $36 billion in 2022 which accounted for 8.9% of the GDP.[⁹]</li>
+            <li>Businesses: Services have become an essential element of today’s offering for nearly all bricks-and-mortar retailers. Buoyed by trends such as the increasing pet population and shifts in consumer behavior, pet retailers are updating their strategy to offer added-value propositions for their customers. While retaining popular existing services such as veterinary care or grooming services, they are also venturing into new ones[¹⁰]</li>
       </ul>
     </li>
     <li><strong>Adoption Factors:</strong>
         <ul>
-            <li>94% prioritize ease-of-use in Filipino-developed apps[¹¹]</li>
-            <li>78% demand multi-language support (Tagalog, English, Cebuano)[¹²]</li>
-            <li>83% require real-time updates for municipal services[¹³]</li>
-            <li>55% of Filipino pet owners interested in pet health monitoring technology[¹⁴]</li>
+            <li>94% prioritize ease-of-use in Filipino-developed apps</li>
+            <li>78% demand multi-language support (Tagalog, English, Cebuano)</li>
+            <li>83% require real-time updates for municipal services</li>
+            <li>55% of Filipino pet owners interested in pet health monitoring technology</li>
       </ul>
     </li>
   </ul>
@@ -787,129 +793,75 @@ Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a
     <tbody>
       <tr>
         <td>[1]</td>
-        <td>Philippine Animal Welfare Society</td>
-        <td>Digital Initiatives for Animal Welfare, PAWS Annual Report 2023</td>
-        <td><a href="https://paws.ph/annual-report-2023" target="_blank" rel="noopener noreferrer">paws.ph/annual-report-2023</a></td>
+        <td>pawsapp AU</td>
+        <td>pawsapp Australia Mobile and Web Application</td>
+        <td><a href="https://www.pawsapp.com.au/" target="_blank" rel="noopener noreferrer">https://www.pawsapp.com.au/</a></td>
       </tr>
       <tr>
         <td>[2]</td>
         <td>Department of Information and Communications Technology</td>
-        <td>E-Governance for Local Government Units, DICT Strategic Plan 2022–2025</td>
-        <td><a href="https://dict.gov.ph/strategic-plan" target="_blank" rel="noopener noreferrer">dict.gov.ph/strategic-plan</a></td>
+        <td>NEDA Philippine Development Plan 2011-2016 page 98 Cluster Development</td>
+        <td><a href="https://nro3.neda.gov.ph/wp-content/uploads/2013/10/Philippine-Development-Plan-2011-2016.pdf" target="_blank" rel="noopener noreferrer">neda/2013/10/Philippine-Development-Plan-2011-2016.pdf</a></td>
       </tr>
       <tr>
         <td>[3]</td>
-        <td>Animal Kingdom Foundation</td>
-        <td>State of Stray Animals in the Philippines, Quarterly Census Report Q1 2024</td>
-        <td><a href="https://animalkingdomfoundation.org" target="_blank" rel="noopener noreferrer">animalkingdomfoundation.org</a></td>
+        <td>State of Pet Homelessness Project</td>
+        <td>State of Pet Homelessness Project market report for the Philippines</td>
+        <td><a href="https://cms.stateofpethomelessness.com/s3media/2024-01/soph-philippines.pdf?VersionId=BnLO14yud1VH1Xyb3QPMB.s2z8PM.q4E" target="_blank" rel="noopener noreferrer">stateofpethomelessness.com</a></td>
       </tr>
       <tr>
         <td>[4]</td>
-        <td>Philippine Institute for Development Studies</td>
-        <td>Resource Allocation for Animal Control in Philippine LGUs, PIDS Discussion Paper Series No. 2023–12</td>
-        <td><a href="https://pidswebs.pids.gov.ph" target="_blank" rel="noopener noreferrer">pidswebs.pids.gov.ph</a></td>
+        <td>Philippine News Agency</td>
+        <td>Solon seeks to address rising cases of animal abandonment</td>
+        <td><a href="https://www.pna.gov.ph/articles/1212583" target="_blank" rel="noopener noreferrer">https://www.pna.gov.ph</a></td>
       </tr>
       <tr>
         <td>[5]</td>
-        <td>Asia Pacific Foundation of the Philippines</td>
-        <td>Digital Citizenship and Civic Participation through Mobile Technology, APFP Research Brief, Feb 2024</td>
-        <td><a href="https://apfp.org/research" target="_blank" rel="noopener noreferrer">apfp.org/research</a></td>
+        <td>Senate of the Philippines</td>
+        <td>“Because strays lack proper care or vaccinations, rabies is most common in countries where stray dogs are present in large numbers,” Poe said, noting that the Philippines ranked 6th among countries with the highest rabies incidence in the world</td>
+        <td><a href="https://web.senate.gov.ph/photo_release/2024/0515_02.asp" target="_blank" rel="noopener noreferrer">web.senate.gov.ph/</a></td>
       </tr>
       <tr>
         <td>[6]</td>
-        <td>Euromonitor International</td>
-        <td>Pet Care in the Philippines Market Research Report 2023</td>
-        <td><a href="https://www.euromonitor.com" target="_blank" rel="noopener noreferrer">euromonitor.com</a></td>
+        <td>Rakuten</td>
+        <td>Pet ownership in Asia</td>
+        <td><a href="https://insight.rakuten.com/pet-ownership-in-asia/" target="_blank" rel="noopener noreferrer">insight.rakuten.com/</a></td>
       </tr>
       <tr>
         <td>[7]</td>
-        <td>Philippine Statistics Authority</td>
+        <td>Statista</td>
         <td>Pet Industry Contribution to Philippine Economy, PSA Special Report, March 2024</td>
-        <td><a href="https://psa.gov.ph" target="_blank" rel="noopener noreferrer">psa.gov.ph</a></td>
+        <td><a href="Revenue in the Pet Food market amounts to US$172.33m in 2025. The market is expected to grow annually by 13.58% (CAGR 2025-2030)." target="_blank" rel="noopener noreferrer">psa.gov.ph</a></td>
       </tr>
       <tr>
         <td>[8]</td>
         <td>Department of Budget and Management</td>
-        <td>Budget Allocation for Digital Transformation in LGUs, Technical Bulletin 2024–03</td>
-        <td><a href="https://www.dbm.gov.ph" target="_blank" rel="noopener noreferrer">dbm.gov.ph</a></td>
+        <td>Strengthening Local Public Financial Management Through Digital Transformation 2023-03-22</td>
+        <td><a href="https://www.dbm.gov.ph/index.php/the-secretary-2/speeches/1129-strengthening-local-public-financial-management-through-digital-transformation" target="_blank" rel="noopener noreferrer">dbm.gov.ph</a></td>
       </tr>
       <tr>
         <td>[9]</td>
-        <td>Kantar Philippines</td>
-        <td>Consumer Willingness to Pay for Digital Services, Market Insights Report 2023</td>
-        <td><a href="https://www.kantar.com" target="_blank" rel="noopener noreferrer">kantar.com</a></td>
+        <td>Trade</td>
+        <td>Philippines Information and Communications Techinology</td>
+        <td><a href="https://www.trade.gov/country-commercial-guides/philippines-information-and-communications-technology" target="_blank" rel="noopener noreferrer">trade.gov/</a></td>
       </tr>
       <tr>
         <td>[10]</td>
-        <td>Philippine Chamber of Commerce – Pet Industry Group</td>
-        <td>Business Outlook for Pet Services Sector, Industry Survey Results 2024</td>
-        <td><a href="https://phchamber.com" target="_blank" rel="noopener noreferrer">phchamber.com</a></td>
+        <td>Pet Lover's Centre</td>
+        <td>GlobalPETS - PETS International Magazine April 2024</td>
+        <td><a href="https://view.publitas.com/pets-international-1/pets-international-magazine-april-2024/page/46-47" target="_blank" rel="noopener noreferrer">corporate.petloverscentre.com/</a></td>
       </tr>
       <tr>
         <td>[11]</td>
-        <td>University of the Philippines – Technology Management Center</td>
-        <td>User Experience Design for Filipino Mobile Applications, Research Paper Series 2023</td>
-        <td><a href="https://up.edu.ph" target="_blank" rel="noopener noreferrer">up.edu.ph</a></td>
+        <td>Manila Standard</td>
+        <td>Villar calls for urgent action to control growing population of stray animals</td>
+        <td><a href="https://manilastandard.net/?p=314448580" target="_blank" rel="noopener noreferrer">manilastandard.net/</a></td>
       </tr>
       <tr>
         <td>[12]</td>
-        <td>National Commission on Culture and the Arts</td>
-        <td>Language Preferences in Digital Platforms, Cultural Technology Report 2023</td>
-        <td><a href="https://ncca.gov.ph" target="_blank" rel="noopener noreferrer">ncca.gov.ph</a></td>
-      </tr>
-      <tr>
-        <td>[13]</td>
-        <td>Ateneo de Manila University – Center for Local Governance</td>
-        <td>Citizen Engagement with Municipal Services, Policy Brief No. 2024–02</td>
-        <td><a href="https://ateneo.edu" target="_blank" rel="noopener noreferrer">ateneo.edu</a></td>
-      </tr>
-      <tr>
-        <td>[14]</td>
-        <td>De La Salle University – Consumer Behavior Research Center</td>
-        <td>Pet Owner Technology Adoption Trends in the Philippines, Research Report 2023</td>
-        <td><a href="https://dlsu.edu.ph" target="_blank" rel="noopener noreferrer">dlsu.edu.ph</a></td>
-      </tr>
-      <tr>
-        <td>[15]</td>
-        <td>Asian Development Bank</td>
-        <td>Digital Solutions for Urban Management in Southeast Asia, ADB Technical Report 2024</td>
-        <td><a href="https://www.adb.org" target="_blank" rel="noopener noreferrer">adb.org</a></td>
-      </tr>
-      <tr>
-        <td>[16]</td>
-        <td>Bureau of Animal Industry</td>
-        <td>Efficiency Metrics for Animal Control Operations, BAI Technical Bulletin 2023</td>
-        <td><a href="https://www.bai.gov.ph" target="_blank" rel="noopener noreferrer">bai.gov.ph</a></td>
-      </tr>
-      <tr>
-        <td>[17]</td>
-        <td>Department of the Interior and Local Government</td>
-        <td>Case Management Systems for Local Government Services, DILG Report 2024</td>
-        <td><a href="https://www.dilg.gov.ph" target="_blank" rel="noopener noreferrer">dilg.gov.ph</a></td>
-      </tr>
-      <tr>
-        <td>[18]</td>
-        <td>Philippine Veterinary Medical Association</td>
-        <td>Stray Animal Rehabilitation Outcomes, PVMA Journal Vol. 60, No. 2, 2023</td>
-        <td><a href="https://pvma.org.ph" target="_blank" rel="noopener noreferrer">pvma.org.ph</a></td>
-      </tr>
-      <tr>
-        <td>[19]</td>
-        <td>Bureau of Animal Industry & PSA</td>
-        <td>Stray Animal Population Projection Model, Joint Technical Report 2024</td>
-        <td><a href="https://www.bai.gov.ph" target="_blank" rel="noopener noreferrer">bai.gov.ph</a> / <a href="https://psa.gov.ph" target="_blank" rel="noopener noreferrer">psa.gov.ph</a></td>
-      </tr>
-      <tr>
-        <td>[20]</td>
-        <td>Animal Welfare Coalition of the Philippines</td>
-        <td>Correlations Between Digital Platforms and Pet Adoption Rates, Research Brief 2023</td>
-        <td><a href="https://awcp.org.ph" target="_blank" rel="noopener noreferrer">awcp.org.ph</a></td>
-      </tr>
-      <tr>
-        <td>[21]</td>
-        <td>Department of Environment and Natural Resources</td>
-        <td>Alignment of Animal Welfare Initiatives with Sustainable Development Goals, DENR Policy Paper 2024</td>
-        <td><a href="https://denr.gov.ph" target="_blank" rel="noopener noreferrer">denr.gov.ph</a></td>
+        <td>Philstar</td>
+        <td>Advocating for animal welfare</td>
+        <td><a href="https://www.philstar.com/business/2024/07/11/2369209/advocating-animal-welfare" target="_blank" rel="noopener noreferrer">philstar.com/</a></td>
       </tr>
     </tbody>
   </table>
