@@ -1,8 +1,8 @@
 ---
 title: Tarays! 🐶😸
 date: 2025-03-18
-revision: 15
-updated: 2025-03-23
+revision: 18
+updated: 2025-03-24
 category: "dev"
 author: "flyingahas"
 tags: [Startup, Investment, Technology, Networking]
@@ -391,7 +391,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
       <td data-label="Y1Q2"><br>-<br>-</td>
       <td data-label="Y1Q3">-<br>-</td>
       <td data-label="Y1Q4">-<br>-</td>
-      <td data-label="Total">174000.00 {currentCurrency}</td>
+      <td data-label="Total">31527.36 {currentCurrency}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50604050 14: Technical and Scientific Equipment<br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/bambu-lab-p1s-p1s-combo-p1p-up-to-16-color-printing-with-ams-up-to-20000-mms-acceleration-3d-printer-i4295394121.html" >{items[6].name}</a></td>
@@ -411,7 +411,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
     </tr>
     <tr>
       <td colspan="5" data-label=""><strong>GRAND TOTAL</strong></td>
-      <td data-label="Total"><strong>675954.00 {currentCurrency}</strong></td>
+      <td data-label="Total"><strong>533481.36 {currentCurrency}</strong></td>
     </tr>
   </tbody>
 </table>
