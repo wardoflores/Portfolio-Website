@@ -30,6 +30,11 @@ p {
 	margin-bottom: 5%;
 }
 
+/* 2025-03-24 */
+article {
+    text-align: center;
+}
+
 h2 {
 	text-align: center;
 	font-family: 'Merriweather', sans-serif;

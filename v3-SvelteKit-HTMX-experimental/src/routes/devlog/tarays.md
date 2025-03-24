@@ -703,6 +703,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
 
 ## Why I ask to raise an investment
 
+<article>
 As proof for potential with what I did develop with a;
 <div class="markdown-list">
     <ul>
@@ -714,11 +715,9 @@ As proof for potential with what I did develop with a;
         </ul>
     </ul>
 </div>
-
-Obsidian PKM by diary with each word in a timestamp log being a note, Notation by Linguistics.
-Parse into a Postgresql database, a little bit of fun with Schemas and soon I may be able to supplement my activities
-
-Setback by having c++ for it at first before doing it by web;
+Obsidian PKM by diary with each word in a timestamp log being a note, Notation by Linguistics.<br>
+Parse into a Postgresql database, a little bit of fun with Schemas and soon I may be able to supplement my activities<br>
+Setback by having c++ for it at first before doing it by web;<br>
 <div class="markdown-list">
     <ul>
         <li>GLAD</li>
@@ -727,10 +726,8 @@ Setback by having c++ for it at first before doing it by web;
         <li>psqlxx</li>
     </ul>
 </div>
-
-and more but hindered by 3D Shaders. Realized that I was naive, needed to learn about concepts like Pointcloud, or even postGIS
-
-Intranet utilize psql, and htmx for Website that consists of; 
+and more but hindered by 3D Shaders. Realized that I was naive, needed to learn about concepts like Pointcloud, or even postGIS<br>
+Intranet utilize psql, and htmx for Website that consists of; <br>
 <div class="markdown-list">
     <ul>
         <li>Console</li>
@@ -739,8 +736,7 @@ Intranet utilize psql, and htmx for Website that consists of;
         <li>ReactNative for WebView only from Intranet</li>
     </ul>
 </div>
-
-As of present, my infrastructure is as follows:
+As of present, my infrastructure is as follows:<br>
 <div class="markdown-list">
     <ul>
 <li>Cloudflare DNS</li>
@@ -758,8 +754,7 @@ As of present, my infrastructure is as follows:
 <li>Also Docker for Websites.</li>
     </ul>
 </div>
-
-Which is really lacking in resources. For storage concerns in my attempts to connect HDD to VPS:
+Which is really lacking in resources. For storage concerns in my attempts to connect HDD to VPS:<br>
 <div class="markdown-list">
     <ul>
         <li>sshfs</li>
@@ -768,16 +763,15 @@ Which is really lacking in resources. For storage concerns in my attempts to con
         <li>and with all 3 some attempt to use wirehole with it</li>
     </ul>
 </div>
-
-There's a ngat called NAT, the correct solution is a personal Router and a NetworkSwitch. Tarays!
-
-Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a 3DPrinter for Businesses of;
+There's a ngat called NAT, the correct solution is a personal Router and a NetworkSwitch. Tarays!<br>
+Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a 3DPrinter for Businesses of;<br>
 <div class="markdown-list">
     <ul>
         <li>Jeepney Stop Sensor and Database, for Ride Sharing in Rush Hour;</li>
         <li>Sewage Robotics Service</li>
     </ul>
 </div>
+</article>
 
 <section id="footnotes" class="footnotes-section">
   <h2>Footnotes</h2>
