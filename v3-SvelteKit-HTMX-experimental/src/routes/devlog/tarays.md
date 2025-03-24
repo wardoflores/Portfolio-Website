@@ -1,5 +1,5 @@
 ---
-title: Tarays! 🐶😸
+title: Tarays! 🐶😸 Seed Proposal
 date: 2025-03-18
 revision: 18
 updated: 2025-03-24

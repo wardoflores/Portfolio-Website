@@ -1,6 +1,6 @@
 ---
 title: Bantay 
-date: 2025-03-23
+date: 2025-00-00
 revision: 0
 updated: 2025-03-23
 category: "dev"
