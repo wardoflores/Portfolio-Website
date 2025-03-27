@@ -1,8 +1,8 @@
 ---
 title: Tarays! 🐶😸 Seed Investment Proposal
 date: 2025-03-18
-revision: 22
-updated: 2025-03-25
+revision: 24
+updated: 2025-03-27
 category: "dev"
 author: "flyingahas"
 tags: [Startup, Investment, Technology, Networking]
@@ -888,8 +888,9 @@ changelogs:
     <ul>
         <li>Revisions:</li>
         <ul>
-            <li>23: Create links to MVP.</li>
-            <li>22: WIP</li>
+            <li>24: Fix currency reactivity.</li>
+            <li>23: WIP</li>    
+            <li>22: WIP</li>    
             <li>21: WIP</li>
         </ul>
     </ul>
