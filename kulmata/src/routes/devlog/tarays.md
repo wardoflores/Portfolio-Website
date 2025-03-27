@@ -1,7 +1,7 @@
 ---
 title: Tarays! 🐶😸 Seed Investment Proposal
 date: 2025-03-18
-revision: 20
+revision: 22
 updated: 2025-03-25
 category: "dev"
 author: "flyingahas"
@@ -22,7 +22,7 @@ layout: blog
   let currentCurrency = 'PHP';
   let items = [
     { id: 1, name: "Brother DCP-L2640DW Mono Laser Multi-Function Printer", price: 12455.00 },
-    { id: 2, name: "Affordaboost 500 Mbps", price: 200 },
+    { id: 2, name: "Affordaboost 500 Mbps", price: 8000 },
     { id: 3, name:  "VPS Hostinger KVM 8 ₱1,159/month 24 months Plan", price: 27816.00 },
     { id: 4, name:  "DNS", price: 631.36 },
     { id: 5, name:  "tp-link Archer AX12 AX1500 Wi-Fi 6 Router", price: 1590.00 },
@@ -52,6 +52,14 @@ layout: blog
       minimumFractionDigits: 2
     }).format(value);
   }
+
+  $: convertedItems = items.map(item => ({
+    ...item,
+    convertedPrice: item.price * rates[currentCurrency]
+  }));
+
+  $: convertedGrandTotal = 533481.36 * rates[currentCurrency];
+
 </script>
 
 ---
@@ -60,9 +68,10 @@ Welcome to my blog post on **Tarays!**, a community-driven platform that integra
 
 ## Community Pet & Public Service Platform
 
-Tarays! aims to centralize stray animal management and enhance public service communication by leveraging technology. Our goal is to facilitate business opportunities and provide a robust system that benefits both the community and public service sectors.
-
-In the heart of our community, a stark image emerges—a landscape where promise and neglect collide. The streets, once vibrant with shared hope, now reveal the subtle scars of disjointed public services and outdated infrastructure. Stray animals wander unheeded, their presence echoing the broader disconnect: a failure to maintain the technological and social networks that once united us. This fragmented scene, marked by faltering communication and isolated pockets of need, calls for a transformative solution to restore cohesion and breathe new life into our shared spaces.
+<article>
+Tarays! aims to centralize stray animal management and enhance public service communication by leveraging technology.<br>
+Our goal is to facilitate business opportunities and provide a robust system that benefits both the community and public service sectors.<br>
+</article>
 
 <div class="markdown-table">
 
@@ -316,7 +325,7 @@ In the heart of our community, a stark image emerges—a landscape where promise
   <option value="EUR">🇪🇺 EUR</option>
   <option value="GBP">🇬🇧 GBP</option>
   <option value="SGD">🇸🇬 SGD</option>
-</select>👷
+</select>  1 PHP = {rates.USD.toFixed(4)} USD | {rates.EUR.toFixed(4)} EUR | {rates.GBP.toFixed(4)} GBP | {rates.SGD.toFixed(4)} SGD
 </div>
 
 <table>
@@ -337,81 +346,85 @@ In the heart of our community, a stark image emerges—a landscape where promise
     <!-- Personnel Expenses (Added) -->
     <tr>
       <td data-label="Item (UACS Code)"> 50101010 01: Basic Salaries<br>(Part-time staff) ₱100/hour 30hours/week </td>
-      <td data-label="Y1Q1"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Y1Q2"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Y1Q3"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Y1Q4"><br>{convert(50000).toFixed(2)} {currentCurrency}</td>
-      <td data-label="Total">{convert(200000).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>{formatCurrency(50000 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q2"><br>{formatCurrency(50000 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q3"><br>{formatCurrency(50000 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q4"><br>{formatCurrency(50000 * rates[currentCurrency])}</td>
+      <td data-label="Total">{formatCurrency(200000 * rates[currentCurrency])}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50102030 01: Transportation Allowance<br>₱100/weekday</td>
-      <td data-label="Y1Q1"><br>12500.00 {currentCurrency}</td>
-      <td data-label="Y1Q2"><br>12500.00 {currentCurrency}</td>
-      <td data-label="Y1Q3"><br>12500.00 {currentCurrency}</td>
-      <td data-label="Y1Q4"><br>12500.00 {currentCurrency}</td>
-      <td data-label="Total">50000.00 {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>{formatCurrency(12500 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q2"><br>{formatCurrency(12500 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q3"><br>{formatCurrency(12500 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q4"><br>{formatCurrency(12500 * rates[currentCurrency])}</td>
+      <td data-label="Total">{formatCurrency(50000 * rates[currentCurrency])}</td>
     </tr>
     <!-- MOOE (Revised) -->
     <tr>
       <td data-label="Item (UACS Code)"> 50203010 00: Office Supplies (Field kits, outreach)<br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/brother-dcp-l2640dw-mono-laser-multi-function-printer-dcp-l2640-l2640dw-i4318022052.html" >{items[0].name}</a> </td>
-      <td data-label="Y1Q1"><br>{convert(items[0].price).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>{formatCurrency(items[0].price * rates[currentCurrency])}</td>
       <td data-label="Y1Q2"><br>-</td>
       <td data-label="Y1Q3"><br>-</td>
       <td data-label="Y1Q4"><br>-</td>
-      <td data-label="Total">12455.00 {currentCurrency}</td>
+      <td data-label="Total">{formatCurrency(12455 * rates[currentCurrency])}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50205030 00: Internet Subscriptions<br> <a target="_blank" rel="noopener noreferrer" href="https://pldtenterprise.com/msme/solutions/internet/beyond-fiber" >ISP 500Mbps</a></td>
-      <td data-label="Y1Q1"><br>8000.00 {currentCurrency}</td>
-      <td data-label="Y1Q2"><br>8000.00 {currentCurrency}</td>
-      <td data-label="Y1Q3"><br>8000.00 {currentCurrency}</td>
-      <td data-label="Y1Q4"><br>8000.00 {currentCurrency}</td>
-      <td data-label="Total">32000.00 {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>{formatCurrency(items[1].price * rates[currentCurrency])}</td>
+      <td data-label="Y1Q2"><br>{formatCurrency(items[1].price * rates[currentCurrency])}</td>
+      <td data-label="Y1Q3"><br>{formatCurrency(items[1].price * rates[currentCurrency])}</td>
+      <td data-label="Y1Q4"><br>{formatCurrency(items[1].price * rates[currentCurrency])}</td>
+      <td data-label="Total">{formatCurrency(32000 * rates[currentCurrency])}</td>    
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50299050 01: Rents - Buildings and Structures<br> Monthly Rent</td>
-      <td data-label="Y1Q1"><br>30000.00 {currentCurrency}</td>
-      <td data-label="Y1Q2"><br>30000.00 {currentCurrency}</td>
-      <td data-label="Y1Q3"><br>30000.00 {currentCurrency}</td>
-      <td data-label="Y1Q4"><br>30000.00 {currentCurrency}</td>
-      <td data-label="Total">120000.00 {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>{formatCurrency(30000 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q2"><br>{formatCurrency(30000 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q3"><br>{formatCurrency(30000 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q4"><br>{formatCurrency(30000 * rates[currentCurrency])}</td>
+      <td data-label="Total">{formatCurrency(120000 * rates[currentCurrency])}</td>    
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50201020 00: Travelling Expenses - Local<br>Advance Booking</td>
-      <td data-label="Y1Q1"><br>-</td>
-      <td data-label="Y1Q2"><br>7500.00 {currentCurrency}</td>
-      <td data-label="Y1Q3"><br>7500.00 {currentCurrency}</td>
-      <td data-label="Y1Q4"><br>7500.00 {currentCurrency}</td>
-      <td data-label="Total">22500.00 {currentCurrency}</td>
+    <td data-label="Y1Q1"><br>-</td>
+      <td data-label="Y1Q2"><br>{formatCurrency(7500 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q3"><br>{formatCurrency(7500 * rates[currentCurrency])}</td>
+      <td data-label="Y1Q4"><br>{formatCurrency(7500 * rates[currentCurrency])}</td>
+      <td data-label="Total">{formatCurrency(22500 * rates[currentCurrency])}</td>
     </tr>
     <!-- Capital Outlays (Corrected) -->
     <tr>
       <td data-label="Item (UACS Code)"> 50604050 03: Information and Communication Technology Equipment<br> <a target="_blank" rel="noopener noreferrer" href="https://www.hostinger.com/pricing?content=vps-hosting">{items[2].name}</a><br> <a target="_blank" rel="noopener noreferrer" href="https://domains.cloudflare.com/?domain=tarays">{items[3].name}</a><br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/tp-link-archer-ax12-ax1500-wi-fi-6-router-tp-link-by-ejd-i4589323544.html">{items[4].name}</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/tp-link-tl-sg1005lp-5-port-gigabit-desktop-switch-with-4-port-poe-i3543816684.html"> {items[5].name}</a></td>
-      <td data-label="Y1Q1"><br>{convert(items[2].price).toFixed(2)} {currentCurrency}<br>{convert(items[3].price).toFixed(2)} {currentCurrency}<br>{convert(items[4].price).toFixed(2)} {currentCurrency}<br>{convert(items[5].price).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>
+    {formatCurrency(items[2].price * rates[currentCurrency])}<br>
+    {formatCurrency(items[3].price * rates[currentCurrency])}<br>
+    {formatCurrency(items[4].price * rates[currentCurrency])}<br>
+    {formatCurrency(items[5].price * rates[currentCurrency])}</td>
       <td data-label="Y1Q2"><br>-<br>-<br>-<br>-</td>
       <td data-label="Y1Q3"><br>-<br>-<br>-<br>-</td>
       <td data-label="Y1Q4"><br>-<br>-<br>-<br>-</td>
-      <td data-label="Total">31527.36 {currentCurrency}</td>
+      <td data-label="Total">{formatCurrency(31527.36 * rates[currentCurrency])}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50604050 14: Technical and Scientific Equipment<br> <a target="_blank" rel="noopener noreferrer" href="https://www.lazada.com.ph/products/bambu-lab-p1s-p1s-combo-p1p-up-to-16-color-printing-with-ams-up-to-20000-mms-acceleration-3d-printer-i4295394121.html" >{items[6].name}</a></td>
-      <td data-label="Y1Q1"><br>{convert(items[6].price).toFixed(2)} {currentCurrency}</td>
+      <td data-label="Y1Q1"><br>{formatCurrency(items[6].price * rates[currentCurrency])}</td>
       <td data-label="Y1Q2"><br>-</td>
       <td data-label="Y1Q3"><br>-</td>
       <td data-label="Y1Q4"><br>-</td>
-      <td data-label="Total">59999.00 {currentCurrency}</td>
+      <td data-label="Total">{formatCurrency(59999 * rates[currentCurrency])}</td>
     </tr>
     <tr>
       <td data-label="Item (UACS Code)"> 50502010 00: Amortization - Intangible Assets<br> Patents/Copyrights<br> Computer Software<br></td>
-      <td data-label="Y1Q1"><br>5000.00 {currentCurrency}<br></td>
+      <td data-label="Y1Q1"><br>{formatCurrency(5000 * rates[currentCurrency])}</td>
       <td data-label="Y1Q2"><br>-<br>-</td>
       <td data-label="Y1Q3"><br>-<br>-</td>
       <td data-label="Y1Q4"><br>-<br>-</td>
-      <td data-label="Total">5000.00 {currentCurrency}</td>
+      <td data-label="Total">{formatCurrency(5000 * rates[currentCurrency])}</td>
     </tr>
     <tr>
       <td colspan="5" data-label=""><strong>GRAND TOTAL</strong></td>
-      <td data-label="Total"><strong>533481.36 {currentCurrency}</strong></td>
+      <td><strong>{formatCurrency(533481.36 * rates[currentCurrency])}</strong></td>
     </tr>
   </tbody>
 </table>
@@ -779,6 +792,7 @@ Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a
 </div>
 </article>
 
+
 <section id="footnotes" class="footnotes-section">
   <h2>Footnotes</h2>
   <table class="footnotes-table">
@@ -867,5 +881,17 @@ Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a
   </table>
 </section>
 
-
-Thank you for reading! Feel free to [contact me](mailto:eduardojosefloresiii@gmail.com)(not mailserver address yet ☺) or leave a comment below(?).
+Thank you for reading! Feel free to [email me](mailto:eduardojosefloresiii@gmail.com) (not mailserver address yet ☺) or leave a comment below(?)<br>
+<article>
+changelogs:
+<div class="markdown-list">
+    <ul>
+        <li>Revisions:</li>
+        <ul>
+            <li>23: Create links to MVP.</li>
+            <li>22: WIP</li>
+            <li>21: WIP</li>
+        </ul>
+    </ul>
+</div>
+</article>
