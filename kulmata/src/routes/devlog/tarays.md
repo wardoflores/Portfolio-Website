@@ -60,6 +60,7 @@ layout: blog
 
   $: convertedGrandTotal = 533481.36 * rates[currentCurrency];
 
+  import qrCode from '$lib/assets/code_vAMZDB9u84ScJDmrQEfkwA8r.jpg';
 </script>
 
 ---
@@ -640,6 +641,7 @@ Our goal is to facilitate business opportunities and provide a robust system tha
   </div>
 
   <p><em>*Conservative estimates based on DENR and PSA data.</em></p>
+
 </div>
 
 ## Market Study
@@ -720,6 +722,29 @@ Our goal is to facilitate business opportunities and provide a robust system tha
 
 ---
 
+<!--<img 
+  src="/qr/code_vAMZDB9u84ScJDmrQEfkwA8r.jpg" 
+  alt="Payment QR Code"
+  width="150"
+  height="150"
+/> -->
+<!-- <img src={qrCode} alt="QR Code"> -->
+<aside class="qr-container">
+    <h2>Support This Project</h2>
+    <img 
+      src="/qr/code_vAMZDB9u84ScJDmrQEfkwA8r.jpg" 
+      alt="Payment QR Code"
+      class="qr-code"
+      width="320"
+      height="420"
+      loading="lazy"
+    />
+    <p class="qr-caption">Scan to support via GCash or PayMaya</p>
+</aside>
+<a href="/qr/code_vAMZDB9u84ScJDmrQEfkwA8r.jpg" download class="download-link">
+  Download QR Code
+</a>
+
 ## Why I ask to raise an investment
 
 <article>
@@ -746,13 +771,16 @@ Setback by having c++ for it at first before doing it by web;<br>
     </ul>
 </div>
 and more but hindered by 3D Shaders. Realized that I was naive, needed to learn about concepts like Pointcloud, or even postGIS<br>
-Intranet utilize psql, and htmx for Website that consists of; <br>
+Intranet utilizes psql, tailwind, and htmx which consists of a; <br>
 <div class="markdown-list">
     <ul>
         <li>Console</li>
         <li>Dashboard</li>
         <li>Analytics</li>
         <li>ReactNative for WebView only from Intranet</li>
+        <ul>
+            <li>Still wrangling the expo setup on my machine.</li>
+        </ul>
     </ul>
 </div>
 As of present, my infrastructure is as follows:<br>
@@ -786,8 +814,8 @@ There's a ngat called NAT, the correct solution is a personal Router and a Netwo
 Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a 3DPrinter for Businesses of;<br>
 <div class="markdown-list">
     <ul>
-        <li>Jeepney Stop Sensor and Database, for Ride Sharing in Rush Hour;</li>
-        <li>Sewage Robotics Service</li>
+        <li><a>Jeepney Stop Sensor and Database, for Ride Sharing in Rush Hour;</a></li>
+        <li><a>Sewage Robotics Service</a></li>
     </ul>
 </div>
 </article>
