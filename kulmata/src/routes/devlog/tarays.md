@@ -1,7 +1,7 @@
 ---
 title: Tarays! 🐶😸 Seed Investment Proposal
 date: 2025-03-18
-revision: 24
+revision: 26
 updated: 2025-03-27
 category: "dev"
 author: "flyingahas"
@@ -814,8 +814,8 @@ There's a ngat called NAT, the correct solution is a personal Router and a Netwo
 Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a 3DPrinter for Businesses of;<br>
 <div class="markdown-list">
     <ul>
-        <li><a>Jeepney Stop Sensor and Database, for Ride Sharing in Rush Hour;</a></li>
-        <li><a>Sewage Robotics Service</a></li>
+        <li><a href="/devlog/sabay" target="_blank" rel="noopener noreferrer">Jeepney Stop Sensor and Database, for Ride Sharing in Rush Hour;</a></li>
+        <li><a href="/devlog/hukay" target="_blank" rel="noopener noreferrer">Sewage Robotics Service</a></li>
     </ul>
 </div>
 </article>
@@ -916,10 +916,16 @@ changelogs:
     <ul>
         <li>Revisions:</li>
         <ul>
+            <li>26: Update Work Plan, Objectives, and Rationale </li>
+            <li>25: Add Paymonggo QRPH</li>
             <li>24: Fix currency reactivity.</li>
-            <li>23: WIP</li>    
-            <li>22: WIP</li>    
-            <li>21: WIP</li>
+            <li>23: Update Budget, ROI, Market Study, and Footnotes data from placeholder</li>    
+            <li>21: Add BuymeaCoffee floating element</li>
+            <li>20: Add Footnotes data placeholder</li>
+            <li>19: Format Work Plan placeholder</li>
+            <li>18: Format Objectives placeholder</li>
+            <li>17: Add Rationale for Investment</li>
+            <li>\<16: Fixes to CSS and HTML</li>
         </ul>
     </ul>
 </div>
