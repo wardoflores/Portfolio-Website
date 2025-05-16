@@ -3,11 +3,11 @@
 <div class="ag-format-container">
 	<div class="ag-courses_box">
 	  <div class="ag-courses_item">
-      <a href="https://intranet.kulmata.com" class="ag-courses-item_link">
+      <a href="https://taeays.kulmata.com" class="ag-courses-item_link">
 		  <div class="ag-courses-item_bg"></div>
   
 		  <div class="ag-courses-item_title">
-			intranet  🕵️(hidden port)
+			Tarays! Web Applicatio
 		  </div>
   
 		  <div class="ag-courses-item_date-box">
@@ -23,7 +23,7 @@
 		<a href="/devlog/tarays" class="ag-courses-item_link">
 		  <div class="ag-courses-item_bg"></div>
 		  <div class="ag-courses-item_title">
-			Tarays! 🐶😸
+			Tarays! 🐶😸 Seed Proposal Blog
 		  </div>
   
 		  <div class="ag-courses-item_date-box">
