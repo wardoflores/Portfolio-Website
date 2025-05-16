@@ -925,7 +925,7 @@ changelogs:
             <li>19: Format Work Plan placeholder</li>
             <li>18: Format Objectives placeholder</li>
             <li>17: Add Rationale for Investment</li>
-            <li>\<16: Fixes to CSS and HTML</li>
+            <li>16: Fixes to CSS and HTML</li>
         </ul>
     </ul>
 </div>
