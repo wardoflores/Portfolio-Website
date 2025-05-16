@@ -3,7 +3,7 @@
 <div class="ag-format-container">
 	<div class="ag-courses_box">
 	  <div class="ag-courses_item">
-      <a href="https://taeays.kulmata.com" class="ag-courses-item_link">
+      <a href="https://tarays.kulmata.com" class="ag-courses-item_link">
 		  <div class="ag-courses-item_bg"></div>
   
 		  <div class="ag-courses-item_title">
