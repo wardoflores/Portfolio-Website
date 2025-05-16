@@ -885,7 +885,7 @@ Future Infrastructure will be Raspberry-pi for NAS and Robotics if paired with a
         <td>[9]</td>
         <td>Trade</td>
         <td>Philippines Information and Communications Techinology</td>
-        <td><a href="https://www.trade.gov/country-commercial-guides/philippines-information-and-communications-technology" target="_blank" rel="noopener noreferrer">trade.gov/</a></td>
+        <td><a href="https://www.trade.gov/country-commercial-guides/philippines-information-and-communications-technology" target="_blank" rel="noopener noreferrer">trade.gov</a></td>
       </tr>
       <tr>
         <td>[10]</td>
