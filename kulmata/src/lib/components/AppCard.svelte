@@ -7,7 +7,7 @@
 		  <div class="ag-courses-item_bg"></div>
   
 		  <div class="ag-courses-item_title">
-			Tarays! Web Applicatio
+			Tarays! 🐶😸
 		  </div>
   
 		  <div class="ag-courses-item_date-box">
