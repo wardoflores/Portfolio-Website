@@ -20,7 +20,7 @@
 			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/about">ABOUT</a>
 		</li> -->
 		<li>
-			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
+			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="https://kulmata.featurebase.app">FEEDBACK</a>
 		</li>
 		<li>
 			<a data-sveltekit-preload-code data-sveltekit-reload target="_blank" rel="noopener noreferrer" href="/services">SERVICES</a>

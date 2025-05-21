@@ -25,10 +25,10 @@
     <nav class="footer-links">
       <a class="link-1" href="/">KULMATA</a>
       <a target="_blank" rel="noopener noreferrer" href="/devlog">DEVLOG</a>
-      <a target="_blank" rel="noopener noreferrer" href="/contact">CONTACT</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://kulmata.featurebase.app/">FEEDBACK</a>
       <a target="_blank" rel="noopener noreferrer" href="/services">SERVICES</a>
     </nav>
-    <p>KULMATA RESEARCH AND EXPERIMENTAL DEVELOPMENT IN INFORMATION TECHNOLOGY &copy; 2021 - 2025</p>
+    <p>KULMATA&copy; 2021 - 2025</p>
     <p>Made with SvelteKit</p>
   </div>
 </footer>
