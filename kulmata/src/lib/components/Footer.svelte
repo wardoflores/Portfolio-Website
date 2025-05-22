@@ -26,7 +26,7 @@
       <a class="link-1" href="/">KULMATA</a>
       <a target="_blank" rel="noopener noreferrer" href="/devlog">DEVLOG</a>
       <a target="_blank" rel="noopener noreferrer" href="https://kulmata.featurebase.app/">FEEDBACK</a>
-      <a target="_blank" rel="noopener noreferrer" href="/services">SERVICES</a>
+<!--      <a target="_blank" rel="noopener noreferrer" href="/services">SERVICES</a> -->
     </nav>
     <p>KULMATA&copy; 2021 - 2025</p>
     <p>Made with SvelteKit</p>
